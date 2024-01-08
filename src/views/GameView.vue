@@ -1,20 +1,25 @@
 <template>
   <div class="game">
-    <h1>The game will be here!</h1>
+    <h2>The game will be here!</h2>
     <game-block
       :storyText="currentStoryText"
       :options="currentOptions"
       @choice-selected="handleChoice"
     />
   </div>
+  <logo-headlines level="1">ALT=(STORY)</logo-headlines>
+  <logo-headlines level="2">ALT=(STORY)</logo-headlines>
+  <logo-headlines level="3">ALT=(STORY)</logo-headlines>
+  <logo-headlines level="4">ALT=(STORY)</logo-headlines>
 </template>
 
 <script>
-import GameBlock from "../components/GameBlock.vue"; // Adjust the path as necessary
-
+import GameBlock from "../components/GameBlock.vue";
+import LogoHeadlines from "@/components/LogoHeadlines.vue";
 export default {
   components: {
     GameBlock,
+    LogoHeadlines,
   },
   data() {
     return {

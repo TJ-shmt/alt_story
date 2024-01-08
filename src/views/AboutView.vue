@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>BUTTON</h1>
     <div class="color-box" id="palette-1">
       <div
         v-for="color in palette1"

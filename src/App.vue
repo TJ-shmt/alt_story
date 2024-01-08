@@ -1,15 +1,37 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/game">Game</router-link> |
-    <router-link to="/about">About</router-link>
+    <div class="spacer">
+      <div class="logo">
+        <logo-headlines level="4" v-if="$route.path !== '/'" on>
+          ALT=(STORY)
+        </logo-headlines>
+      </div>
+      <div class="router">
+        <router-link to="/">Home</router-link> |
+        <router-link to="/game">Game</router-link> |
+        <router-link to="/about">About</router-link>
+      </div>
+    </div>
   </nav>
   <router-view />
 </template>
 
+<script lang="ts" setup>
+import LogoHeadlines from "@/components/LogoHeadlines.vue";
+</script>
+
 <style lang="scss">
 body {
-  background-color: $outer-space;
+  background: radial-gradient(
+    circle at top,
+    $white,
+    $off-white,
+    $off-white,
+    $off-white-dark,
+    $off-white-dark
+  );
+  padding: 0;
+  margin: 0;
 }
 #app {
   font-family: $font-primary, Arial, sans-serif;
@@ -17,14 +39,44 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: $off-white-dark;
+
+  margin-top: 72px;
 }
-h1 {
+h2 {
   color: $rose;
+  font-size: $font-size-h2;
 }
 nav {
-  padding: 30px;
+  $stripe-thickness: 5px;
+
+  height: 72px;
+  border-bottom: 1px solid $outer-space;
+  background-image: repeating-linear-gradient(
+    45deg,
+    $outer-space,
+    $outer-space $stripe-thickness,
+    transparent $stripe-thickness,
+    transparent 2 * $stripe-thickness
+  );
+  backdrop-filter: brightness(100%) blur(3px);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  border-top: 2px solid $light-coral;
 }
 
+.spacer {
+  display: flex;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  -moz-box-align: center;
+  align-items: center;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100%;
+}
 nav a {
   font-weight: bold;
   color: $light-coral;
