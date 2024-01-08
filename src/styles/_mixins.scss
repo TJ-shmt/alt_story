@@ -1,0 +1,11 @@
+@mixin text-shadow-depth($depth, $borderDepth, $border , $shadow1, $shadow2) {
+    $text-shadow: (
+    );
+
+@for $i from 1 through $depth {
+    $text-shadow: -#{$borderDepth}px -#{$borderDepth}px 0 $border, #{$borderDepth}px -#{$borderDepth}px 0 $border, -#{$borderDepth}px #{$borderDepth}px 0 $border,
+        #{$borderDepth}px #{$borderDepth}px 0 $border, append($text-shadow, #{$i}px #{$i + 2}px $shadow1, comma), append($text-shadow, #{$i}px #{$i - 2}px $shadow2, comma);
+}
+
+text-shadow: $text-shadow;
+}
