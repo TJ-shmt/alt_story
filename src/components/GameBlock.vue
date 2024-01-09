@@ -44,10 +44,15 @@ export default {
 
 <style lang="scss" scoped>
 .game-block {
-  border-radius: 12px; /* Larger rounded corners */
-  background-color: #9e9e9e; /* Dark gray, similar to Spotify */
+  @include chrom-ab;
+  background-color: $off-black;
   padding: 20px;
   width: 100%;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 50px, calc(100% - 50px) 0);
+
+  position: relative;
+  overflow: hidden;
 }
 
 .choices-container {

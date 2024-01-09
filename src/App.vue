@@ -14,6 +14,7 @@
     </div>
   </nav>
   <router-view />
+  <footer></footer>
 </template>
 
 <script lang="ts" setup>
@@ -22,14 +23,7 @@ import LogoHeadlines from "@/components/LogoHeadlines.vue";
 
 <style lang="scss">
 body {
-  background: radial-gradient(
-    circle at top,
-    $white,
-    $off-white,
-    $off-white,
-    $off-white-dark,
-    $off-white-dark
-  );
+  background: radial-gradient(circle at top, $white, $off-white, $corner-white);
   padding: 0;
   margin: 0;
 }
@@ -38,8 +32,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: $off-white-dark;
-
+  color: $off-black;
   margin-top: 72px;
 }
 h2 {
@@ -47,14 +40,13 @@ h2 {
   font-size: $font-size-h2;
 }
 nav {
-  $stripe-thickness: 5px;
+  $stripe-thickness: 26px;
 
   height: 72px;
-  border-bottom: 1px solid $outer-space;
   background-image: repeating-linear-gradient(
     45deg,
-    $outer-space,
-    $outer-space $stripe-thickness,
+    $off-black-8,
+    $off-black-8 $stripe-thickness,
     transparent $stripe-thickness,
     transparent 2 * $stripe-thickness
   );
@@ -63,7 +55,8 @@ nav {
   top: 0px;
   left: 0px;
   right: 0px;
-  border-top: 2px solid $light-coral;
+
+  margin: 6px;
 }
 
 .spacer {
@@ -84,5 +77,11 @@ nav a {
 
 nav a.router-link-exact-active {
   color: $teal-green;
+}
+
+footer {
+  height: 42px;
+  background-color: $off-black-32;
+  margin: 6px;
 }
 </style>
