@@ -1,19 +1,25 @@
 <template>
-  <nav>
+  <header>
     <div class="spacer">
       <div class="logo">
-        <logo-headlines level="4" v-if="$route.path !== '/'" on>
+        <logo-headlines level="4" v-if="$route.path !== '/'">
           ALT=(STORY)
         </logo-headlines>
       </div>
-      <div class="router">
-        <router-link to="/">Home</router-link> |
-        <router-link to="/game">Game</router-link> |
-        <router-link to="/about">About</router-link>
-      </div>
+      <nav aria-label="Main">
+        <router-link to="/" aria-label="Go to the Homepage">Home</router-link>
+        <router-link to="/game" aria-label="Go to the start of the Game"
+          >Game</router-link
+        >
+        <router-link to="/about" aria-label="Read more about the Game"
+          >About</router-link
+        >
+      </nav>
     </div>
-  </nav>
-  <router-view />
+  </header>
+  <main id="main-content" tabindex="-1">
+    <router-view />
+  </main>
   <footer></footer>
 </template>
 
@@ -39,7 +45,7 @@ h2 {
   color: $rose;
   font-size: $font-size-h2;
 }
-nav {
+header {
   $stripe-thickness: 26px;
 
   height: 72px;
@@ -70,12 +76,12 @@ nav {
   padding-right: 20px;
   height: 100%;
 }
-nav a {
+header a {
   font-weight: bold;
   color: $light-coral;
 }
 
-nav a.router-link-exact-active {
+header a.router-link-exact-active {
   color: $teal-green;
 }
 

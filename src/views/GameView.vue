@@ -1,15 +1,23 @@
 <template>
   <div class="gamebox">
     <div id="story-area" class="game-left">
-      <p aria-label="This text is different from what you could read!">
+      <p
+        aria-label="This text is different from what you could read!"
+        tabindex="0"
+      >
         here should be some text
       </p>
+      <p aria-label="I dont want to be read upon!" tabindex="0">
+        here should be some text
+      </p>
+      <p>some other test text lets see</p>
     </div>
     <div id="interactive-area" class="game-right">
       <div id="desicions">
         <div class="button-row row-1">
           <div class="deko grids" />
           <button
+            type="button"
             class="button-1"
             aria-lable="This is button One"
             title="You dont want to kill me!"
@@ -20,9 +28,9 @@
         <div class="button-row row-2">
           <div class="deko grids" />
           <button
+            type="button"
             class="button-2"
             aria-lable="This is button One"
-            title="Thank you for saving me!"
           >
             BUTTON 02
           </button>
@@ -30,9 +38,10 @@
         <div class="button-row row-3">
           <div class="deko grids" />
           <button
+            type="submit"
             class="button-3"
             aria-lable="This is button One"
-            title="This does abosloutly nothing!"
+            title="This does absolutly nothing!"
           >
             BUTTON 03
           </button>
