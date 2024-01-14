@@ -29,7 +29,7 @@ export default defineComponent({
     },
   },
   computed: {
-    headlineStyle() {
+    headlineStyle(): { textShadow: string } {
       let shadows = [];
       for (let i = 1; i <= this.depth; i++) {
         shadows.push(`${i}px ${i}px ${this.color}`);

@@ -14,43 +14,29 @@
     </div>
     <div id="interactive-area" class="game-right">
       <div id="desicions">
-        <div class="button-row row-1">
-          <div class="deko grids" />
-          <button
-            type="button"
-            class="button-1"
-            aria-lable="This is button One"
-            title="You dont want to kill me!"
-          >
-            BUTTON
-          </button>
-        </div>
-        <div class="button-row row-2">
-          <div class="deko grids" />
-          <button
-            type="button"
-            class="button-2"
-            aria-lable="This is button One"
-          >
-            BUTTON 02
-          </button>
-        </div>
-        <div class="button-row row-3">
-          <div class="deko grids" />
-          <button
-            type="submit"
-            class="button-3"
-            aria-lable="This is button One"
-            title="This does absolutly nothing!"
-          >
-            BUTTON 03
-          </button>
-        </div>
         <choice-button
-          row-class="row-4"
-          button-text="Read ME 0X"
-          label="Read me with a screen reader"
+          row-class="row-1"
+          button-text="CHOICE "
+          label="Choose Option 1. This option is Good."
           button-id="Choice1"
+          :goTo="'You chose option 1'"
+          :title="'Title 1'"
+        />
+        <choice-button
+          row-class="row-2"
+          button-text="CHOICE 02"
+          label="Choose Option 2. This option is Neutral."
+          button-id="Choice2"
+          :goTo="'You chose option 2'"
+          :title="'Title 2'"
+        />
+        <choice-button
+          row-class="row-3"
+          button-text="CHOICE 03"
+          label="Choose Option 3. This option is Bad."
+          button-id="Choice3"
+          :goTo="'You chose option 3'"
+          :title="'Title 3'"
         />
       </div>
       <div id="signifier"></div>

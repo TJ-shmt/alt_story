@@ -1,19 +1,34 @@
 <template>
   <header>
-    <div class="spacer">
-      <div class="logo">
-        <logo-headlines level="4" v-if="$route.path !== '/'">
+    <div class="navigation">
+      <div class="logo" v-if="$route.path !== '/'">
+        <logo-headlines level="4" :depth="1" :color="'undefinde'">
           ALT=(STORY)
         </logo-headlines>
       </div>
+      <div class="deko stripes">
+        <span class="chromatic abberationMain"> 14.01.24</span>
+        <span class="chromatic abberationRed"> 14.01.24</span>
+        <span class="chromatic abberationBlue"> 14.01.24</span>
+      </div>
       <nav aria-label="Main">
-        <router-link to="/" aria-label="Go to the Homepage">Home</router-link>
-        <router-link to="/game" aria-label="Go to the start of the Game"
-          >Game</router-link
+        <router-link class="routerLink" to="/" aria-label="Go to the Homepage">
+          <span class="routerSpan">HOME</span>
+        </router-link>
+        <router-link
+          class="routerLink"
+          to="/game"
+          aria-label="Go to the start of the Game"
         >
-        <router-link to="/about" aria-label="Read more about the Game"
-          >About</router-link
+          <span class="routerSpan">GAME</span>
+        </router-link>
+        <router-link
+          class="routerLink"
+          to="/about"
+          aria-label="Read more about the Game"
         >
+          <span class="routerSpan">ABOUT</span>
+        </router-link>
       </nav>
     </div>
   </header>
@@ -41,14 +56,93 @@ body {
   color: $off-black;
   margin-top: 72px;
 }
+::-moz-selection {
+  /* Code for Firefox */
+  color: $off-white;
+  background: $off-black-32;
+  outline: 3px red double;
+}
+
+::selection {
+  color: $off-white;
+  background: $off-black-32;
+  outline: 3px red double;
+}
 h2 {
   color: $rose;
   font-size: $font-size-h2;
 }
+// Navigation Bar
 header {
-  $stripe-thickness: 26px;
-
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   height: 72px;
+  margin: 6px;
+}
+.navigation {
+  display: flex;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  -moz-box-align: center;
+  align-items: center;
+  gap: 1rem;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100%;
+}
+// Navigator Left
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  gap: 8px;
+}
+.routerLink {
+  display: flex;
+  background-color: $off-black-8;
+  height: 100%;
+  clip-path: polygon(
+    0 0,
+    0 100%,
+    calc(100% - 12px) 100%,
+    100% calc(100% - 12px),
+    100% 0
+  );
+}
+.routerSpan {
+  display: table;
+  margin: auto;
+}
+header a {
+  font-family: $font-primary;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: $light-coral;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+header a.router-link-exact-active {
+  color: $off-white;
+  background-color: $off-black-64;
+}
+
+footer {
+  height: 42px;
+  background-color: $off-black-32;
+  margin: 6px;
+}
+// deko
+.stripes {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  $stripe-thickness: 26px;
   background-image: repeating-linear-gradient(
     45deg,
     $off-black-8,
@@ -57,37 +151,31 @@ header {
     transparent 2 * $stripe-thickness
   );
   backdrop-filter: brightness(100%) blur(3px);
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-
-  margin: 6px;
-}
-
-.spacer {
-  display: flex;
-  -moz-box-pack: justify;
-  justify-content: space-between;
-  -moz-box-align: center;
-  align-items: center;
-
-  padding-left: 20px;
-  padding-right: 20px;
   height: 100%;
+  width: 100%;
+  padding: 8px;
+  text-align: right;
 }
-header a {
-  font-weight: bold;
-  color: $light-coral;
+.chromatic {
+  position: absolute;
+  top: 8px; /* Align with the padding */
+  right: 8px; /* Align with the padding */
+  font-size: 16px;
+}
+.abberationMain {
+  color: $off-black-64; /* or your desired main text color */
+  z-index: 1;
 }
 
-header a.router-link-exact-active {
-  color: $teal-green;
+.abberationRed {
+  color: rgba(255, 0, 0, 0.3);
+  z-index: 0;
+  transform: translate(-1px, -1px);
 }
 
-footer {
-  height: 42px;
-  background-color: $off-black-32;
-  margin: 6px;
+.abberationBlue {
+  color: rgba(0, 0, 255, 0.3);
+  z-index: 0;
+  transform: translate(0.3px, 0.5px);
 }
 </style>

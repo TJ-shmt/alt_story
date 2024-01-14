@@ -6,18 +6,24 @@
         class="sr-only"
         tabindex="0"
         @keydown.enter="clickButton"
-        @click="clickButton"
       >
         {{ label }}
       </label>
     </div>
-    <button :id="buttonId" aria-hidden="true" ref="buttonRef" tabindex="-1">
+    <button
+      :id="buttonId"
+      aria-hidden="true"
+      ref="buttonRef"
+      tabindex="-1"
+      :title="title"
+      @click="myMethod"
+    >
       {{ buttonText }}
     </button>
   </div>
 </template>
 
-<script>
+<script scoped>
 export default {
   name: "CustomButton",
   props: {
@@ -33,12 +39,25 @@ export default {
       type: String,
       required: true,
     },
+    title: {
+      type: String,
+      default: "ERROR DETECTED!",
+      required: true,
+    },
     buttonId: {
       type: String,
       required: true,
     },
+    goTo: {
+      type: String,
+      default: "No goTo found",
+      required: false,
+    },
   },
   methods: {
+    myMethod() {
+      console.log(this.goTo);
+    },
     clickButton() {
       this.$refs.buttonRef.click();
     },
