@@ -46,6 +46,12 @@
             BUTTON 03
           </button>
         </div>
+        <choice-button
+          row-class="row-4"
+          button-text="Read ME 0X"
+          label="Read me with a screen reader"
+          button-id="Choice1"
+        />
       </div>
       <div id="signifier"></div>
       <div id="progress"></div>
@@ -54,25 +60,9 @@
 </template>
 
 <script>
+import ChoiceButton from "@/components/ChoiceButton.vue";
 export default {
-  components: {},
-  data() {
-    return {
-      // Example data, you'll replace this with your game's actual data
-      currentStoryText: "You find yourself in a mysterious forest...",
-      currentOptions: [
-        { text: "Explore the forest", nextId: 2 },
-        { text: "Return home", nextId: 3 },
-        { text: "Build a shelter", nextId: 4 },
-      ],
-    };
-  },
-  methods: {
-    handleChoice(nextId) {
-      // Handle the choice made by the user
-      // Update `currentStoryText` and `currentOptions` based on the choice
-    },
-  },
+  components: { ChoiceButton },
 };
 </script>
 

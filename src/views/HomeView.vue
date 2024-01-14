@@ -1,7 +1,12 @@
 <template>
   <div class="home">
     <div>
-      <logo-headlines level="1" :dimension="true" tabindex="0"
+      <logo-headlines
+        level="1"
+        :dimension="true"
+        tabindex="0"
+        :depth="0"
+        :color="'red'"
         >ALT=(STORY)</logo-headlines
       >
     </div>
