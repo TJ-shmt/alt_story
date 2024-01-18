@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+//japanese
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
 
 @font-face {
     font-family: 'GauFontRubberSoul Regular';
@@ -9,9 +14,9 @@
     font-weight: normal;
     src: local('GauFontRubberSoul Regular'), url('@/assets/fonts/Gau_Rubber_Soul.woff') format('woff');
 }
-
-$font-primary: 'Share Tech Mono', monospace, 'Roboto', sans-serif;
-$font-secondary: 'Turret Road', 'Roboto', sans-serif;
+// 'M PLUS 1p', 'Kosugi Maru',  'Sawarabi Gothic'
+$font-primary: 'Share Tech Mono', 'Noto Sans JP', monospace, 'Roboto', sans-serif;
+$font-secondary: 'Turret Road', 'Noto Sans JP', 'Roboto', sans-serif;
 $font-fallback: 'Roboto', sans-serif;
 // Logo Fonts
 $font-gau: 'GauFontRubberSoul Regular', sans-serif;
