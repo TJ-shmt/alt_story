@@ -75,7 +75,7 @@ section {
   align-content: space-around;
 
   &.section-after {
-    border-top: solid red;
+    // border-top: solid;
   }
 
   &.charater {
