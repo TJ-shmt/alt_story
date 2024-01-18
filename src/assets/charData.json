@@ -1,0 +1,17 @@
+{
+  "card1": {
+    "image": "path/to/your/image1.jpg",
+    "title": "Card Title 1",
+    "description": "This is the description for card 1."
+  },
+  "card2": {
+    "image": "path/to/your/image2.jpg",
+    "title": "Card Title 2",
+    "description": "This is the description for card 2."
+  },
+  "card3": {
+    "image": "path/to/your/image3.jpg",
+    "title": "Card Title 3",
+    "description": "This is the description for card 3."
+  }
+}
