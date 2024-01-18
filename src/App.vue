@@ -74,6 +74,8 @@ h2 {
 }
 // Navigation Bar
 header {
+  backdrop-filter: brightness(100%) blur(3px);
+  z-index: 999;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -133,7 +135,7 @@ header a.router-link-exact-active {
 
 footer {
   height: 42px;
-  background-color: $off-black-32;
+  background-color: $off-black-8;
   margin: 6px;
 }
 // deko
@@ -150,7 +152,7 @@ footer {
     transparent $stripe-thickness,
     transparent 2 * $stripe-thickness
   );
-  backdrop-filter: brightness(100%) blur(3px);
+
   height: 100%;
   width: 100%;
   padding: 8px;
