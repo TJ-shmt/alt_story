@@ -1,17 +1,17 @@
 {
   "card1": {
     "image": "path/to/your/image1.jpg",
-    "title": "Card Title 1",
-    "description": "This is the description for card 1."
+    "title": "The Player",
+    "description": "This is the description for card 1. this has to be a very long description out of no reason but it needs to be very long so i can see what is happening "
   },
   "card2": {
     "image": "path/to/your/image2.jpg",
-    "title": "Card Title 2",
+    "title": "Bakeneko Rei",
     "description": "This is the description for card 2."
   },
   "card3": {
     "image": "path/to/your/image3.jpg",
-    "title": "Card Title 3",
+    "title": "The Netrunner",
     "description": "This is the description for card 3."
   }
 }
