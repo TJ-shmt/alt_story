@@ -82,6 +82,7 @@ header {
   right: 0px;
   height: 72px;
   margin: 6px;
+  filter: drop-shadow(0 0 5px $off-black-64);
 }
 .navigation {
   display: flex;
@@ -104,7 +105,7 @@ nav {
 }
 .routerLink {
   display: flex;
-  background-color: $off-black-8;
+  background-color: $off-black-16;
   height: 100%;
   clip-path: polygon(
     0 0,
@@ -114,16 +115,31 @@ nav {
     100% 0
   );
 }
+.routerLink:hover {
+  display: flex;
+  color: $off-black;
+  background-color: $off-black-32;
+  height: 100%;
+  clip-path: polygon(
+    0 0,
+    0 100%,
+    calc(100% - 12px) 100%,
+    100% calc(100% - 12px),
+    100% 0
+  );
+}
+
 .routerSpan {
   display: table;
   margin: auto;
 }
+
 header a {
   font-family: $font-primary;
   font-size: 2rem;
   text-decoration: none;
   font-weight: bold;
-  color: $light-coral;
+  color: $off-black-64;
   padding-left: 1rem;
   padding-right: 1rem;
 }
