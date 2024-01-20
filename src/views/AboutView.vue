@@ -1,50 +1,29 @@
 <template>
   <div class="about">
-    <h1>BUTTON</h1>
-    <div class="color-box" id="palette-1">
-      <div
-        v-for="color in palette1"
-        :key="color"
-        :style="{ backgroundColor: color }"
-        class="color-circle"
-      ></div>
-    </div>
+    <h1>ABOUT PAGE</h1>
   </div>
+  <section>
+    <div>
+      <plus-icon class="size" />
+    </div>
+  </section>
 </template>
 
 <script>
+import PlusIcon from "@/components/vueIcons/PlusIcon.vue";
 export default {
-  data() {
-    return {
-      palette1: [
-        "#056c6a",
-        "#08d9d6",
-        "#5aefef",
-        "#b02148",
-        "#ff2e63",
-        "#ff6190",
-        "#f0e1d7",
-        "#fff5eb",
-        "#ffffff",
-        "#c77c52",
-        "#faa275",
-        "#ffc0a1",
-        "#0e2c42",
-        "#154360",
-        "#2e6690",
-        "#0b1d30",
-        "#112a46",
-        "#334d66",
-        "#292a2c",
-        "#3c3f41",
-        "#545759",
-      ],
-    };
-  },
+  components: { PlusIcon },
 };
 </script>
 
 <style lang="scss" scoped>
+.deko-icons {
+  fill: currentColor;
+  color: gray;
+}
+.size {
+  width: 24px;
+}
 .color-box {
   display: flex;
   align-items: center;
