@@ -27,9 +27,14 @@ export default {
 $imgWidth: 1024px;
 $imgHeight: 1792px;
 .flip-card {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   width: calc($imgWidth * 0.33); /* Adjust as needed */
   height: calc($imgHeight * 0.33); /* Adjust for 1:2 ratio */
   perspective: 1000px; /* Depth of the flip effect */
+  filter: drop-shadow(-1px -1px 1px rgba(0, 255, 255, 0.5))
+    drop-shadow(1px 1px 1px rgba(255, 0, 255, 0.5))
+    drop-shadow(10px 20px 30px $off-black-64);
 }
 
 .flip-card-inner {
