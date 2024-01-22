@@ -82,7 +82,7 @@ header {
   right: 0px;
   height: 72px;
   margin: 6px;
-  filter: drop-shadow(0 0 5px $off-black-64);
+  //filter: drop-shadow(0 0 5px $off-black-64);
 }
 .navigation {
   display: flex;
