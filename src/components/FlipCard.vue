@@ -12,14 +12,14 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    image: String,
-    title: String,
-    description: String,
-  },
-};
+<script lang="ts" setup>
+import { defineProps } from "vue";
+
+const props = defineProps({
+  image: String,
+  title: String,
+  description: String,
+});
 </script>
 
 <style lang="scss" scoped>
