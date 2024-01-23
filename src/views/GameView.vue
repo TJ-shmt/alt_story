@@ -127,7 +127,19 @@ const toggleState = (buttonType: string) => {
   flex-direction: column;
   gap: 8px;
 
-  // hier
+  $offset: 36px;
+  $offset-position: calc($offset / 2);
+  background-repeat: no-repeat;
+  background-size: calc(100% - $offset) calc(100% - $offset);
+  background-position: $offset-position $offset-position;
+  $stripe-thickness: 26px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    $off-black-8,
+    $off-black-8 $stripe-thickness,
+    transparent $stripe-thickness,
+    transparent 2 * $stripe-thickness
+  );
 }
 #options-box {
   margin: auto;
@@ -198,7 +210,7 @@ const toggleState = (buttonType: string) => {
         filter: drop-shadow(0 0 4px $light-coral-light);
       }
 
-      backdrop-filter: brightness(100%) blur(3px);
+      backdrop-filter: brightness(100%) blur(12px);
     }
   }
 }
