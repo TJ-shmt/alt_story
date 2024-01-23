@@ -57,27 +57,23 @@
   </div>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
+import { ref, onMounted } from "vue";
 import LogoHeadlines from "@/components/LogoHeadlines.vue";
 import FlipCard from "@/components/FlipCard.vue";
-import charData from "@/charData.json";
 import PlusIcon from "@/components/vueIcons/PlusIcon.vue";
+import charData from "@/charData.json";
 
-export default {
-  components: {
-    LogoHeadlines,
-    FlipCard,
-    PlusIcon,
-  },
-  data() {
-    return {
-      charData, // Assigning imported JSON data to a data property
-      bakeneko: require("@/assets/images/Bakeneko.png"), // import bakeneko image
-      player: require("@/assets/images/Player.png"), // import bakeneko image
-      netrunner: require("@/assets/images/Netrunner.png"), // import bakeneko image
-    };
-  },
-};
+// Declare reactive references at the top level
+const bakeneko = ref("");
+const player = ref("");
+const netrunner = ref("");
+
+onMounted(async () => {
+  bakeneko.value = (await import("@/assets/images/Bakeneko.png")).default;
+  player.value = (await import("@/assets/images/Player.png")).default;
+  netrunner.value = (await import("@/assets/images/Netrunner.png")).default;
+});
 </script>
 
 <style lang="scss" scoped>
