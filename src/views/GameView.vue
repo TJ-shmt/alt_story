@@ -52,33 +52,57 @@
         </div>
       </div>
       <div id="options">
-        <div class="option-block">
-          <button class="option-button font-size font-size-up" />
-          <div class="font-size font-size-current"></div>
-          <button class="option-button font-size font-size-down" />
+        <div class="deko-line">
+          <plus-icon class="size" /><plus-icon class="size" />
         </div>
-        <div class="option-block">
-          <button class="option-button screenreader" />
-          <div>Act.</div>
+        <div id="options-box">
+          <div class="option-block">
+            <button class="option-button font-size font-size-up" />
+            <div class="state-block font-size font-size-current"></div>
+            <button class="option-button font-size font-size-down" />
+          </div>
+          <div class="option-block">
+            <button class="option-button screenreader deactivated" />
+            <div class="state-block">
+              <span>Act.</span>
+            </div>
+          </div>
+          <div class="option-block">
+            <button class="option-button dark-mode" />
+            <div class="state-block">
+              <span>Act.</span>
+            </div>
+          </div>
+          <div class="option-block">
+            <button class="option-button" @click="toggleState('Lang.')" />
+            <div class="state-block" :class="{ active: currentL }">
+              <span>{{ currentL ? "ON" : "OFF" }}</span>
+            </div>
+          </div>
         </div>
-        <div class="option-block">
-          <button class="option-button dark-mode" />
-          <div>Act.</div>
-        </div>
-        <div class="option-block">
-          <button class="option-button" />
-          <div>Act.</div>
+        <div class="deko-line">
+          <plus-icon class="size" /><plus-icon class="size" />
         </div>
       </div>
     </div>
   </div>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
+import { ref } from "vue";
 import ChoiceButton from "@/components/ChoiceButton.vue";
 import PlusIcon from "@/components/vueIcons/PlusIcon.vue";
-export default {
-  components: { ChoiceButton, PlusIcon },
+// Font Size Button
+const currentSize = ref(true);
+// Screenreader Button
+const activeSR = ref(true);
+// Darkmode Button
+const activeDM = ref(true);
+// Lang.
+const currentL = ref(true);
+const toggleState = (buttonType: string) => {
+  currentL.value = !currentL.value;
+  console.log(buttonType + ": " + currentL.value);
 };
 </script>
 
@@ -100,6 +124,14 @@ export default {
 
 #options {
   display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  // hier
+}
+#options-box {
+  margin: auto;
+  display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 8px;
@@ -109,22 +141,68 @@ export default {
     flex-wrap: nowrap;
     gap: 4px;
 
+    .option-button {
+      z-index: 1;
+      border: none;
+      height: 64px;
+      width: 64px;
+      background-color: $off-black;
+      color: $off-white;
+      cursor: pointer;
+
+      clip-path: polygon(
+        0 0,
+        0 100%,
+        calc(100% - 12px) 100%,
+        100% calc(100% - 12px),
+        100% 0
+      );
+
+      &:hover {
+        color: $off-black-64;
+        background-color: $off-black-16;
+      }
+      &.deactivated,
+      .deactivated:hover {
+        color: $off-black-64;
+        background-color: $off-black-32;
+
+        cursor: not-allowed;
+      }
+      &.font-size-up {
+      }
+      &.screenreader {
+      }
+
+      backdrop-filter: brightness(100%) blur(3px);
+    }
     .font-size {
       box-sizing: border-box;
       height: 32px;
     }
+    .state-block {
+      z-index: 0;
+
+      box-sizing: border-box;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 4px;
+      height: 32px;
+      font-weight: 600;
+      background-color: $off-black-16;
+
+      &.active {
+        color: $off-white;
+        background-color: $light-coral;
+        filter: drop-shadow(0 0 4px $light-coral-light);
+      }
+
+      backdrop-filter: brightness(100%) blur(3px);
+    }
   }
 }
 
-.option-button {
-  border: solid $off-black-64 2px;
-  height: 64px;
-  width: 64px;
-  &.font-size-up {
-  }
-  &.screenreader {
-  }
-}
 .gamebox {
   display: flex;
   flex-direction: row;
@@ -156,12 +234,19 @@ export default {
 }
 
 #interactive-area {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: space-between;
   height: 100%;
   max-width: 600px;
-  min-width: 450px;
+  min-width: 400px;
   margin: 6px;
 
   //background-color: $off-black-8;
+  .button-row {
+    margin: 0 32px 0 32px;
+  }
 }
 
 #desicions {
