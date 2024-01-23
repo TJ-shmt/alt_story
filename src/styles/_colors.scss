@@ -22,10 +22,16 @@ $outer-space: #3c3f41;
 $outer-space-light: #545759;
 
 
-$off-whitee: #F4F4F4;
 $corner-white: #EFEDEE;
+// off-white
+$off-white: #fff5eb;
+$off-white-8: rgba(255, 245, 235, 0.08);
+$off-white-16: rgba(255, 245, 235, 0.16);
+$off-white-32: rgba(255, 245, 235, 0.32);
+$off-white-64: rgba(255, 245, 235, 0.64);
+// off-black
 $off-black: #241F21;
-$off-black-8: rgba(35, 31, 33, 0.04);
+$off-black-8: rgba(35, 31, 33, 0.08);
 $off-black-16: rgba(35, 31, 33, 0.16);
 $off-black-24: rgba(35, 31, 33, 0.24);
 $off-black-32: rgba(35, 31, 33, 0.32);
