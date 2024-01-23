@@ -72,6 +72,7 @@ export default {
 .button-row {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: nowrap;
   gap: 32px;
 }
@@ -124,5 +125,19 @@ button:hover {
     transparent $stripe-thickness,
     transparent 2 * $stripe-thickness
   );
+
+  transition-duration: 0.2s;
+}
+.grids:hover {
+  $stripe-thickness: 12px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    $light-coral,
+    $light-coral $stripe-thickness,
+    transparent $stripe-thickness,
+    transparent 2 * $stripe-thickness
+  );
+
+  filter: drop-shadow(0 0 10px $light-coral-light);
 }
 </style>

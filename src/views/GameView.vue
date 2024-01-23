@@ -14,6 +14,9 @@
     </div>
     <div id="interactive-area" class="game-right">
       <div id="desicions">
+        <div class="deko-line">
+          <plus-icon class="size" /><plus-icon class="size" />
+        </div>
         <choice-button
           row-class="row-1"
           button-text="CHOICE "
@@ -22,6 +25,9 @@
           :goTo="'You chose option 1'"
           :title="'Title 1'"
         />
+        <div class="deko-line">
+          <plus-icon class="size" /><plus-icon class="size" />
+        </div>
         <choice-button
           row-class="row-2"
           button-text="CHOICE 02"
@@ -30,6 +36,9 @@
           :goTo="'You chose option 2'"
           :title="'Title 2'"
         />
+        <div class="deko-line">
+          <plus-icon class="size" /><plus-icon class="size" />
+        </div>
         <choice-button
           row-class="row-3"
           button-text="CHOICE 03"
@@ -38,21 +47,84 @@
           :goTo="'You chose option 3'"
           :title="'Title 3'"
         />
+        <div class="deko-line">
+          <plus-icon class="size" /><plus-icon class="size" />
+        </div>
       </div>
-      <div id="signifier"></div>
-      <div id="progress"></div>
+      <div id="options">
+        <div class="option-block">
+          <button class="option-button font-size font-size-up" />
+          <div class="font-size font-size-current"></div>
+          <button class="option-button font-size font-size-down" />
+        </div>
+        <div class="option-block">
+          <button class="option-button screenreader" />
+          <div>Act.</div>
+        </div>
+        <div class="option-block">
+          <button class="option-button dark-mode" />
+          <div>Act.</div>
+        </div>
+        <div class="option-block">
+          <button class="option-button" />
+          <div>Act.</div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import ChoiceButton from "@/components/ChoiceButton.vue";
+import PlusIcon from "@/components/vueIcons/PlusIcon.vue";
 export default {
-  components: { ChoiceButton },
+  components: { ChoiceButton, PlusIcon },
 };
 </script>
 
 <style lang="scss" scoped>
+.deko-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  height: 24px;
+
+  fill: currentColor;
+  color: $off-black-32;
+
+  .size {
+    width: 24px;
+  }
+}
+
+#options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 8px;
+  .option-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 4px;
+
+    .font-size {
+      box-sizing: border-box;
+      height: 32px;
+    }
+  }
+}
+
+.option-button {
+  border: solid $off-black-64 2px;
+  height: 64px;
+  width: 64px;
+  &.font-size-up {
+  }
+  &.screenreader {
+  }
+}
 .gamebox {
   display: flex;
   flex-direction: row;
@@ -70,7 +142,7 @@ export default {
 #story-area {
   height: 100%;
   max-width: 600px;
-  min-width: 400px;
+  min-width: 450px;
   margin: 6px;
   background-color: $off-black-16;
 
@@ -86,10 +158,10 @@ export default {
 #interactive-area {
   height: 100%;
   max-width: 600px;
-  min-width: 400px;
+  min-width: 450px;
   margin: 6px;
 
-  background-color: $off-black-8;
+  //background-color: $off-black-8;
 }
 
 #desicions {
@@ -103,32 +175,7 @@ export default {
   flex-wrap: nowrap;
   gap: 32px;
 }
-button {
-  border: none;
-  width: 300px;
-  // corner cut
-  clip-path: polygon(
-    0 0,
-    0 100%,
-    calc(100% - 12px) 100%,
-    100% calc(100% - 12px),
-    100% 0
-  );
-  // colors
-  background-color: $off-black;
-  color: $off-white;
-  // font
-  font-family: $font-primary;
-  font-size: $font-size-h2;
-  text-align: left;
-  padding-left: 0.75rem;
-  // transitions
-  transition-duration: 0.2s;
-}
-button:hover {
-  color: $off-black-64;
-  background-color: $off-black-16;
-}
+
 .grids {
   width: 45px;
   min-height: 56px;
