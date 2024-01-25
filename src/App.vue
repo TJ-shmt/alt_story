@@ -17,7 +17,7 @@
         </router-link>
         <router-link
           class="routerLink"
-          to="/game"
+          to="/game/path=0"
           aria-label="Go to the start of the Game"
         >
           <span class="routerSpan">GAME</span>
