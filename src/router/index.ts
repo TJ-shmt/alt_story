@@ -8,7 +8,7 @@ const routes: Array<RouteRecordRaw> = [
     component: HomeView,
   },
   {
-    path: "/game",
+    path: "/game/:path",
     name: "game",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -16,6 +16,11 @@ const routes: Array<RouteRecordRaw> = [
     component: () =>
       import(/* webpackChunkName: "game" */ "../views/GameView.vue"),
   },
+  {
+    path: "/game",
+    redirect: "/game/:path=0",
+  },
+
   {
     path: "/about",
     name: "about",
