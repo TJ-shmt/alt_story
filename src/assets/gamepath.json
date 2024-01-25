@@ -1,0 +1,86 @@
+{
+    "error": {
+        "path": "Error fallback",
+        "text": {
+            "visual": "Error 404",
+            "screenreader": "Please Reload",
+            "alt": "Error 404"
+        },
+        "choices": {
+            "first": {
+                "visual": "",
+                "screenreader": "",
+                "alt": ""
+            },
+            "second": {
+                "visual": "",
+                "screenreader": "",
+                "alt": ""
+            },
+            "third": {
+                "visual": "",
+                "screenreader": "",
+                "alt": ""
+            }
+        }
+    },
+    "0": {
+        "path": "this is the Start",
+        "text": {
+            "visual": "Du siehst mich",
+            "screenreader": "du hörst mich",
+            "alt": "auf mich musst du warten"
+        },
+        "choices": {
+            "first": {
+                "visual": "",
+                "screenreader": "",
+                "alt": ""
+            },
+            "second": {
+                "visual": "",
+                "screenreader": "",
+                "alt": ""
+            },
+            "third": {
+                "visual": "",
+                "screenreader": "",
+                "alt": ""
+            }
+        }
+    },
+    "01": {
+        "text": {
+            "visual": "",
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "",
+                "screenreader": "",
+                "alt": ""
+            },
+            "second": {
+                "visual": "",
+                "screenreader": "",
+                "alt": ""
+            },
+            "third": {
+                "visual": "",
+                "screenreader": "",
+                "alt": ""
+            }
+        }
+    },
+    "02": {
+        "image": "path/to/your/image2.jpg",
+        "title": "Bakeneko Rei",
+        "description": "This is the description for card 2."
+    },
+    "03": {
+        "image": "path/to/your/image3.jpg",
+        "title": "The Netrunner",
+        "description": "This is the description for card 3."
+    }
+}

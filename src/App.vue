@@ -35,7 +35,7 @@
   <main id="main-content" tabindex="-1">
     <router-view />
   </main>
-  <footer></footer>
+  <footer>{{ $route.params.path }}</footer>
 </template>
 
 <script lang="ts" setup>
@@ -48,6 +48,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 #app {
   font-family: $font-primary, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -56,6 +57,7 @@ body {
   color: $off-black;
   margin-top: 72px;
 }
+
 ::-moz-selection {
   /* Code for Firefox */
   color: $off-white;
@@ -68,10 +70,12 @@ body {
   background: $off-black-32;
   outline: 3px red double;
 }
+
 h2 {
   color: $rose;
   font-size: $font-size-h2;
 }
+
 // Navigation Bar
 header {
   backdrop-filter: brightness(100%) blur(3px);
@@ -84,6 +88,7 @@ header {
   margin: 6px;
   //filter: drop-shadow(0 0 5px $off-black-64);
 }
+
 .navigation {
   display: flex;
   -moz-box-pack: justify;
@@ -96,6 +101,7 @@ header {
   padding-right: 20px;
   height: 100%;
 }
+
 // Navigator Left
 nav {
   display: flex;
@@ -103,6 +109,7 @@ nav {
   height: 100%;
   gap: 8px;
 }
+
 .routerLink {
   display: flex;
   background-color: $off-black-16;
@@ -115,6 +122,7 @@ nav {
     100% 0
   );
 }
+
 .routerLink:hover {
   display: flex;
   color: $off-black;
@@ -154,6 +162,7 @@ footer {
   background-color: $off-black-8;
   margin: 6px;
 }
+
 // deko
 .stripes {
   -moz-box-sizing: border-box;
@@ -174,14 +183,19 @@ footer {
   padding: 8px;
   text-align: right;
 }
+
 .chromatic {
   position: absolute;
-  top: 8px; /* Align with the padding */
-  right: 8px; /* Align with the padding */
+  top: 8px;
+  /* Align with the padding */
+  right: 8px;
+  /* Align with the padding */
   font-size: 16px;
 }
+
 .abberationMain {
-  color: $off-black-64; /* or your desired main text color */
+  color: $off-black-64;
+  /* or your desired main text color */
   z-index: 1;
 }
 

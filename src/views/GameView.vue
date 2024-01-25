@@ -5,12 +5,12 @@
         aria-label="This text is different from what you could read!"
         tabindex="0"
       >
-        here should be some text
+        {{ currentPathData }}
       </p>
       <p aria-label="I dont want to be read upon!" tabindex="0">
-        here should be some text
+        {{ currentPathData.text.screenreader }}
       </p>
-      <p>some other test text lets see</p>
+      <p>{{ currentPathData.text.alt }}</p>
     </div>
     <div id="interactive-area" class="game-right">
       <div id="desicions">
@@ -86,12 +86,35 @@
       </div>
     </div>
   </div>
+  {{ $route.params.path }}
+  {{ currentPathID }}
 </template>
 
 <script lang="ts" setup>
-import { ref } from "vue";
+import { ref, watch, computed } from "vue";
+import { useRouter, useRoute } from "vue-router";
+import gameData from "@/assets/gamepath.json";
 import ChoiceButton from "@/components/ChoiceButton.vue";
 import PlusIcon from "@/components/vueIcons/PlusIcon.vue";
+const router = useRouter();
+const route = useRoute();
+
+// Game Data
+const currentPathID = ref(route.params.path as string);
+const currentPathData = computed(() => {
+  const loadData = gameData[currentPathID.value as keyof typeof gameData];
+  if (!loadData) {
+    return gameData.error;
+  }
+  return loadData;
+});
+// Watch for changes in the route parameter
+watch(
+  () => route.params.path as string,
+  (newPathID) => {
+    currentPathID.value = newPathID;
+  }
+);
 // Font Size Button
 const currentSize = ref(true);
 // Screenreader Button
