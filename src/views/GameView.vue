@@ -22,8 +22,8 @@
           button-text="CHOICE "
           label="Choose Option 1. This option is Good."
           button-id="Choice1"
-          :goTo="'You chose option 1'"
-          :title="'Title 1'"
+          :routeToID="currentPathData.choices.first.pathToID"
+          :title="currentPathData.choices.first.alt"
         />
         <div class="deko-line">
           <plus-icon class="size" /><plus-icon class="size" />
@@ -33,8 +33,8 @@
           button-text="CHOICE 02"
           label="Choose Option 2. This option is Neutral."
           button-id="Choice2"
-          :goTo="'You chose option 2'"
-          :title="'Title 2'"
+          :routeToID="currentPathData.choices.second.pathToID"
+          :title="currentPathData.choices.second.alt"
         />
         <div class="deko-line">
           <plus-icon class="size" /><plus-icon class="size" />
@@ -44,8 +44,8 @@
           button-text="CHOICE 03"
           label="Choose Option 3. This option is Bad."
           button-id="Choice3"
-          :goTo="'You chose option 3'"
-          :title="'Title 3'"
+          :routeToID="currentPathData.choices.third.pathToID"
+          :title="currentPathData.choices.third.alt"
         />
         <div class="deko-line">
           <plus-icon class="size" /><plus-icon class="size" />
@@ -86,8 +86,6 @@
       </div>
     </div>
   </div>
-  {{ $route.params.path }}
-  {{ currentPathID }}
 </template>
 
 <script lang="ts" setup>
@@ -113,6 +111,7 @@ watch(
   () => route.params.path as string,
   (newPathID) => {
     currentPathID.value = newPathID;
+    console.log("New Path: " + newPathID);
   }
 );
 // Font Size Button

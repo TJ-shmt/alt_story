@@ -5,7 +5,7 @@
         :for="buttonId"
         class="sr-only"
         tabindex="0"
-        @keydown.enter="clickButton"
+        @keydown.enter="routeTo()"
       >
         {{ label }}
       </label>
@@ -23,49 +23,45 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "CustomButton",
-  props: {
-    rowClass: {
-      type: String,
-      required: true,
-    },
-    buttonText: {
-      type: String,
-      required: true,
-    },
-    label: {
-      type: String,
-      required: true,
-    },
-    title: {
-      type: String,
-      default: "ERROR DETECTED!",
-      required: true,
-    },
-    buttonId: {
-      type: String,
-      required: true,
-    },
-    goTo: {
-      type: String,
-      default: "No goTo found",
-      required: false,
-    },
+<script lang="ts" setup>
+import { defineProps, ref, onMounted } from "vue";
+import { useRouter, useRoute } from "vue-router";
+
+const props = defineProps({
+  rowClass: {
+    type: String,
+    required: true,
   },
-  methods: {
-    myMethod() {
-      console.log(this.goTo);
-    },
-    clickButton() {
-      this.$refs.buttonRef.click();
-    },
+  buttonText: {
+    type: String,
+    required: true,
   },
-  mounted() {
-    this.$refs.buttonRef.setAttribute("aria-hidden", "true");
+  label: {
+    type: String,
+    required: true,
   },
+  title: {
+    type: String,
+    default: "ERROR DETECTED!",
+    required: true,
+  },
+  buttonId: {
+    type: String,
+    required: true,
+  },
+  routeToID: {
+    type: String,
+    default: "No goTo found",
+    required: false,
+  },
+});
+const myMethod = () => {
+  console.log(props.routeToID);
 };
+
+// const clickButton = () => {};
+
+// onMounted(() => {});
 </script>
 
 <style scoped lang="scss">

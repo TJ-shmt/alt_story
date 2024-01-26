@@ -35,21 +35,25 @@
             "first": {
                 "visual": "",
                 "screenreader": "",
-                "alt": ""
+                "alt": "I am Positive",
+                "routeToID": "01"
             },
             "second": {
                 "visual": "",
                 "screenreader": "",
-                "alt": ""
+                "alt": "I am Neutral",
+                "routeToID": "02"
             },
             "third": {
                 "visual": "",
                 "screenreader": "",
-                "alt": ""
+                "alt": "I am Negative",
+                "routeToID": "03"
             }
         }
     },
     "01": {
+        "path": "this is the Start",
         "text": {
             "visual": "",
             "screenreader": "",
@@ -74,13 +78,53 @@
         }
     },
     "02": {
-        "image": "path/to/your/image2.jpg",
-        "title": "Bakeneko Rei",
-        "description": "This is the description for card 2."
+        "path": "this is the Start",
+        "text": {
+            "visual": "",
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "",
+                "screenreader": "",
+                "alt": ""
+            },
+            "second": {
+                "visual": "",
+                "screenreader": "",
+                "alt": ""
+            },
+            "third": {
+                "visual": "",
+                "screenreader": "",
+                "alt": ""
+            }
+        }
     },
     "03": {
-        "image": "path/to/your/image3.jpg",
-        "title": "The Netrunner",
-        "description": "This is the description for card 3."
+        "path": "this is the Start",
+        "text": {
+            "visual": "",
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "",
+                "screenreader": "",
+                "alt": ""
+            },
+            "second": {
+                "visual": "",
+                "screenreader": "",
+                "alt": ""
+            },
+            "third": {
+                "visual": "",
+                "screenreader": "",
+                "alt": ""
+            }
+        }
     }
 }
