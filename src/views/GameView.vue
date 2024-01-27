@@ -200,11 +200,12 @@ const toggleState = (buttonType: string) => {
 
         cursor: not-allowed;
       }
+      /*
       &.font-size-up {
       }
       &.screenreader {
       }
-
+      */
       backdrop-filter: brightness(100%) blur(3px);
     }
     .font-size {
