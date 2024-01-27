@@ -39,7 +39,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, watch, computed, onMounted } from "vue";
+import { onMounted } from "vue"; // ref, watch, computed,
 import { useDarkModeStore } from "@/stores/useDarkModeStore";
 import LogoHeadlines from "@/components/LogoHeadlines.vue";
 const darkModeStore = useDarkModeStore();

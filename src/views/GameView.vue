@@ -87,7 +87,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, watch, computed, onMounted } from "vue";
+import { ref, watch, computed } from "vue"; // , onMounted
 import { useRoute } from "vue-router";
 import { useDarkModeStore } from "@/stores/useDarkModeStore";
 import gameData from "@/assets/gamepath.json";
