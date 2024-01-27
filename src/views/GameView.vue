@@ -8,6 +8,7 @@
       >
         {{ currentPathData.text.visual }}
       </p>
+      <p>{{ darkModeStore.isDarkMode }}</p>
     </div>
     <div id="interactive-area" class="game-right">
       <div id="desicions">
@@ -65,7 +66,7 @@
             </div>
           </div>
           <div class="option-block">
-            <button class="option-button dark-mode" />
+            <button class="option-button dark-mode" @click="toggleDarkMode" />
             <div class="state-block">
               <span>Act.</span>
             </div>
@@ -86,12 +87,13 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, watch, computed } from "vue";
-import { useRouter, useRoute } from "vue-router";
+import { ref, watch, computed, onMounted } from "vue";
+import { useRoute } from "vue-router";
+import { useDarkModeStore } from "@/stores/useDarkModeStore";
 import gameData from "@/assets/gamepath.json";
 import ChoiceButton from "@/components/ChoiceButton.vue";
 import PlusIcon from "@/components/vueIcons/PlusIcon.vue";
-const router = useRouter();
+//const router = useRouter();
 const route = useRoute();
 
 // Game Data
@@ -112,11 +114,24 @@ watch(
   }
 );
 // Font Size Button
-const currentSize = ref(true);
+//const currentSize = ref(true);
 // Screenreader Button
-const activeSR = ref(true);
+//const activeSR = ref(true);
 // Darkmode Button
-const activeDM = ref(true);
+const darkModeStore = useDarkModeStore();
+const toggleDarkMode = () => {
+  darkModeStore.toggleDarkMode();
+  document.documentElement.classList.toggle(
+    "dark-theme",
+    darkModeStore.isDarkMode
+  );
+};
+onMounted(() => {
+  document.documentElement.classList.toggle(
+    "dark-theme",
+    darkModeStore.isDarkMode
+  );
+});
 // Lang.
 const currentL = ref(true);
 const toggleState = (buttonType: string) => {
