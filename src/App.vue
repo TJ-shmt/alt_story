@@ -44,7 +44,12 @@ import LogoHeadlines from "@/components/LogoHeadlines.vue";
 
 <style lang="scss">
 body {
-  background: radial-gradient(circle at top, $white, $off-white, $corner-white);
+  background: radial-gradient(
+    circle at top,
+    var(--bodyBG1),
+    var(--bodyBG2),
+    var(--bodyBG3)
+  );
   padding: 0;
   margin: 0;
 }
