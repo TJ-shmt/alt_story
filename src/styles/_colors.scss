@@ -16,6 +16,11 @@ $light-colors: (
     off-text-16: rgba(35, 31, 33, 0.16),
     off-text-32: rgba(35, 31, 33, 0.32),
     off-text-64: rgba(35, 31, 33, 0.64),
+    // shadows
+    shadow-black: rgba(35, 31, 33, 0.64),
+    shadow-white: red,
+    shadow-acent-primary:red,
+    shadow-acent-secondary:red,
     // background hues 
     // text
 
@@ -39,6 +44,11 @@ $dark-colors: (
     off-text-16: rgba(255, 245, 235, 0.16),
     off-text-32: rgba(255, 245, 235, 0.32),
     off-text-64: rgba(255, 245, 235, 0.64),
+    // shadows
+    shadow-black: rgba(35, 31, 33, 0.64),
+    shadow-white: red,
+    shadow-acent-primary:red,
+    shadow-acent-secondary:red,
     // background hues 
     // text
 );
