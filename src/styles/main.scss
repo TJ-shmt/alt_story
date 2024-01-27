@@ -1,3 +1,11 @@
 @import "fonts";
 @import "colors";
 @import "mixins";
+
+:root {
+    @include theme-colors($light-colors);
+}
+
+.dark-theme {
+    @include theme-colors($dark-colors);
+}

@@ -1,3 +1,49 @@
+// Light Theme Colors
+$light-colors: (
+    //body background
+    bodyBG1: white,
+    bodyBG2: #fff5eb,
+    bodyBG3: #EFEDEE,
+    // offs
+    off-100: #fff5eb,
+    off-8: rgba(255, 245, 235, 0.08),
+    off-16: rgba(255, 245, 235, 0.16),
+    off-32: rgba(255, 245, 235, 0.32),
+    off-64: rgba(255, 245, 235, 0.64),
+    // off text
+    off-text-100: #241F21,
+    off-text-8: rgba(35, 31, 33, 0.08),
+    off-text-16: rgba(35, 31, 33, 0.16),
+    off-text-32: rgba(35, 31, 33, 0.32),
+    off-text-64: rgba(35, 31, 33, 0.64),
+    // background hues 
+    // text
+
+);
+
+// Dark Theme Colors
+$dark-colors: (
+    //body background
+    bodyBG1: #333031,
+    bodyBG2: #2b2628,
+    bodyBG3: rgb(15, 14, 14),
+    // offs
+    off-100: #241F21,
+    off-8: rgba(35, 31, 33, 0.08),
+    off-16: rgba(35, 31, 33, 0.16),
+    off-32: rgba(35, 31, 33, 0.32),
+    off-64: rgba(35, 31, 33, 0.64),
+    // off text
+    off-text-100: #fff5eb,
+    off-text-8: rgba(255, 245, 235, 0.08),
+    off-text-16: rgba(255, 245, 235, 0.16),
+    off-text-32: rgba(255, 245, 235, 0.32),
+    off-text-64: rgba(255, 245, 235, 0.64),
+    // background hues 
+    // text
+);
+
+
 // Palette 1
 $teal-green-dark: #056c6a;
 $teal-green: #08d9d6;
