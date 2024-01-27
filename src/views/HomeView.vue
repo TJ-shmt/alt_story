@@ -125,8 +125,8 @@ section {
   $stripe-thickness: 26px;
   background-image: repeating-linear-gradient(
     45deg,
-    $off-black-8,
-    $off-black-8 $stripe-thickness,
+    var(--off-text-8),
+    var(--off-text-8) $stripe-thickness,
     transparent $stripe-thickness,
     transparent 2 * $stripe-thickness
   );

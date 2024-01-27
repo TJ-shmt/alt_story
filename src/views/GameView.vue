@@ -126,12 +126,6 @@ const toggleDarkMode = () => {
     darkModeStore.isDarkMode
   );
 };
-onMounted(() => {
-  document.documentElement.classList.toggle(
-    "dark-theme",
-    darkModeStore.isDarkMode
-  );
-});
 // Lang.
 const currentL = ref(true);
 const toggleState = (buttonType: string) => {
@@ -149,7 +143,7 @@ const toggleState = (buttonType: string) => {
   height: 24px;
 
   fill: currentColor;
-  color: $off-black-32;
+  color: var(--off-text-32);
 
   .size {
     width: 24px;
@@ -169,8 +163,8 @@ const toggleState = (buttonType: string) => {
   $stripe-thickness: 26px;
   background-image: repeating-linear-gradient(
     45deg,
-    $off-black-8,
-    $off-black-8 $stripe-thickness,
+    var(--off-text-8),
+    var(--off-text-8) $stripe-thickness,
     transparent $stripe-thickness,
     transparent 2 * $stripe-thickness
   );
@@ -192,8 +186,8 @@ const toggleState = (buttonType: string) => {
       border: none;
       height: 64px;
       width: 64px;
-      background-color: $off-black;
-      color: $off-white;
+      background-color: var(--off-text-100);
+      color: var(--off-100);
       cursor: pointer;
 
       clip-path: polygon(
@@ -205,13 +199,13 @@ const toggleState = (buttonType: string) => {
       );
 
       &:hover {
-        color: $off-black-64;
-        background-color: $off-black-16;
+        color: var(--off-text-64);
+        background-color: var(--off-text-16);
       }
       &.deactivated,
       .deactivated:hover {
-        color: $off-black-64;
-        background-color: $off-black-32;
+        color: var(--off-text-64);
+        background-color: var(--off-text-32);
 
         cursor: not-allowed;
       }
@@ -237,10 +231,10 @@ const toggleState = (buttonType: string) => {
       padding: 4px;
       height: 32px;
       font-weight: 600;
-      background-color: $off-black-16;
+      background-color: var(--off-text-16);
 
       &.active {
-        color: $off-white;
+        color: var(--off-100);
         background-color: $light-coral;
         filter: drop-shadow(0 0 4px $light-coral-light);
       }
@@ -260,7 +254,7 @@ const toggleState = (buttonType: string) => {
   margin-right: 6px;
   margin-bottom: 6px;
   margin-top: 84px;
-  //background-color: $off-black-8;
+  //background-color: var(--off-text-8);
   height: calc(100vh - 138px);
 }
 
@@ -269,7 +263,7 @@ const toggleState = (buttonType: string) => {
   max-width: 600px;
   min-width: 450px;
   margin: 6px;
-  background-color: $off-black-16;
+  background-color: var(--off-text-16);
 
   clip-path: polygon(
     0 0,
@@ -290,7 +284,7 @@ const toggleState = (buttonType: string) => {
   min-width: 400px;
   margin: 6px;
 
-  //background-color: $off-black-8;
+  //background-color: var(--off-text-8);
   .button-row {
     margin: 0 32px 0 32px;
   }
@@ -315,8 +309,8 @@ const toggleState = (buttonType: string) => {
   $stripe-thickness: 12px;
   background-image: repeating-linear-gradient(
     45deg,
-    $off-black-16,
-    $off-black-16 $stripe-thickness,
+    var(--off-text-16),
+    var(--off-text-16) $stripe-thickness,
     transparent $stripe-thickness,
     transparent 2 * $stripe-thickness
   );

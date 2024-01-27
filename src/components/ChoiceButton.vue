@@ -89,8 +89,8 @@ button {
     100% calc(100% - 12px),
     100% 0
   );
-  background-color: $off-black;
-  color: $off-white;
+  background-color: var(--off-text-100);
+  color: var(--off-100);
   font-family: $font-primary;
   font-size: $font-size-h2;
   text-align: left;
@@ -99,8 +99,8 @@ button {
 }
 
 button:hover {
-  color: $off-black-64;
-  background-color: $off-black-16;
+  color: var(--off-text-64);
+  background-color: var(--off-text-16);
 }
 
 .sr-only {
@@ -122,8 +122,8 @@ button:hover {
   $stripe-thickness: 12px;
   background-image: repeating-linear-gradient(
     45deg,
-    $off-black-16,
-    $off-black-16 $stripe-thickness,
+    var(--off-text-16),
+    var(--off-text-16) $stripe-thickness,
     transparent $stripe-thickness,
     transparent 2 * $stripe-thickness
   );

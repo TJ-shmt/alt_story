@@ -34,7 +34,7 @@ $imgHeight: 1792px;
   perspective: 1000px; /* Depth of the flip effect */
   filter: drop-shadow(-1px -1px 1px rgba(0, 255, 255, 0.5))
     drop-shadow(1px 1px 1px rgba(255, 0, 255, 0.5))
-    drop-shadow(10px 20px 30px $off-black-64);
+    drop-shadow(10px 20px 30px var(--shadow-black));
 }
 
 .flip-card-inner {
@@ -62,7 +62,7 @@ $imgHeight: 1792px;
 .flip-card-back {
   transform: rotateY(180deg); /* Align backside correctly */
   background-color: $black-82;
-  color: $off-white;
+  color: var(--off-100);
 
   backdrop-filter: brightness(100%) blur(3px);
 

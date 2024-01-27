@@ -39,7 +39,17 @@
 </template>
 
 <script lang="ts" setup>
+import { ref, watch, computed, onMounted } from "vue";
+import { useDarkModeStore } from "@/stores/useDarkModeStore";
 import LogoHeadlines from "@/components/LogoHeadlines.vue";
+const darkModeStore = useDarkModeStore();
+
+onMounted(() => {
+  document.documentElement.classList.toggle(
+    "dark-theme",
+    darkModeStore.isDarkMode
+  );
+});
 </script>
 
 <style lang="scss">
@@ -59,20 +69,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: $off-black;
+  color: var(--off-text-100);
   margin-top: 72px;
 }
 
 ::-moz-selection {
   /* Code for Firefox */
-  color: $off-white;
-  background: $off-black-32;
+  color: var(--off-100);
+  background: var(--off-text-32);
   outline: 3px red double;
 }
 
 ::selection {
-  color: $off-white;
-  background: $off-black-32;
+  color: var(--off-100);
+  background: var(--off-text-32);
   outline: 3px red double;
 }
 
@@ -91,7 +101,7 @@ header {
   right: 0px;
   height: 72px;
   margin: 6px;
-  //filter: drop-shadow(0 0 5px $off-black-64);
+  //filter: drop-shadow(0 0 5px var(--off-text-64));
 }
 
 .navigation {
@@ -117,7 +127,7 @@ nav {
 
 .routerLink {
   display: flex;
-  background-color: $off-black-16;
+  background-color: var(--off-text-16);
   height: 100%;
   clip-path: polygon(
     0 0,
@@ -130,8 +140,8 @@ nav {
 
 .routerLink:hover {
   display: flex;
-  color: $off-black;
-  background-color: $off-black-32;
+  color: var(--off-text-100);
+  background-color: var(--off-text-32);
   height: 100%;
   clip-path: polygon(
     0 0,
@@ -152,19 +162,19 @@ header a {
   font-size: 2rem;
   text-decoration: none;
   font-weight: bold;
-  color: $off-black-64;
+  color: var(--off-text-64);
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
 header a.router-link-exact-active {
-  color: $off-white;
-  background-color: $off-black-64;
+  color: var(--off-100);
+  background-color: var(--off-text-64);
 }
 
 footer {
   height: 42px;
-  background-color: $off-black-8;
+  background-color: var(--off-text-8);
   margin: 6px;
 }
 
@@ -177,8 +187,8 @@ footer {
   $stripe-thickness: 26px;
   background-image: repeating-linear-gradient(
     45deg,
-    $off-black-8,
-    $off-black-8 $stripe-thickness,
+    var(--off-text-8),
+    var(--off-text-8) $stripe-thickness,
     transparent $stripe-thickness,
     transparent 2 * $stripe-thickness
   );
@@ -199,7 +209,7 @@ footer {
 }
 
 .abberationMain {
-  color: $off-black-64;
+  color: var(--off-text-64);
   /* or your desired main text color */
   z-index: 1;
 }
