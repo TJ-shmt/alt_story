@@ -2,6 +2,11 @@
 @import "colors";
 @import "mixins";
 
+* {
+    transition: background-color 400ms, background-image 400ms, color 400ms, fill 400ms; // Add other properties if needed
+}
+
+
 :root {
     @include theme-colors($light-colors);
 }
