@@ -2,7 +2,7 @@
     "error": {
         "path": "Error fallback",
         "text": {
-            "visual": "Error 404",
+            "visual": "Error 404 <br /> i need some space",
             "screenreader": "Please Reload",
             "alt": "Error 404"
         },
@@ -10,43 +10,46 @@
             "first": {
                 "visual": "",
                 "screenreader": "",
-                "alt": ""
+                "alt": "go back to the start",
+                "routeToID": "0"
             },
             "second": {
                 "visual": "",
                 "screenreader": "",
-                "alt": ""
+                "alt": "go back to the start",
+                "routeToID": "0"
             },
             "third": {
                 "visual": "",
                 "screenreader": "",
-                "alt": ""
+                "alt": "go back to the start",
+                "routeToID": "0"
             }
         }
     },
     "0": {
         "path": "this is the Start",
         "text": {
-            "visual": "Du siehst mich",
-            "screenreader": "du hörst mich",
-            "alt": "auf mich musst du warten"
+            "visual": "You can read me!",
+            "screenreader": "You can hear me!",
+            "alt": "But for me you have to wait!"
         },
         "choices": {
             "first": {
                 "visual": "",
-                "screenreader": "",
+                "screenreader": "Hear about option 1",
                 "alt": "I am Positive",
                 "routeToID": "01"
             },
             "second": {
                 "visual": "",
-                "screenreader": "",
+                "screenreader": "Hear about option 2",
                 "alt": "I am Neutral",
                 "routeToID": "02"
             },
             "third": {
                 "visual": "",
-                "screenreader": "",
+                "screenreader": "Hear about option 3",
                 "alt": "I am Negative",
                 "routeToID": "03"
             }

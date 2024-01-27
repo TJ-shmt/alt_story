@@ -2,15 +2,12 @@
   <div class="gamebox">
     <div id="story-area" class="game-left">
       <p
-        aria-label="This text is different from what you could read!"
+        :aria-label="currentPathData.text.screenreader"
+        :title="currentPathData.text.alt"
         tabindex="0"
       >
-        {{ currentPathData }}
+        {{ currentPathData.text.visual }}
       </p>
-      <p aria-label="I dont want to be read upon!" tabindex="0">
-        {{ currentPathData.text.screenreader }}
-      </p>
-      <p>{{ currentPathData.text.alt }}</p>
     </div>
     <div id="interactive-area" class="game-right">
       <div id="desicions">
@@ -20,10 +17,10 @@
         <choice-button
           row-class="row-1"
           button-text="CHOICE "
-          label="Choose Option 1. This option is Good."
           button-id="Choice1"
-          :routeToID="currentPathData.choices.first.pathToID"
+          :routeToID="currentPathData.choices.first.routeToID"
           :title="currentPathData.choices.first.alt"
+          :labelText="currentPathData.choices.first.screenreader"
         />
         <div class="deko-line">
           <plus-icon class="size" /><plus-icon class="size" />
@@ -31,10 +28,10 @@
         <choice-button
           row-class="row-2"
           button-text="CHOICE 02"
-          label="Choose Option 2. This option is Neutral."
           button-id="Choice2"
-          :routeToID="currentPathData.choices.second.pathToID"
+          :routeToID="currentPathData.choices.second.routeToID"
           :title="currentPathData.choices.second.alt"
+          :labelText="currentPathData.choices.second.screenreader"
         />
         <div class="deko-line">
           <plus-icon class="size" /><plus-icon class="size" />
@@ -42,10 +39,10 @@
         <choice-button
           row-class="row-3"
           button-text="CHOICE 03"
-          label="Choose Option 3. This option is Bad."
           button-id="Choice3"
-          :routeToID="currentPathData.choices.third.pathToID"
+          :routeToID="currentPathData.choices.third.routeToID"
           :title="currentPathData.choices.third.alt"
+          :labelText="currentPathData.choices.third.screenreader"
         />
         <div class="deko-line">
           <plus-icon class="size" /><plus-icon class="size" />

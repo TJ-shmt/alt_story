@@ -5,9 +5,9 @@
         :for="buttonId"
         class="sr-only"
         tabindex="0"
-        @keydown.enter="routeTo()"
+        @keydown.enter="routeTo(routeToID)"
       >
-        {{ label }}
+        {{ labelText }}
       </label>
     </div>
     <button
@@ -16,7 +16,7 @@
       ref="buttonRef"
       tabindex="-1"
       :title="title"
-      @click="myMethod"
+      @click="routeTo(routeToID)"
     >
       {{ buttonText }}
     </button>
@@ -26,6 +26,8 @@
 <script lang="ts" setup>
 import { defineProps, ref, onMounted } from "vue";
 import { useRouter, useRoute } from "vue-router";
+const router = useRouter();
+const route = useRoute();
 
 const props = defineProps({
   rowClass: {
@@ -36,13 +38,13 @@ const props = defineProps({
     type: String,
     required: true,
   },
-  label: {
+  labelText: {
     type: String,
     required: true,
   },
   title: {
     type: String,
-    default: "ERROR DETECTED!",
+    default: "404: here should be a different text!",
     required: true,
   },
   buttonId: {
@@ -51,7 +53,7 @@ const props = defineProps({
   },
   routeToID: {
     type: String,
-    default: "No goTo found",
+    default: "error",
     required: false,
   },
 });
@@ -59,7 +61,10 @@ const myMethod = () => {
   console.log(props.routeToID);
 };
 
-// const clickButton = () => {};
+const routeTo = (routeToID: string) => {
+  console.log("you chose path: " + routeToID);
+  router.push("/game/path=" + routeToID);
+};
 
 // onMounted(() => {});
 </script>
