@@ -24,12 +24,13 @@
 </template>
 
 <script lang="ts" setup>
-import { defineProps, ref, onMounted } from "vue";
-import { useRouter, useRoute } from "vue-router";
+// , ref, onMounted
+import { defineProps } from "vue";
+import { useRouter } from "vue-router";
 const router = useRouter();
-const route = useRoute();
-
-const props = defineProps({
+//const route = useRoute(); // , useRoute
+// props
+defineProps({
   rowClass: {
     type: String,
     required: true,
@@ -57,10 +58,7 @@ const props = defineProps({
     required: false,
   },
 });
-const myMethod = () => {
-  console.log(props.routeToID);
-};
-
+// Funcitons
 const routeTo = (routeToID: string) => {
   console.log("you chose path: " + routeToID);
   router.push("/game/path=" + routeToID);
