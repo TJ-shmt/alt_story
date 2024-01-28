@@ -17,7 +17,7 @@
         </router-link>
         <router-link
           class="routerLink"
-          to="/game/path=0"
+          to="/game"
           aria-label="Go to the start of the Game"
         >
           <span class="routerSpan">GAME</span>
@@ -35,7 +35,11 @@
   <main id="main-content" tabindex="-1">
     <router-view />
   </main>
-  <footer>{{ $route.params.path }}</footer>
+  <footer>
+    <span class="message"></span>
+    <div class="line deko"></div>
+    <span class="current-path">{{}}</span>
+  </footer>
 </template>
 
 <script lang="ts" setup>
@@ -180,7 +184,7 @@ header a {
   padding-right: 1rem;
 }
 
-header a.router-link-exact-active {
+header a.router-link-active {
   color: var(--off-100);
   background-color: var(--off-text-64);
 }
