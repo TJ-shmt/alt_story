@@ -7,9 +7,9 @@
         </logo-headlines>
       </div>
       <div class="deko stripes">
-        <span class="chromatic abberationMain"> 14.01.24</span>
-        <span class="chromatic abberationRed"> 14.01.24</span>
-        <span class="chromatic abberationBlue"> 14.01.24</span>
+        <span class="chromatic abberationMain"> {{ currentTime }}</span>
+        <span class="chromatic abberationRed"> {{ currentTime }}</span>
+        <span class="chromatic abberationBlue"> {{ currentTime }}</span>
       </div>
       <nav aria-label="Main">
         <router-link class="routerLink" to="/" aria-label="Go to the Homepage">
@@ -39,16 +39,31 @@
 </template>
 
 <script lang="ts" setup>
-import { onMounted } from "vue"; // ref, watch, computed,
+import { onMounted, onUnmounted, ref } from "vue"; // ref, watch, computed,
 import { useDarkModeStore } from "@/stores/useDarkModeStore";
 import LogoHeadlines from "@/components/LogoHeadlines.vue";
 const darkModeStore = useDarkModeStore();
+
+const currentTime = ref("");
+
+const updateTime = () => {
+  const now = new Date();
+  const hours = String(now.getHours()).padStart(2, "0"); // 24-hour format
+  const minutes = String(now.getMinutes()).padStart(2, "0");
+  const seconds = String(now.getSeconds()).padStart(2, "0");
+  currentTime.value = `${hours}:${minutes}:${seconds}`;
+};
 
 onMounted(() => {
   document.documentElement.classList.toggle(
     "dark-theme",
     darkModeStore.isDarkMode
   );
+  updateTime(); // Initialize with current time
+  const interval = setInterval(updateTime, 1000);
+  onUnmounted(() => {
+    clearInterval(interval); // Clear interval when component is unmounted
+  });
 });
 </script>
 
@@ -77,13 +92,11 @@ body {
   /* Code for Firefox */
   color: var(--off-100);
   background: var(--off-text-32);
-  outline: 3px red double;
 }
 
 ::selection {
   color: var(--off-100);
   background: var(--off-text-32);
-  outline: 3px red double;
 }
 
 h2 {
