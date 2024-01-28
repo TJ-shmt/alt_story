@@ -44,9 +44,9 @@
 
 <script lang="ts" setup>
 import { onMounted, onUnmounted, ref } from "vue"; // ref, watch, computed,
-import { useDarkModeStore } from "@/stores/useDarkModeStore";
+import { useSettings } from "@/stores/useSettings";
 import LogoHeadlines from "@/components/LogoHeadlines.vue";
-const darkModeStore = useDarkModeStore();
+const darkModeStore = useSettings();
 
 const currentTime = ref("");
 

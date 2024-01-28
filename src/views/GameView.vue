@@ -56,18 +56,40 @@
         </div>
         <div id="options-box">
           <div class="option-block">
-            <button class="option-button font-size font-size-up" />
-            <div class="state-block font-size font-size-current"></div>
-            <button class="option-button font-size font-size-down" />
+            <button
+              class="option-button font-size font-size-up"
+              @click="fontSizeUp(4)"
+            >
+              <up-icon />
+            </button>
+            <div class="state-block font-size font-size-current">
+              aA: {{ sizeStore.currentSize }}
+            </div>
+            <button
+              class="option-button font-size font-size-down"
+              @click="fontSizeDown(4)"
+            >
+              <down-icon />
+            </button>
           </div>
           <div class="option-block">
-            <button class="option-button screenreader deactivated" />
-            <div class="state-block">
-              <span>Act.</span>
+            <button
+              class="option-button screenreader deactivated"
+              title="Can only be changed by an Admin"
+            >
+              <speaker-icon />
+            </button>
+            <div
+              class="state-block"
+              :class="{ active: darkModeStore.useScreenreader }"
+            >
+              <span>{{ darkModeStore.useScreenreader ? "ON" : "OFF" }}</span>
             </div>
           </div>
           <div class="option-block">
-            <button class="option-button dark-mode" @click="toggleDarkMode" />
+            <button class="option-button dark-mode" @click="toggleDarkMode">
+              <darkmode-icon />
+            </button>
             <div
               class="state-block"
               :class="{ active: darkModeStore.isDarkMode }"
@@ -76,9 +98,14 @@
             </div>
           </div>
           <div class="option-block">
-            <button class="option-button" @click="toggleState('Lang.')" />
-            <div class="state-block" :class="{ active: currentL }">
-              <span>{{ currentL ? "ON" : "OFF" }}</span>
+            <button class="option-button" @click="toggleState('Lang.')">
+              <language-icon />
+            </button>
+            <div
+              class="state-block"
+              :class="{ active: languageStore.isJapanese }"
+            >
+              <span>{{ languageStore.isJapanese ? "日本語" : "ENG" }}</span>
             </div>
           </div>
         </div>
@@ -93,10 +120,15 @@
 <script lang="ts" setup>
 import { ref, watch, computed } from "vue"; // , onMounted
 import { useRoute } from "vue-router";
-import { useDarkModeStore } from "@/stores/useDarkModeStore";
+import { useSettings } from "@/stores/useSettings";
 import gameData from "@/assets/gamepath.json";
 import ChoiceButton from "@/components/ChoiceButton.vue";
 import PlusIcon from "@/components/vueIcons/PlusIcon.vue";
+import UpIcon from "@/components/vueIcons/UpIcon.vue";
+import DownIcon from "@/components/vueIcons/DownIcon.vue";
+import LanguageIcon from "@/components/vueIcons/LanguageIcon.vue";
+import DarkmodeIcon from "@/components/vueIcons/DarkmodeIcon.vue";
+import SpeakerIcon from "@/components/vueIcons/SpeakerIcon.vue";
 //const router = useRouter();
 const route = useRoute();
 
@@ -118,11 +150,20 @@ watch(
   }
 );
 // Font Size Button
-//const currentSize = ref(true);
+const sizeStore = useSettings();
+const fontSizeUp = (increment: number) => {
+  sizeStore.fontSizeUp(increment);
+  console.log(sizeStore.currentSize);
+};
+const fontSizeDown = (decrement: number) => {
+  sizeStore.fontSizeDown(decrement);
+  console.log(sizeStore.currentSize);
+};
+
 // Screenreader Button
 //const activeSR = ref(true);
 // Darkmode Button
-const darkModeStore = useDarkModeStore();
+const darkModeStore = useSettings();
 const toggleDarkMode = () => {
   darkModeStore.toggleDarkMode();
   document.documentElement.classList.toggle(
@@ -131,10 +172,9 @@ const toggleDarkMode = () => {
   );
 };
 // Lang.
-const currentL = ref(false);
-const toggleState = (buttonType: string) => {
-  currentL.value = !currentL.value;
-  console.log(buttonType + ": " + currentL.value);
+const languageStore = useSettings();
+const toggleState = () => {
+  languageStore.toggleLanguage();
 };
 </script>
 
@@ -186,6 +226,12 @@ const toggleState = (buttonType: string) => {
     gap: 4px;
 
     .option-button {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      padding-left: 12px;
+      padding-right: 12px;
+
       z-index: 1;
       border: none;
       height: 64px;
