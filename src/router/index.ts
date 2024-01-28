@@ -17,7 +17,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/game",
     redirect: "/game/path=0",
   },
-
+  {
+    path: "/admin-settings",
+    component: () =>
+      import(/* webpackChunkName: "game" */ "../views/AdminSettingsView.vue"),
+  },
   {
     path: "/about",
     name: "about",
