@@ -2,13 +2,14 @@
   <div class="gamebox">
     <div id="story-area" class="game-left">
       <p
+        id="visual-text"
         :aria-label="currentPathData.text.screenreader"
         :title="currentPathData.text.alt"
         tabindex="0"
       >
         {{ currentPathData.text.visual }}
       </p>
-      <p>{{ darkModeStore.isDarkMode }}</p>
+      <p id="screenreader-text">{{ darkModeStore.isDarkMode }}</p>
     </div>
     <div id="interactive-area" class="game-right">
       <div id="desicions">
@@ -67,8 +68,11 @@
           </div>
           <div class="option-block">
             <button class="option-button dark-mode" @click="toggleDarkMode" />
-            <div class="state-block">
-              <span>Act.</span>
+            <div
+              class="state-block"
+              :class="{ active: darkModeStore.isDarkMode }"
+            >
+              <span>{{ darkModeStore.isDarkMode ? "ON" : "OFF" }}</span>
             </div>
           </div>
           <div class="option-block">
@@ -127,7 +131,7 @@ const toggleDarkMode = () => {
   );
 };
 // Lang.
-const currentL = ref(true);
+const currentL = ref(false);
 const toggleState = (buttonType: string) => {
   currentL.value = !currentL.value;
   console.log(buttonType + ": " + currentL.value);
@@ -234,9 +238,9 @@ const toggleState = (buttonType: string) => {
       background-color: var(--off-text-16);
 
       &.active {
-        color: var(--off-100);
-        background-color: $light-coral;
-        filter: drop-shadow(0 0 4px $light-coral-light);
+        color: var(--off-text-remain);
+        background-color: var(--acent-primary);
+        filter: drop-shadow(0 0 4px var(--shadow-acent-primary));
       }
 
       backdrop-filter: brightness(100%) blur(12px);

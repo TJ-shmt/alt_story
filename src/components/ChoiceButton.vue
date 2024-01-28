@@ -130,16 +130,17 @@ button:hover {
 
   transition-duration: 0.2s;
 }
-.grids:hover {
+.grids:hover,
+.grids:focus {
   $stripe-thickness: 12px;
   background-image: repeating-linear-gradient(
     45deg,
-    $light-coral,
-    $light-coral $stripe-thickness,
+    var(--acent-primary),
+    var(--acent-primary) $stripe-thickness,
     transparent $stripe-thickness,
     transparent 2 * $stripe-thickness
   );
 
-  filter: drop-shadow(0 0 10px $light-coral-light);
+  filter: drop-shadow(0 0 10px var(--shadow-acent-primary));
 }
 </style>
