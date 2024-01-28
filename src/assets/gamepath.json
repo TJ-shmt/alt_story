@@ -3,9 +3,9 @@
         "path": "Error fallback",
         "text": {
             "visual": {
-                "size12": "I am very small and very shy!",
-                "size16": "I am an average Bitch!",
-                "size20": "I'm SO BIG I love it!! *yay*"
+                "size12": "Im a small error",
+                "size16": "Im an average error",
+                "size20": "Im a big error"
             },
             "screenreader": "Please Reload",
             "alt": "Error 404"
