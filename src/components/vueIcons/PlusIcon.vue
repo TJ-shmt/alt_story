@@ -24,5 +24,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-/* You can add styles here if needed */
+svg {
+  fill: currentColor;
+}
 </style>
