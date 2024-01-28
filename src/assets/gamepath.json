@@ -2,7 +2,11 @@
     "error": {
         "path": "Error fallback",
         "text": {
-            "visual": "Error 404 <br /> i need some space",
+            "visual": {
+                "size12": "I am very small and very shy!",
+                "size16": "I am an average Bitch!",
+                "size20": "I'm SO BIG I love it!! *yay*"
+            },
             "screenreader": "Please Reload",
             "alt": "Error 404"
         },
@@ -30,7 +34,11 @@
     "0": {
         "path": "this is the Start",
         "text": {
-            "visual": "You can read me!",
+            "visual": {
+                "size12": "I am very small and very shy!",
+                "size16": "I am an average Bitch!",
+                "size20": "I'm SO BIG I love it!! *yay*"
+            },
             "screenreader": "You can hear me!",
             "alt": "But for me you have to wait!"
         },
@@ -58,7 +66,11 @@
     "01": {
         "path": "this is the Start",
         "text": {
-            "visual": "",
+            "visual": {
+                "size12": "I am very small and very shy!",
+                "size16": "I am an average Bitch!",
+                "size20": "I'm SO BIG I love it!! *yay*"
+            },
             "screenreader": "",
             "alt": ""
         },
@@ -83,7 +95,11 @@
     "02": {
         "path": "this is the Start",
         "text": {
-            "visual": "",
+            "visual": {
+                "size12": "I am very small and very shy!",
+                "size16": "I am an average Bitch!",
+                "size20": "I'm SO BIG I love it!! *yay*"
+            },
             "screenreader": "",
             "alt": ""
         },
@@ -108,7 +124,11 @@
     "03": {
         "path": "this is the Start",
         "text": {
-            "visual": "",
+            "visual": {
+                "size12": "I am very small and very shy!",
+                "size16": "I am an average Bitch!",
+                "size20": "I'm SO BIG I love it!! *yay*"
+            },
             "screenreader": "",
             "alt": ""
         },

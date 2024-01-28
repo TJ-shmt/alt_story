@@ -5,11 +5,14 @@
         id="visual-text"
         :aria-label="currentPathData.text.screenreader"
         :title="currentPathData.text.alt"
+        :style="{ fontSize: settings.currentSize + 'px' }"
         tabindex="0"
       >
-        {{ currentPathData.text.visual }}
+        {{ dynamicText }}
       </p>
-      <p id="screenreader-text">{{ darkModeStore.isDarkMode }}</p>
+      <p id="screenreader-text">
+        Current Font size is: {{ settings.currentSize }}
+      </p>
     </div>
     <div id="interactive-area" class="game-right">
       <div id="desicions">
@@ -131,6 +134,7 @@ import DarkmodeIcon from "@/components/vueIcons/DarkmodeIcon.vue";
 import SpeakerIcon from "@/components/vueIcons/SpeakerIcon.vue";
 //const router = useRouter();
 const route = useRoute();
+const settings = useSettings();
 
 // Game Data
 const currentPathID = ref(route.params.path as string);
@@ -159,7 +163,10 @@ const fontSizeDown = (decrement: number) => {
   sizeStore.fontSizeDown(decrement);
   console.log(sizeStore.currentSize);
 };
-
+const dynamicText = computed(() => {
+  const sizeKey = `size${settings.currentSize}`;
+  return currentPathData.value.text.visual[sizeKey];
+});
 // Screenreader Button
 //const activeSR = ref(true);
 // Darkmode Button
