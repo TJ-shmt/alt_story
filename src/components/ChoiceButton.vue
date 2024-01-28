@@ -61,7 +61,7 @@ defineProps({
 // Funcitons
 const routeTo = (routeToID: string) => {
   console.log("you chose path: " + routeToID);
-  router.push("/game/path=" + routeToID);
+  router.push(`/game/path=${routeToID}`);
   if (document.activeElement instanceof HTMLElement) {
     document.activeElement.blur();
   }
