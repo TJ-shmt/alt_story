@@ -3,43 +3,81 @@
         "path": "Error fallback",
         "text": {
             "visual": {
-                "size12": "Im a small error",
-                "size16": "Im an average error",
-                "size20": "Im a big error"
+                "size12": [
+                    "I'M SORRY!",
+                    "ㅤ",
+                    "You might have encountered an error in the game.",
+                    "This is not part of the story.",
+                    "ㅤ",
+                    "Please click the GAME button or any other button in the Navigation above to go back to the start."
+                ],
+                "size16": [
+                    "I'M SORRY!",
+                    "ㅤ",
+                    "You might have encountered an error in the game.",
+                    "This is not part of the story.",
+                    "ㅤ",
+                    "Please click the GAME button or any other button in the Navigation above to go back to the start."
+                ],
+                "size20": [
+                    "I'M SORRY!",
+                    "ㅤ",
+                    "You might have encountered an error in the game.",
+                    "This is not part of the story.",
+                    "ㅤ",
+                    "Please click the GAME button or any other button in the Navigation above to go back to the start."
+                ]
             },
-            "screenreader": "Please Reload",
-            "alt": "Error 404"
+            "screenreader": "Error. Please follow the text instructions!",
+            "alt": "Error. Please follow the text insturctions"
         },
         "choices": {
             "first": {
                 "visual": "",
                 "screenreader": "",
-                "alt": "go back to the start",
+                "alt": "This button will lead you to the start of the game again!",
                 "routeToID": "0"
             },
             "second": {
                 "visual": "",
                 "screenreader": "",
-                "alt": "go back to the start",
+                "alt": "This button will lead you to the start of the game again!",
                 "routeToID": "0"
             },
             "third": {
                 "visual": "",
                 "screenreader": "",
-                "alt": "go back to the start",
+                "alt": "This button will lead you to the start of the game again!",
                 "routeToID": "0"
             }
         }
     },
     "0": {
-        "path": "this is the Start",
+        "path": "The Beginning",
         "text": {
             "visual": {
-                "size12": "I am very small and very shy!",
-                "size16": "I am an average Bitch!",
-                "size20": "I'm SO BIG I love it!! *yay*"
+                "size12": [
+                    "",
+                    ""
+                ],
+                "size16": [
+                    "You've been waiting for your partner's reply for three days. Concerned, you decide to visit his flat.",
+                    "Upon entering, a deep silence greets you. Your partner sits motionless in his Netrunning chair, a network of monitors around him. A white cat on his lap meets your gaze, then vanishes behind the chair. The monitors flash red with a name written in the middle:",
+                    "伶",
+                    "It dawns on you: your partner has been hacked during Netrunning, a process where one's consciousness navigates the digital realm, leaving their physical body unresponsive and vulnerable. He's now trapped, unable to control his own body, lingering between the digital and physical world.",
+                    "The mysterious disappearance of the cat lingers in your thoughts, a nagging suspicion that it's somehow entwined with your partner's predicament and you realize it's up to you to dive into the net and track down this elusive hacker.",
+                    "ㅤ",
+                    "As you take a dive into the net you spot three traces that are signed by the mysterious name. You are not sure which trace you should follow first and what to expect exactly:",
+                    "Choice 1: You follow a trace that leads to Jig-Jig Street.",
+                    "Choice 2: You follow a trace that leads to the Bazarr in Japan town.",
+                    "Choice 3: You follow a trace to a Megabuilding nearby."
+                ],
+                "size20": [
+                    "",
+                    ""
+                ]
             },
-            "screenreader": "You can hear me!",
+            "screenreader": "You've been waiting for your partner's reply for three days. Concerned, you decide to visit his flat. Upon entering, a deep silence greets you. Your partner sits motionless in his Netrunning chair, a network of monitors around him. A white cat on his lap meets your gaze, then vanishes behind the chair. The monitors flash red with a name written in the middle: '伶.'It dawns on you: your partner has been hacked during Netrunning, a process where one's consciousness navigates the digital realm, leaving their physical body unresponsive and vulnerable. He's now trapped, unable to control his own body, lingering between the digital and physical world. The mysterious disappearance of the cat lingers in your thoughts, a nagging suspicion that it's somehow entwined with your partner's predicament, and you realize it's up to you to dive into the net and track down this elusive hacker.As you take a dive into the net, you spot three traces that are signed by the mysterious name. You are not sure which trace you should follow first and what to expect exactly:",
             "alt": "But for me you have to wait!"
         },
         "choices": {
@@ -67,9 +105,18 @@
         "path": "this is the Start",
         "text": {
             "visual": {
-                "size12": "I am very small and very shy!",
-                "size16": "I am an average Bitch!",
-                "size20": "I'm SO BIG I love it!! *yay*"
+                "size12": [
+                    "",
+                    ""
+                ],
+                "size16": [
+                    "",
+                    ""
+                ],
+                "size20": [
+                    "",
+                    ""
+                ]
             },
             "screenreader": "",
             "alt": ""
@@ -96,9 +143,18 @@
         "path": "this is the Start",
         "text": {
             "visual": {
-                "size12": "I am very small and very shy!",
-                "size16": "I am an average Bitch!",
-                "size20": "I'm SO BIG I love it!! *yay*"
+                "size12": [
+                    "",
+                    ""
+                ],
+                "size16": [
+                    "",
+                    ""
+                ],
+                "size20": [
+                    "",
+                    ""
+                ]
             },
             "screenreader": "",
             "alt": ""
@@ -125,9 +181,18 @@
         "path": "this is the Start",
         "text": {
             "visual": {
-                "size12": "I am very small and very shy!",
-                "size16": "I am an average Bitch!",
-                "size20": "I'm SO BIG I love it!! *yay*"
+                "size12": [
+                    "",
+                    ""
+                ],
+                "size16": [
+                    "",
+                    ""
+                ],
+                "size20": [
+                    "",
+                    ""
+                ]
             },
             "screenreader": "",
             "alt": ""

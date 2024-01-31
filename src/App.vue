@@ -36,7 +36,7 @@
     <router-view />
   </main>
   <footer>
-    <span class="message"></span>
+    <span class="message">伶(Rei)</span>
     <div class="line deko"></div>
     <span class="current-path">{{}}</span>
   </footer>

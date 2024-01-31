@@ -1,15 +1,24 @@
 <template>
   <div class="gamebox">
-    <div id="story-area" class="game-left">
+    <div
+      id="story-area"
+      class="game-left"
+      :class="{ 'show-gradient': showGradient }"
+      ref="storyArea"
+      @scroll="checkScroll"
+      :title="currentPathData.text.alt"
+    >
       <p
         id="visual-text"
         :aria-label="currentPathData.text.screenreader"
-        :title="currentPathData.text.alt"
         :style="{ fontSize: settings.currentSize + 'px' }"
+        v-for="(line, index) in dynamicText"
+        :key="index"
         tabindex="0"
       >
-        {{ dynamicText }}
+        {{ line }}
       </p>
+
       <p id="screenreader-text">
         Current Font size is: {{ settings.currentSize }}
       </p>
@@ -121,7 +130,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, watch, computed } from "vue"; // , onMounted
+import { ref, watch, computed, onMounted } from "vue"; // , onMounted
 import { useRoute } from "vue-router";
 import { useSettings } from "@/stores/useSettings";
 import gameData from "@/assets/gamepath.json";
@@ -135,6 +144,22 @@ import SpeakerIcon from "@/components/vueIcons/SpeakerIcon.vue";
 //const router = useRouter();
 const route = useRoute();
 const settings = useSettings();
+
+// Story area Logic
+const storyArea = ref(null);
+const showGradient = ref(true);
+
+const checkScroll = () => {
+  if (storyArea.value) {
+    const { scrollTop, scrollHeight, clientHeight } = storyArea.value;
+    showGradient.value = scrollTop + clientHeight < scrollHeight;
+  }
+};
+
+onMounted(() => {
+  window.addEventListener("resize", checkScroll);
+  checkScroll();
+});
 
 // Game Data
 const currentPathID = ref(route.params.path as string);
@@ -316,12 +341,14 @@ const toggleState = () => {
 }
 
 #story-area {
+  box-sizing: border-box;
   height: 100%;
-  max-width: 600px;
+  max-width: 450px;
   min-width: 450px;
   margin: 6px;
   background-color: var(--off-text-16);
-
+  padding: 12px;
+  // shape
   clip-path: polygon(
     0 0,
     0 100%,
@@ -329,6 +356,25 @@ const toggleState = () => {
     100% calc(100% - 50px),
     100% 0
   );
+  // text
+  text-align: left;
+  overflow-y: scroll;
+  word-wrap: break-word;
+  white-space: normal;
+
+  &#story-area::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 150px; /* Adjust the height as needed */
+    background: linear-gradient(
+      rgba(255, 255, 255, 0),
+      var(--off-64)
+    ); /* Adjust colors to match your design */
+    pointer-events: none; /* Make the gradient non-interactive */
+  }
 }
 
 #interactive-area {
