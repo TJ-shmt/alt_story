@@ -7,7 +7,7 @@ export const useSettings = defineStore("darkMode", {
       isDarkMode: JSON.parse(localStorage.getItem("darkMode")) || false,
       useScreenreader:
         JSON.parse(localStorage.getItem("useScreenreader")) || false,
-      isJapanese: false,
+      isJapanese: JSON.parse(localStorage.getItem("isJapanese")) || false,
       currentSize: 16,
     };
   },
