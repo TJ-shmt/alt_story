@@ -154,8 +154,8 @@
             "first": {
                 "visual": "ㅤ",
                 "screenreader": "伶ちゃん, こっちに来て",
-                "alt": "Afterall, you are looking for a hacker and not for some \n casual NC resident.",
-                "routeToID": "011"
+                "alt": "Afterall, you are looking for a netrunner and not for some \n casual NC resident.",
+                "routeToID": "0"
             },
             "second": {
                 "visual": "ㅤ",
@@ -167,7 +167,7 @@
                 "visual": "ㅤ",
                 "screenreader": "",
                 "alt": "You could do some good in the neighborhood for once, no?",
-                "routeToID": "013"
+                "routeToID": "0"
             }
         }
     },
@@ -402,19 +402,19 @@
                 "visual": "Initiate a shutdown of Rei",
                 "screenreader": "Initiate a shutdown of the rogue netrunner, aiming to trap him within the same digital confines that currently ensnare your partner. You are not sure however if this will bring more harm then good to anyone involved",
                 "alt": "You hope this bold move will reverse the hack \nand liberate your partner.",
-                "routeToID": ""
+                "routeToID": "0211A1"
             },
             "second": {
                 "visual": "Decide to step back",
                 "screenreader": "Feeding the homeless and strays of Night City, though illegal, is a charitable act. With this in mind, you decide to step back, allowing the operation to continue but you might loose this opportunity to free your partner.",
                 "alt": "It seems there is more going on than you can comprehend right now. \nMaybe its best to step back and wait.",
-                "routeToID": ""
+                "routeToID": "0211A2"
             },
             "third": {
                 "visual": "confront the netrunner",
                 "screenreader": "Choose to disrupt the rogue netrunner's current activity, Getting a chance to talk to it might be get you the best outcome for everyone involved.",
                 "alt": "You risk getting caught by 化け猫 伶 and get traped yourself. \nYou might loose this oportunity to end all of this before it is too late.",
-                "routeToID": ""
+                "routeToID": "0211A3"
             }
         }
     },
@@ -425,7 +425,7 @@
                 "size12": [],
                 "size16": [
                     "You directly target the warehouse, slicing through digital barriers to access its CCTV network.",
-                    "A more thorough scan of the surrounding CCTV feeds unveils an unexpected sight: several cats gathered inside the warehouse, feasting on Yakitori. The pieces of the puzzle begin to align, leading you to the conclusion that you've located the rogue netrunner, Rei, caught in the act of hijacking another delivery.",
+                    "A more thorough scan of the surrounding CCTV feeds unveils an unexpected sight: several cats gathered inside the warehouse, feasting on Yakitori. The pieces of the puzzle begin to align, leading you to the conclusion that you've located the rogue netrunner, 化け猫 伶, caught in the act of hijacking another delivery.",
                     "This revelation presents a pivotal opportunity to influence the fate of your partner. With precision, you hack into the service bot to establish a direct link to the elusive netrunner 化け猫 伶.",
                     "ㅤ",
                     "Faced with this crucial moment, you weigh your options:",
@@ -445,22 +445,22 @@
         },
         "choices": {
             "first": {
-                "visual": "Initiate a shutdown of Rei",
+                "visual": "confront the netrunner",
                 "screenreader": "Initiate a shutdown of the rogue netrunner, aiming to trap him within the same digital confines that currently ensnare your partner. You are not sure however if this will bring more harm then good to anyone involved",
                 "alt": "You hope this bold move will reverse the hack \nand liberate your partner.",
-                "routeToID": ""
+                "routeToID": "0211A1"
             },
             "second": {
-                "visual": "Decide to step back",
+                "visual": "confront the netrunner",
                 "screenreader": "Feeding the homeless and strays of Night City, though illegal, is a charitable act. With this in mind, you decide to step back, allowing the operation to continue but you might loose this opportunity to free your partner.",
                 "alt": "It seems there is more going on than you can comprehend right now. \nMaybe its best to step back and wait.",
-                "routeToID": ""
+                "routeToID": "0211A2"
             },
             "third": {
                 "visual": "confront the netrunner",
                 "screenreader": "Choose to disrupt the rogue netrunner's current activity, Getting a chance to talk to it might be get you the best outcome for everyone involved.",
                 "alt": "You risk getting caught by 化け猫 伶 and get traped yourself. \nYou might loose this oportunity to end all of this before it is too late.",
-                "routeToID": ""
+                "routeToID": "0211A3"
             }
         }
     },
@@ -505,19 +505,19 @@
                 "visual": "Initiate a shutdown of Rei",
                 "screenreader": "Initiate a shutdown of the rogue netrunner, aiming to trap him within the same digital confines that currently ensnare your partner. You are not sure however if this will bring more harm then good to anyone involved",
                 "alt": "You hope this bold move will reverse the hack \nand liberate your partner.",
-                "routeToID": ""
+                "routeToID": "0211A1"
             },
             "second": {
                 "visual": "Decide to step back",
                 "screenreader": "Feeding the homeless and strays of Night City, though illegal, is a charitable act. With this in mind, you decide to step back, allowing the operation to continue but you might loose this opportunity to free your partner.",
                 "alt": "It seems there is more going on than you can comprehend right now. \nMaybe its best to step back and wait.",
-                "routeToID": ""
+                "routeToID": "0211A2"
             },
             "third": {
                 "visual": "confront the netrunner",
                 "screenreader": "Choose to disrupt the rogue netrunner's current activity, Getting a chance to talk to it might be get you the best outcome for everyone involved.",
                 "alt": "You risk getting caught by 化け猫 伶 and get traped yourself. \nYou might loose this oportunity to end all of this before it is too late.",
-                "routeToID": ""
+                "routeToID": "0211A3"
             }
         }
     },
@@ -618,17 +618,197 @@
             }
         }
     },
+    "023": {
+        "path": "Blank to copy!",
+        "text": {
+            "visual": {
+                "size12": [
+                    "Which food would your like to dispense?",
+                    "ㅤ",
+                    "Choice 1: Dispense Yakitori. But wait for noone to watch the machine.",
+                    "Choice 2: Dispense Miso Soup. But wait for noone to watch the machine.",
+                    "Choice 3: Dispense Onigiri. But wait for noone to watch the machine."
+                ],
+                "size16": [
+                    "Which food would your like to dispense?",
+                    "ㅤ",
+                    "Choice 1: Dispense Yakitori",
+                    "Choice 2: Dispense Miso Soup",
+                    "Choice 3: Dispense Onigiri"
+                ],
+                "size20": [
+                    "Which food would your like to dispense?",
+                    "ㅤ",
+                    "Choice 1: Dispense 10x Yakitori",
+                    "Choice 2: Dispense 10x Miso Soup",
+                    "Choice 3: Dispense 25x Onigiri. Can't ever have enough, right?"
+                ],
+                "darkmode": [
+                    "Which food would your like to make free forever?",
+                    "ㅤ",
+                    "Choice 1: Hack Yakitori.",
+                    "Choice 2: Hack Miso Soup",
+                    "Choice 3: Hack Onigiri"
+                ],
+                "darkmodeJap": [
+                    "test"
+                ],
+                "japanese": [
+                    "test 1"
+                ]
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "ㅤ",
+                "screenreader": "Dispense Yakitori",
+                "alt": "Dispense Yakitori",
+                "routeToID": ""
+            },
+            "second": {
+                "visual": "ㅤ",
+                "screenreader": "Dispense Miso Soup",
+                "alt": "Dispense Miso Soup",
+                "routeToID": ""
+            },
+            "third": {
+                "visual": "ㅤ",
+                "screenreader": "Dispense Onigiri",
+                "alt": "Dispense Onigiri",
+                "routeToID": ""
+            }
+        }
+    },
+    "0231": {
+        "path": "Dispense Yakitori",
+        "text": {
+            "visual": {
+                "size12": [],
+                "size16": [],
+                "size20": [],
+                "darkmode": [],
+                "darkmodeJap": [],
+                "japanese": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            },
+            "second": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            },
+            "third": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            }
+        }
+    },
+    "0232": {
+        "path": "Blank to copy!",
+        "text": {
+            "visual": {
+                "size12": [],
+                "size16": [],
+                "size20": [],
+                "darkmode": [],
+                "darkmodeJap": [],
+                "japanese": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            },
+            "second": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            },
+            "third": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            }
+        }
+    },
+    "0233": {
+        "path": "Blank to copy!",
+        "text": {
+            "visual": {
+                "size12": [],
+                "size16": [],
+                "size20": [],
+                "darkmode": [],
+                "darkmodeJap": [],
+                "japanese": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            },
+            "second": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            },
+            "third": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            }
+        }
+    },
     "03": {
         "path": "this is the Start",
         "text": {
             "visual": {
                 "size12": [
-                    "",
-                    ""
+                    "The trace leads you into the Megabuilding H1's internal security channels. To be exact there is just one CCTV camera in the Garage that was shortcut by the rogue netrunner.",
+                    "ㅤ",
+                    "The cameras focus is on a transport vehicle that can be remotely accessed. This vehicle is familiar to you. There is a very speciffic sticker on its windshield that resembels a paw. You could try to get more infromation by accessing it but it could be anyones vehicle:",
+                    "Choice 1: Opt to breach the vehicle's system to probe its onboard sensors. Investigating the internal storage might reveal contraband, clues, or perhaps something more personal belonging to the owner",
+                    "Choice 2: Dive into the vehicle's navigation history. Understanding where the vehicle has traveled could map out a new lead.",
+                    "Choice 3: The connection to the netrunner seems tenuous at best through this lead. It might be wiser to redirect your efforts towards investigating the other potential locations linked to the Bakeneko's digital trail.",
+                    "ㅤ",
+                    "ㅤ"
                 ],
                 "size16": [
-                    "",
-                    ""
+                    "The trace leads you into the Megabuilding H1's internal security channels. To be exact there is just one CCTV camera in the Garage that was shortcut by the rogue netrunner.",
+                    "ㅤ",
+                    "The cameras focus is on a transport vehicle that can be remotely accessed. You could try to get more infromation by accessing it but it could be anyones vehicle:",
+                    "Choice 1: Opt to breach the vehicle's system to probe its onboard sensors getting a glimps of what it might transport.",
+                    "Choice 2: Dive into the vehicle's navigation history.",
+                    "Choice 3: It might be wiser to redirect your efforts towards investigating the other potential locations.",
+                    "ㅤ",
+                    "ㅤ"
                 ],
                 "size20": [
                     "",
@@ -643,22 +823,340 @@
         },
         "choices": {
             "first": {
-                "visual": "",
+                "visual": "Access storage room",
                 "screenreader": "",
-                "alt": ""
+                "alt": "",
+                "routeToID": "031"
             },
             "second": {
-                "visual": "",
+                "visual": "Get gps data",
                 "screenreader": "",
-                "alt": ""
+                "alt": "",
+                "routeToID": "032"
             },
             "third": {
-                "visual": "",
+                "visual": "go back",
                 "screenreader": "",
-                "alt": ""
+                "alt": "",
+                "routeToID": "0"
             }
         }
     },
+    "031": {
+        "path": "Access storage room",
+        "text": {
+            "visual": {
+                "size12": [],
+                "size16": [
+                    "Upon accessing the vehicle's internal storage, you find it laden with boxes of frozen Yakitori. The discovery is puzzling; the link between the netrunner and these boxes of Yakitori isn't immediately apparent.",
+                    "ㅤ",
+                    "With this unexpected find, you pause to contemplate your next move:",
+                    "",
+                    "Choice 2: Dive into the vehicle's navigation history aswell.",
+                    "Choice 3: The connection seems tenuous, and you begin to question the relevance of this lead. You go back and try another lead.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "size20": [],
+                "darkmode": [],
+                "darkmodeJap": [],
+                "japanese": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "Yakitori",
+                "screenreader": "You remember Yakitori to be the favourit food of your partner. Check on Yakitori",
+                "alt": "This yakitori seems to be real meat.",
+                "routeToID": "0211"
+            },
+            "second": {
+                "visual": "Get gps data",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": "032"
+            },
+            "third": {
+                "visual": "go back",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": "0"
+            }
+        }
+    },
+    "032": {
+        "path": "Get gps data",
+        "text": {
+            "visual": {
+                "size12": [],
+                "size16": [
+                    "Diving into the vehicle's navigation history, you uncover a pattern that piques your interest. A specific route has been frequented multiple times: it stretches from underneath the bustling bazaar in Japantown to an old warehouse in Santo Domingo.",
+                    "You chould check out these locations, hoping you might find more there, or try to get more information from the vehicle.",
+                    "ㅤ",
+                    "You decide to:",
+                    "Choice 1: You decide to investigate the Japantown bazaar area further.",
+                    "Choice 2: The warehouse in Santo Domingo beckons as your next destination.",
+                    "Choice 3: Before moving on, you choose to get more infromation of the vehicle's load.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "size20": [],
+                "darkmode": [],
+                "darkmodeJap": [],
+                "japanese": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "Japantown bazaar",
+                "screenreader": "",
+                "alt": "Japantown Bazarr? \nAnother trace left there before. \nThere might be more information!",
+                "routeToID": "02"
+            },
+            "second": {
+                "visual": "Explore the warehouse",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": "02112"
+            },
+            "third": {
+                "visual": "Check vehicle load",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": "031"
+            }
+        }
+    },
+    "FINAL": "FINAL",
+    "FIN": "FINAL",
+    "FINALY": "FINAL",
+    "0211A1": {
+        "path": "Initiate a shutdown of Rei",
+        "text": {
+            "visual": {
+                "size12": [],
+                "size16": [
+                    "Determined to end the digital tyranny of the rogue netrunner, you launch a decisive hack to shut him down, mirroring the digital cage that ensnared your partner. Success washes over you as you disconnect from the net, but the victory is short-lived.",
+                    "Your partner remains trapped, unresponsive to the world around him, a soul caught in the limbo between realms. You hoped it would loosen the grip. The silence that follows is heavy with disappointment.",
+                    "With no discernible improvement in his condition, the path forward narrows to one option: seeking out specialists who can navigate this complex intersection of realities and perhaps undo the entanglement that binds him."
+                ],
+                "size20": [],
+                "darkmode": [],
+                "darkmodeJap": [],
+                "japanese": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "Play again",
+                "screenreader": "This has been the final. Do you want to play again?",
+                "alt": "Play again",
+                "routeToID": "0"
+            },
+            "second": {
+                "visual": "Play again",
+                "screenreader": "This has been the final. Do you want to play again?",
+                "alt": "Play again",
+                "routeToID": "0"
+            },
+            "third": {
+                "visual": "Play again",
+                "screenreader": "This has been the final. Do you want to play again?",
+                "alt": "Play again",
+                "routeToID": "0"
+            }
+        }
+    },
+    "0211A2": {
+        "path": "Decide to step back",
+        "text": {
+            "visual": {
+                "size12": [],
+                "size16": [
+                    "Opting for restraint, you step away from the immediate tension of the warehouse scene. The charitable nature of Rei's digital thefts, providing for the city's forgotten, casts a complex shadow over your mission. Disconnecting from the net, you're left to ponder the connection between Rei's actions and your partner's plight.",
+                    "Days later, driven by an inexplicable urge, you visit the warehouse in person, only to find the service mech powering down at your approach. The moment is shrouded in confusion until it gives way to happines in the form of a message from your partner, inviting you  to the bazaar in Japantown for dinner. Relief washes over you as you realize he's been released, a silent end to his digital captivity."
+                ],
+                "size20": [],
+                "darkmode": [],
+                "darkmodeJap": [],
+                "japanese": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "Play again",
+                "screenreader": "This has been the final. Do you want to play again?",
+                "alt": "Play again",
+                "routeToID": "0"
+            },
+            "second": {
+                "visual": "Play again",
+                "screenreader": "This has been the final. Do you want to play again?",
+                "alt": "Play again",
+                "routeToID": "0"
+            },
+            "third": {
+                "visual": "Play again",
+                "screenreader": "This has been the final. Do you want to play again?",
+                "alt": "Play again",
+                "routeToID": "0"
+            }
+        }
+    },
+    "0211A3": {
+        "path": "confront the netrunner",
+        "text": {
+            "visual": {
+                "size12": [],
+                "size16": [
+                    "Faced with 化け猫 伶, you assert the unintended consequences of his actions on your partner. The revelation takes Rei by surprise, and a moment of digital introspection follows. He confesses that freeing your partner would require his own termination—a sacrifice he's prepared to make, highlighting his never-intended harm.",
+                    "He begs you to continue this work and he will let your partner free.",
+                    "As 化け猫 伶 digital essence dissolves, you disconnect, returning to a world where your partner slowly emerges from his digital stupor. Disoriented, he awakens with no memory of the recent events, the warehouse, or 化け猫 伶 noble sacrifice. The ordeal has left no scars on his consciousness, only a quiet gratitude for the mysterious resolution that brought him back to you.",
+                    ""
+                ],
+                "size20": [],
+                "darkmode": [],
+                "darkmodeJap": [],
+                "japanese": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "Play again",
+                "screenreader": "This has been the final. Do you want to play again?",
+                "alt": "Play again",
+                "routeToID": "0"
+            },
+            "second": {
+                "visual": "Play again",
+                "screenreader": "This has been the final. Do you want to play again?",
+                "alt": "Play again",
+                "routeToID": "0"
+            },
+            "third": {
+                "visual": "Play again",
+                "screenreader": "This has been the final. Do you want to play again?",
+                "alt": "Play again",
+                "routeToID": "0"
+            }
+        }
+    },
+    "0211B1": {
+        "path": "Blank to copy!",
+        "text": {
+            "visual": {
+                "size12": [],
+                "size16": [],
+                "size20": [],
+                "darkmode": [],
+                "darkmodeJap": [],
+                "japanese": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            },
+            "second": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            },
+            "third": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            }
+        }
+    },
+    "0211B2": {
+        "path": "Blank to copy!",
+        "text": {
+            "visual": {
+                "size12": [],
+                "size16": [],
+                "size20": [],
+                "darkmode": [],
+                "darkmodeJap": [],
+                "japanese": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            },
+            "second": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            },
+            "third": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            }
+        }
+    },
+    "0211B3": {
+        "path": "Blank to copy!",
+        "text": {
+            "visual": {
+                "size12": [],
+                "size16": [],
+                "size20": [],
+                "darkmode": [],
+                "darkmodeJap": [],
+                "japanese": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            },
+            "second": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            },
+            "third": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            }
+        }
+    },
+    "BLANK": "BLANK",
     "0x": {
         "path": "Blank to copy!",
         "text": {
