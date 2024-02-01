@@ -27,14 +27,15 @@
                     "ㅤ",
                     "Please click the GAME button or any other button in the Navigation above to go back to the start."
                 ],
-                "size16DM": [
+                "darkmode": [
                     "I'M SORRY!",
                     "ㅤ",
                     "You might have encountered an error in the game.",
                     "This is not part of the story.",
                     "ㅤ",
                     "Please click the GAME button or any other button in the Navigation above to go back to the start."
-                ]
+                ],
+                "japanese": []
             },
             "screenreader": "Error. Please follow the text instructions!",
             "alt": "Error. Please follow the text insturctions"
@@ -83,9 +84,10 @@
                     "",
                     ""
                 ],
-                "size16DM": [
+                "darkmode": [
                     ""
-                ]
+                ],
+                "japanese": []
             },
             "screenreader": "Das ist deutsch. You've been waiting for your partner's reply for three days. Concerned, you decide to visit his flat. Upon entering, a deep silence greets you. Your partner sits motionless in his Netrunning chair, a network of monitors around him. A white cat on his lap meets your gaze, then vanishes behind the chair. The monitors flash red with a name written in the middle: '伶.'It dawns on you: your partner has been hacked during Netrunning, a process where one's consciousness navigates the digital realm, leaving their physical body unresponsive and vulnerable. He's now trapped, unable to control his own body, lingering between the digital and physical world. The mysterious disappearance of the cat lingers in your thoughts, a nagging suspicion that it's somehow entwined with your partner's predicament, and you realize it's up to you to dive into the net and track down this elusive hacker.As you take a dive into the net, you spot three traces that are signed by the mysterious name. You are not sure which trace you should follow first and what to expect exactly:",
             "alt": "Missing Text!"
@@ -137,6 +139,12 @@
                 "size20": [
                     "",
                     ""
+                ],
+                "darkmode": [
+                    "dm"
+                ],
+                "japanese": [
+                    "jp"
                 ]
             },
             "screenreader": "",
@@ -182,8 +190,8 @@
                     "ㅤ"
                 ],
                 "size20": [],
-                "size16DM": [],
-                "JP": []
+                "darkmode": [],
+                "japanese": []
             },
             "screenreader": "",
             "alt": ""
@@ -229,7 +237,9 @@
                 "size20": [
                     "",
                     ""
-                ]
+                ],
+                "darkmode": [],
+                "japanese": []
             },
             "screenreader": "",
             "alt": ""
@@ -270,8 +280,8 @@
                     "choice 3: Check the net for Onigiri"
                 ],
                 "size20": [],
-                "size16DM": [],
-                "JP": []
+                "darkmode": [],
+                "japanese": []
             },
             "screenreader": "",
             "alt": ""
@@ -297,6 +307,137 @@
             }
         }
     },
+    "0211": {
+        "path": "Jakitori",
+        "text": {
+            "visual": {
+                "size12": [],
+                "size16": [],
+                "size20": [],
+                "darkmode": [],
+                "japanese": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            },
+            "second": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            },
+            "third": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            }
+        }
+    },
+    "0212": {
+        "path": "Miso",
+        "text": {
+            "visual": {
+                "size12": [],
+                "size16": [],
+                "size20": [],
+                "darkmode": [],
+                "japanese": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "Yakitori",
+                "screenreader": "You remember Yakitori to be the favourit food of your partner. Check on Yakitori",
+                "alt": "This yakitori seems to be real meat.",
+                "routeToID": "0211"
+            },
+            "second": {
+                "visual": "Go Back",
+                "screenreader": "",
+                "alt": "You have wasted enough time anyway.",
+                "routeToID": "02"
+            },
+            "third": {
+                "visual": "Onigiri",
+                "screenreader": "You feel like you have seen Onigiri before today. Check on Onigiri",
+                "alt": "You realize you have never ate onigiri before.",
+                "routeToID": "0213"
+            }
+        }
+    },
+    "0213": {
+        "path": "Onigiri",
+        "text": {
+            "visual": {
+                "size12": [
+                    "You found some historical facts about Onigiri:",
+                    "'Onigiri (お握り or 御握り), also known as omusubi (お結び), nigirimeshi (握り飯), or rice ball, is a Japanese food made from white rice formed into triangular or cylindrical shapes and often wrapped in nori.[a] Traditionally, an onigiri is filled with pickled ume (umeboshi), salted salmon, katsuobushi, kombu, tarako, mentaiko, takanazuke (pickled takana, Japanese giant red mustard greens) or any other salty or sour ingredient as a natural preservative. Because it is easily portable and eaten by hand, onigiri has been used as portable food or bento from ancient times to the present day'",
+                    "ㅤ",
+                    "Maybe its better to follow a different trace:",
+                    "Choice 1: Look up Yakitori instead.",
+                    "Choice 2: Look up Miso Soup instead.",
+                    "Choice 3: Forget about the foods and go back to the Machine"
+                ],
+                "size16": [
+                    "All that you find on Onigiri online are rezipies and some historical information.",
+                    "ㅤ",
+                    "Maybe its better to follow a different trace:",
+                    "Choice 1: Look up Yakitori instead.",
+                    "Choice 2: Look up Miso Soup instead.",
+                    "Choice 3: Forget about the foods and go back to the Machine"
+                ],
+                "size20": [
+                    "You found good recipie for Onigiri:",
+                    "For the Steamed Rice:",
+                    "2¼ cups uncooked Japanese short-grain white rice (3 rice cooker cups; 540 ml) \n2½ cups water (600 ml)",
+                    "For the Onigiri:",
+                    "Diamond Crystal kosher salt, \n3 sheets nori (dried laver seaweed)",
+                    "...",
+                    "ㅤ",
+                    "Maybe its better to follow a different trace:",
+                    "Choice 1: Look up Yakitori instead.",
+                    "Choice 2: Look up Miso Soup instead.",
+                    "Choice 3: Forget about the foods and go back to the Machine"
+                ],
+                "darkmode": [],
+                "japanese": [
+                    "ive got text"
+                ]
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "Yakitori",
+                "screenreader": "You remember Yakitori to be the favourit food of your partner. Check on Yakitori",
+                "alt": "This yakitori seems to be real meat.",
+                "routeToID": "0211"
+            },
+            "second": {
+                "visual": "Miso",
+                "screenreader": "Miso soup. Your favourite starter. Check on Miso soup.",
+                "alt": "You would love to have some Miso soup aswell now.",
+                "routeToID": "0212"
+            },
+            "third": {
+                "visual": "Go Back",
+                "screenreader": "",
+                "alt": "You have wasted enough time anyway.",
+                "routeToID": "02"
+            }
+        }
+    },
     "03": {
         "path": "this is the Start",
         "text": {
@@ -312,7 +453,9 @@
                 "size20": [
                     "",
                     ""
-                ]
+                ],
+                "darkmode": [],
+                "japanese": []
             },
             "screenreader": "",
             "alt": ""
@@ -342,8 +485,8 @@
                 "size12": [],
                 "size16": [],
                 "size20": [],
-                "size16DM": [],
-                "JP": []
+                "darkmode": [],
+                "japanese": []
             },
             "screenreader": "",
             "alt": ""
