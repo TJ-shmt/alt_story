@@ -191,6 +191,7 @@
                 ],
                 "size20": [],
                 "darkmode": [],
+                "darkmodeJap": [],
                 "japanese": []
             },
             "screenreader": "",
@@ -239,6 +240,7 @@
                     ""
                 ],
                 "darkmode": [],
+                "darkmodeJap": [],
                 "japanese": []
             },
             "screenreader": "",
@@ -281,6 +283,7 @@
                 ],
                 "size20": [],
                 "darkmode": [],
+                "darkmodeJap": [],
                 "japanese": []
             },
             "screenreader": "",
@@ -312,9 +315,26 @@
         "text": {
             "visual": {
                 "size12": [],
-                "size16": [],
+                "size16": [
+                    "You decide to check on Yakitori. Next to some regular entries you finde 2 NCPD reports and a forum entry in the net:",
+                    "ㅤ",
+                    "NCPD Crime Report: Missing Yakitori Deliveries:",
+                    "'Citywide alert: Several yakitori delivery vehicles have reported missing containers after making unscheduled stops. The NCPD is investigating these thefts.NCPD deems it low priority amid more pressing city issues.'",
+                    "NCPD Crime Report: Santo Domingo Yakitori Odor",
+                    "'Residents of Santo Domingo report persistent yakitori smell emanating from a local warehouse. NCPD deems it low priority amid more pressing city issues.'",
+                    "Forum Post: Free Food Initiative",
+                    "'Attention strays and homeless: Free food available, follow this ping for the location. Stay fed, stay strong!' - Posted by u/化け猫 伶'",
+                    "ㅤ",
+                    "Based on these insights, you now face a decision on which lead to pursue:",
+                    "Choice 1: Investigate the pattern of stolen Yakitori deliveries to try and pinpoint where these thefts are occurring.",
+                    "Choice 2: Explore the warehouse in Santo Domingo, seeking the source of the reported yakitori smell.",
+                    "Choice 2: Respond to the forum post's ping, potentially leading you directly to the person or group behind these events.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
                 "size20": [],
                 "darkmode": [],
+                "darkmodeJap": [],
                 "japanese": []
             },
             "screenreader": "",
@@ -322,21 +342,181 @@
         },
         "choices": {
             "first": {
-                "visual": "ㅤ",
+                "visual": "Investigate the pattern of stolen Yakitori",
                 "screenreader": "",
                 "alt": "",
+                "routeToID": "02111"
+            },
+            "second": {
+                "visual": "Explore the warehouse",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": "02112"
+            },
+            "third": {
+                "visual": "Respond to the forum post's ping",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": "02113"
+            }
+        }
+    },
+    "02111": {
+        "path": "Investigate the pattern of stolen Yakitori",
+        "text": {
+            "visual": {
+                "size12": [
+                    "After deciding to delve deeper into the mystery of the stolen Yakitori deliveries, you gain access to detailed reports, revealing a curious pattern: each vehicle made an unscheduled stop in Santo Domingo, alarmingly close to the previously noted warehouse. Intrigued, you seamlessly navigate the area's CCTV network, honing in on the warehouse in question. There, you witness a food transport being methodically unloaded by a service mech and it is certainly directly controlled by a netrunner.",
+                    "A more thorough scan of the surrounding CCTV feeds unveils an unexpected sight: several cats gathered inside the warehouse, feasting on Yakitori. The pieces of the puzzle begin to align, leading you to the conclusion that you've located the rogue netrunner, 化け猫 伶, caught in the act of hijacking another delivery.",
+                    "This revelation presents a pivotal opportunity to influence the fate of your partner. With precision, you hack into the service bot to establish a direct link to the elusive netrunner 化け猫 伶.",
+                    "ㅤ",
+                    "Faced with this crucial moment, you weigh your options:",
+                    "Choice 1: Initiate a shutdown of 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner. Maybe by shutting down the netrunner the grip it has on your partner will loosen.",
+                    "Choice 2: Reflecting on the scene before you, you recognize the humanitarian aspect of 化け猫 伶 actions. Decide to step back, you partner seems to be involved in this and maybe you should respect what is going on here.",
+                    "Choice 3: Choose to disrupt 化け猫 伶 current activity, seizing this chance to directly confront the netrunner. Given the good he does, he might be willing to let you partner go.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "size16": [
+                    "After deciding to delve deeper into the mystery of the stolen Yakitori deliveries, you gain access to detailed reports, revealing a curious pattern: each vehicle made an unscheduled stop in Santo Domingo, alarmingly close to the previously noted warehouse. Intrigued, you seamlessly navigate the area's CCTV network, honing in on the warehouse in question. There, you witness a food transport being methodically unloaded by a service mech.",
+                    "A more thorough scan of the surrounding CCTV feeds unveils an unexpected sight: several cats gathered inside the warehouse, feasting on Yakitori. The pieces of the puzzle begin to align, leading you to the conclusion that you've located the rogue netrunner, 化け猫 伶, caught in the act of hijacking another delivery.",
+                    "This revelation presents a pivotal opportunity to influence the fate of your partner. With precision, you hack into the service bot to establish a direct link to the elusive netrunner 化け猫 伶.",
+                    "ㅤ",
+                    "Faced with this crucial moment, you weigh your options:",
+                    "Choice 1: Initiate a shutdown of 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner.",
+                    "Choice 2: Reflecting on the scene before you, you recognize the humanitarian aspect of 化け猫 伶 actions. Decide to step back, allowing the operation to continue.",
+                    "Choice 3: Choose to disrupt 化け猫 伶 current activity, seizing this chance to directly confront the netrunner.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "size20": [],
+                "darkmode": [],
+                "darkmodeJap": [],
+                "japanese": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "Initiate a shutdown of Rei",
+                "screenreader": "Initiate a shutdown of the rogue netrunner, aiming to trap him within the same digital confines that currently ensnare your partner. You are not sure however if this will bring more harm then good to anyone involved",
+                "alt": "You hope this bold move will reverse the hack \nand liberate your partner.",
                 "routeToID": ""
             },
             "second": {
-                "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
+                "visual": "Decide to step back",
+                "screenreader": "Feeding the homeless and strays of Night City, though illegal, is a charitable act. With this in mind, you decide to step back, allowing the operation to continue but you might loose this opportunity to free your partner.",
+                "alt": "It seems there is more going on than you can comprehend right now. \nMaybe its best to step back and wait.",
                 "routeToID": ""
             },
             "third": {
-                "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
+                "visual": "confront the netrunner",
+                "screenreader": "Choose to disrupt the rogue netrunner's current activity, Getting a chance to talk to it might be get you the best outcome for everyone involved.",
+                "alt": "You risk getting caught by 化け猫 伶 and get traped yourself. \nYou might loose this oportunity to end all of this before it is too late.",
+                "routeToID": ""
+            }
+        }
+    },
+    "02112": {
+        "path": "Explore the warehouse",
+        "text": {
+            "visual": {
+                "size12": [],
+                "size16": [
+                    "You directly target the warehouse, slicing through digital barriers to access its CCTV network.",
+                    "A more thorough scan of the surrounding CCTV feeds unveils an unexpected sight: several cats gathered inside the warehouse, feasting on Yakitori. The pieces of the puzzle begin to align, leading you to the conclusion that you've located the rogue netrunner, Rei, caught in the act of hijacking another delivery.",
+                    "This revelation presents a pivotal opportunity to influence the fate of your partner. With precision, you hack into the service bot to establish a direct link to the elusive netrunner 化け猫 伶.",
+                    "ㅤ",
+                    "Faced with this crucial moment, you weigh your options:",
+                    "Choice 1: Initiate a shutdown of 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner.",
+                    "Choice 2: Reflecting on the scene before you, you recognize the humanitarian aspect of 化け猫 伶 actions. Decide to step back, allowing the operation to continue.",
+                    "Choice 3: Choose to disrupt 化け猫 伶 current activity, seizing this chance to directly confront the netrunner.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "size20": [],
+                "darkmode": [],
+                "darkmodeJap": [],
+                "japanese": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "Initiate a shutdown of Rei",
+                "screenreader": "Initiate a shutdown of the rogue netrunner, aiming to trap him within the same digital confines that currently ensnare your partner. You are not sure however if this will bring more harm then good to anyone involved",
+                "alt": "You hope this bold move will reverse the hack \nand liberate your partner.",
+                "routeToID": ""
+            },
+            "second": {
+                "visual": "Decide to step back",
+                "screenreader": "Feeding the homeless and strays of Night City, though illegal, is a charitable act. With this in mind, you decide to step back, allowing the operation to continue but you might loose this opportunity to free your partner.",
+                "alt": "It seems there is more going on than you can comprehend right now. \nMaybe its best to step back and wait.",
+                "routeToID": ""
+            },
+            "third": {
+                "visual": "confront the netrunner",
+                "screenreader": "Choose to disrupt the rogue netrunner's current activity, Getting a chance to talk to it might be get you the best outcome for everyone involved.",
+                "alt": "You risk getting caught by 化け猫 伶 and get traped yourself. \nYou might loose this oportunity to end all of this before it is too late.",
+                "routeToID": ""
+            }
+        }
+    },
+    "02113": {
+        "path": "Respond to the forum post's ping",
+        "text": {
+            "visual": {
+                "size12": [
+                    "Guided by the mysterious ping through the net, your journey takes you on a digital chase across Santo Domingos CCTV. Each camera you access is looking at a cat paw spray-paint, a breadcrumb trail left by Rei. This clever path of paws leads you, camera by camera, straight to the warehouse, the location you were meant to find from the forum post by 化け猫 伶. ",
+                    "A more thorough scan of the surrounding CCTV feeds unveils an unexpected sight: several cats gathered inside the warehouse, feasting on Yakitori. The pieces of the puzzle begin to align, leading you to the conclusion that you've located the rogue netrunner, Rei, caught in the act of hijacking another delivery.",
+                    "This revelation presents a pivotal opportunity to influence the fate of your partner. With precision, you hack into the service bot to establish a direct link to the elusive netrunner 化け猫 伶.",
+                    "ㅤ",
+                    "Faced with this crucial moment, you weigh your options:",
+                    "Choice 1: Initiate a shutdown of 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner. Maybe by shutting down the netrunner the grip it has on your partner will loosen up.",
+                    "Choice 2: Reflecting on the scene before you, you recognize the humanitarian aspect of 化け猫 伶 actions. Decide to step back, you partner seems to be involved in this and maybe you should respect what is going on here.",
+                    "Choice 3: Choose to disrupt 化け猫 伶 current activity, seizing this chance to directly confront the netrunner. Given the good he does, he might be willing to let you partner go.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "size16": [
+                    "Guided by the mysterious ping through the net, your journey takes you on a digital chase across Santo Domingos CCTV. Each camera you access is looking at a cat paw spray-paint, a breadcrumb trail left by Rei. This clever path of paws leads you, camera by camera, straight to the warehouse, the location you were meant to find from the forum post by 化け猫 伶. ",
+                    "A more thorough scan of the surrounding CCTV feeds unveils an unexpected sight: several cats gathered inside the warehouse, feasting on Yakitori. The pieces of the puzzle begin to align, leading you to the conclusion that you've located the rogue netrunner, Rei, caught in the act of hijacking another delivery.",
+                    "This revelation presents a pivotal opportunity to influence the fate of your partner. With precision, you hack into the service bot to establish a direct link to the elusive netrunner 化け猫 伶.",
+                    "ㅤ",
+                    "Faced with this crucial moment, you weigh your options:",
+                    "Choice 1: Initiate a shutdown of 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner.",
+                    "Choice 2: Reflecting on the scene before you, you recognize the humanitarian aspect of 化け猫 伶 actions. Decide to step back, allowing the operation to continue.",
+                    "Choice 3: Choose to disrupt 化け猫 伶 current activity, seizing this chance to directly confront the netrunner.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "size20": [],
+                "darkmode": [],
+                "darkmodeJap": [],
+                "japanese": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "Initiate a shutdown of Rei",
+                "screenreader": "Initiate a shutdown of the rogue netrunner, aiming to trap him within the same digital confines that currently ensnare your partner. You are not sure however if this will bring more harm then good to anyone involved",
+                "alt": "You hope this bold move will reverse the hack \nand liberate your partner.",
+                "routeToID": ""
+            },
+            "second": {
+                "visual": "Decide to step back",
+                "screenreader": "Feeding the homeless and strays of Night City, though illegal, is a charitable act. With this in mind, you decide to step back, allowing the operation to continue but you might loose this opportunity to free your partner.",
+                "alt": "It seems there is more going on than you can comprehend right now. \nMaybe its best to step back and wait.",
+                "routeToID": ""
+            },
+            "third": {
+                "visual": "confront the netrunner",
+                "screenreader": "Choose to disrupt the rogue netrunner's current activity, Getting a chance to talk to it might be get you the best outcome for everyone involved.",
+                "alt": "You risk getting caught by 化け猫 伶 and get traped yourself. \nYou might loose this oportunity to end all of this before it is too late.",
                 "routeToID": ""
             }
         }
@@ -349,6 +529,7 @@
                 "size16": [],
                 "size20": [],
                 "darkmode": [],
+                "darkmodeJap": [],
                 "japanese": []
             },
             "screenreader": "",
@@ -410,9 +591,8 @@
                     "Choice 3: Forget about the foods and go back to the Machine"
                 ],
                 "darkmode": [],
-                "japanese": [
-                    "ive got text"
-                ]
+                "darkmodeJap": [],
+                "japanese": []
             },
             "screenreader": "",
             "alt": ""
@@ -455,6 +635,7 @@
                     ""
                 ],
                 "darkmode": [],
+                "darkmodeJap": [],
                 "japanese": []
             },
             "screenreader": "",
@@ -486,6 +667,7 @@
                 "size16": [],
                 "size20": [],
                 "darkmode": [],
+                "darkmodeJap": [],
                 "japanese": []
             },
             "screenreader": "",
