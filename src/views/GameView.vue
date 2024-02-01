@@ -193,11 +193,15 @@ const fontSizeDown = (decrement: number) => {
 };
 const dynamicText = computed(() => {
   const sizeKey = `size${settings.currentSize}`;
-  if (settings.isJapanese && settings.currentSize === 16) {
-    return currentPathData.value.text.visual.japanese;
-  }
+
   if (settings.isDarkMode && settings.currentSize === 16) {
-    return currentPathData.value.text.visual.darkmode;
+    if (settings.isJapanese) {
+      return currentPathData.value.text.visual.darkmodeJap;
+    } else {
+      return currentPathData.value.text.visual.darkmode;
+    }
+  } else if (settings.isJapanese && settings.currentSize === 16) {
+    return currentPathData.value.text.visual.japanese;
   }
   return currentPathData.value.text.visual[sizeKey];
 });
