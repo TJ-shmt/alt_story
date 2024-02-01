@@ -26,6 +26,14 @@
                     "This is not part of the story.",
                     "ㅤ",
                     "Please click the GAME button or any other button in the Navigation above to go back to the start."
+                ],
+                "size16DM": [
+                    "I'M SORRY!",
+                    "ㅤ",
+                    "You might have encountered an error in the game.",
+                    "This is not part of the story.",
+                    "ㅤ",
+                    "Please click the GAME button or any other button in the Navigation above to go back to the start."
                 ]
             },
             "screenreader": "Error. Please follow the text instructions!",
@@ -33,20 +41,17 @@
         },
         "choices": {
             "first": {
-                "visual": "",
-                "screenreader": "",
+                "screenreader": "This button will lead you to the start of the game again!",
                 "alt": "This button will lead you to the start of the game again!",
                 "routeToID": "0"
             },
             "second": {
-                "visual": "",
-                "screenreader": "",
+                "screenreader": "This button will lead you to the start of the game again!",
                 "alt": "This button will lead you to the start of the game again!",
                 "routeToID": "0"
             },
             "third": {
-                "visual": "",
-                "screenreader": "",
+                "screenreader": "This button will lead you to the start of the game again!",
                 "alt": "This button will lead you to the start of the game again!",
                 "routeToID": "0"
             }
@@ -70,48 +75,64 @@
                     "As you take a dive into the net you spot three traces that are signed by the mysterious name. You are not sure which trace you should follow first and what to expect exactly:",
                     "Choice 1: You follow a trace that leads to Jig-Jig Street.",
                     "Choice 2: You follow a trace that leads to the Bazarr in Japan town.",
-                    "Choice 3: You follow a trace to a Megabuilding nearby."
+                    "Choice 3: You follow a trace to a Megabuilding nearby.",
+                    "ㅤ",
+                    "ㅤ"
                 ],
                 "size20": [
                     "",
                     ""
+                ],
+                "size16DM": [
+                    ""
                 ]
             },
-            "screenreader": "You've been waiting for your partner's reply for three days. Concerned, you decide to visit his flat. Upon entering, a deep silence greets you. Your partner sits motionless in his Netrunning chair, a network of monitors around him. A white cat on his lap meets your gaze, then vanishes behind the chair. The monitors flash red with a name written in the middle: '伶.'It dawns on you: your partner has been hacked during Netrunning, a process where one's consciousness navigates the digital realm, leaving their physical body unresponsive and vulnerable. He's now trapped, unable to control his own body, lingering between the digital and physical world. The mysterious disappearance of the cat lingers in your thoughts, a nagging suspicion that it's somehow entwined with your partner's predicament, and you realize it's up to you to dive into the net and track down this elusive hacker.As you take a dive into the net, you spot three traces that are signed by the mysterious name. You are not sure which trace you should follow first and what to expect exactly:",
-            "alt": "But for me you have to wait!"
+            "screenreader": "Das ist deutsch. You've been waiting for your partner's reply for three days. Concerned, you decide to visit his flat. Upon entering, a deep silence greets you. Your partner sits motionless in his Netrunning chair, a network of monitors around him. A white cat on his lap meets your gaze, then vanishes behind the chair. The monitors flash red with a name written in the middle: '伶.'It dawns on you: your partner has been hacked during Netrunning, a process where one's consciousness navigates the digital realm, leaving their physical body unresponsive and vulnerable. He's now trapped, unable to control his own body, lingering between the digital and physical world. The mysterious disappearance of the cat lingers in your thoughts, a nagging suspicion that it's somehow entwined with your partner's predicament, and you realize it's up to you to dive into the net and track down this elusive hacker.As you take a dive into the net, you spot three traces that are signed by the mysterious name. You are not sure which trace you should follow first and what to expect exactly:",
+            "alt": "Missing Text!"
         },
         "choices": {
             "first": {
                 "visual": "",
                 "screenreader": "Hear about option 1",
-                "alt": "I am Positive",
+                "alt": "Jig-Jig Street? \nOdd place for a hacker.",
                 "routeToID": "01"
             },
             "second": {
                 "visual": "",
                 "screenreader": "Hear about option 2",
-                "alt": "I am Neutral",
+                "alt": "Japantown Bazarr? \nYou partner Mentioned this place several times.",
                 "routeToID": "02"
             },
             "third": {
                 "visual": "",
                 "screenreader": "Hear about option 3",
-                "alt": "I am Negative",
+                "alt": "A Megabuilding seems like a good place to hide something.",
                 "routeToID": "03"
             }
         }
     },
     "01": {
-        "path": "this is the Start",
+        "path": "Jig-Jig Street.",
         "text": {
             "visual": {
                 "size12": [
-                    "",
-                    ""
+                    "As you track the signal originating from Jig-Jig Street, it leads you to an unexpected discovery: ",
+                    "A doorbell, cleverly hacked. Now, every time the doorbell is activated through the net, it emits three distinct meows instead of its usual chime.",
+                    "The residence belongs to Mrs. 佐藤. It seems an odd target for such a peculiar hack.",
+                    "ㅤ",
+                    "Faced with this quirky situation, you ponder your next move:",
+                    "Choice 1: This doesn't seem like a promising lead. Better to try your luck elsewhere.",
+                    "Choice 2: Curiosity gets the better of you. Why not ring the bell and see what unfolds?",
+                    "Choice 3: Decide to undo the hack on the doorbell, restoring it to normal, and then move on to explore another trace."
                 ],
                 "size16": [
-                    "",
-                    ""
+                    "As you track the signal originating from Jig-Jig Street, it leads you to an unexpected discovery: ",
+                    "A doorbell, cleverly hacked. Now, every time the doorbell is activated through the net, it emits three distinct meows instead of its usual chime.",
+                    "ㅤ",
+                    "Faced with this quirky situation, you ponder your next move:",
+                    "Choice 1: This doesn't seem like a promising lead. Better to try your luck elsewhere.",
+                    "Choice 2: Curiosity gets the better of you. Why not ring the bell and see what unfolds?",
+                    "Choice 3: Decide to undo the hack on the doorbell, restoring it to normal, and then move on to explore another trace."
                 ],
                 "size20": [
                     "",
@@ -123,19 +144,68 @@
         },
         "choices": {
             "first": {
-                "visual": "",
-                "screenreader": "",
-                "alt": ""
+                "visual": "ㅤ",
+                "screenreader": "伶ちゃん, こっちに来て",
+                "alt": "Afterall, you are looking for a hacker and not for some \n casual NC resident.",
+                "routeToID": "011"
             },
             "second": {
-                "visual": "",
+                "visual": "ㅤ",
                 "screenreader": "",
-                "alt": ""
+                "alt": "You cant help but wonder, is somebody actually at home?",
+                "routeToID": "012"
             },
             "third": {
-                "visual": "",
+                "visual": "ㅤ",
                 "screenreader": "",
-                "alt": ""
+                "alt": "You could do some good in the neighborhood for once, no?",
+                "routeToID": "013"
+            }
+        }
+    },
+    "012": {
+        "path": "",
+        "text": {
+            "visual": {
+                "size12": [],
+                "size16": [
+                    "You choose to activate the bell, and three distinct meows emanate from the doorbell. After a brief wait, a voice from the communications module announces, '猫ちゃん、ちょっと待ってね' ",
+                    "The door swings open, revealing a lady holding a plate of food. She looks around, puzzled by the absence of a cat, and calls out softly, '伶ちゃん, こっちに来て'",
+                    "Seizing the opportunity, you decide to engage the lady in conversation. You explain that her doorbell has been tampered with, producing meows instead of its regular sound. Curious, you inquire if she knows anything about this or the identity of the cat.",
+                    "Switching to English, she shares that she was unaware of the hack, always expecting to see a cat upon hearing the meows. She then reveals that the cat she thought she was calling, adorned with a collar from an in-town storage space rental, sometimes comes here for food. Now, she stands with a plate of yakitori, unsure what to do with it.",
+                    "ㅤ",
+                    "In this peculiar turn of events, you contemplate your next move:",
+                    "Choice 1: Investigate yakitori online, as it seems to be the cat's preferred food.",
+                    "Choice 2: Head to the storage space rental to uncover a new lead.",
+                    "Choice 3: Conclude that this information isn't valuable and return to your search elsewhere.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "size20": [],
+                "size16DM": [],
+                "JP": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "Check Yakitori.",
+                "screenreader": "",
+                "alt": "Why specifically Yakitori?",
+                "routeToID": "0211"
+            },
+            "second": {
+                "visual": "Got to storage space rental.",
+                "screenreader": "",
+                "alt": "Why would a storage space rental own a cat? \nThere are barely any animals alive in this city anymore.",
+                "routeToID": "02112"
+            },
+            "third": {
+                "visual": "Leave the area.",
+                "screenreader": "",
+                "alt": "You have a hard time to make sence of all this information. \nYou decide to rather go check on the other leads.",
+                "routeToID": "0"
             }
         }
     },
@@ -148,8 +218,13 @@
                     ""
                 ],
                 "size16": [
-                    "",
-                    ""
+                    "You decided to go check on the lead to Japantown. In the Bazaar area of Japantown you can pinpoint a signal from a CCTV camera that keeps a constant watch over a foodvendors store.",
+                    "You also spot a self-service vending machine of the man's store that is connected to this signal. Upon closer inspection, you realize the machine has been hacked, programmed to dispense free food at the whim of an unseen hacker.",
+                    "ㅤ",
+                    "Although your options seem limited, there are a few actions you could take:",
+                    "Choice 1: You could scrutinize the machines databank for free dispensed food.",
+                    "Choice 2: You could undo the hack and follow another lead.",
+                    "Choice 3: You could abuse the hack and dispense food for free"
                 ],
                 "size20": [
                     "",
@@ -161,19 +236,64 @@
         },
         "choices": {
             "first": {
-                "visual": "",
+                "visual": "Scrutinize databank.",
                 "screenreader": "",
-                "alt": ""
+                "alt": "",
+                "routeToID": "021"
             },
             "second": {
-                "visual": "",
+                "visual": "Undo the hack.",
                 "screenreader": "",
-                "alt": ""
+                "alt": "",
+                "routeToID": "0"
             },
             "third": {
-                "visual": "",
+                "visual": "Dispense free food.",
                 "screenreader": "",
-                "alt": ""
+                "alt": "",
+                "routeToID": "023"
+            }
+        }
+    },
+    "021": {
+        "path": "Scrutinize databank",
+        "text": {
+            "visual": {
+                "size12": [],
+                "size16": [
+                    "After choosing to examine the databank, you delve into the records of the free food dispensed by the hacked machine. The data reveals a peculiar pattern: only three types of food have been frequently dispensed:",
+                    "Yakitori, Miso Soup, and, intriguingly, a single Onigiri.",
+                    "ㅤ",
+                    "You decide to check find more information about these foods on the net:",
+                    "Choice 1: Check the net for Yakitori",
+                    "Choice 2: Check the net for Miso Soup",
+                    "choice 3: Check the net for Onigiri"
+                ],
+                "size20": [],
+                "size16DM": [],
+                "JP": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "Yakitori",
+                "screenreader": "You remember Yakitori to be the favourit food of your partner. Check on Yakitori",
+                "alt": "This yakitori seems to be real meat.",
+                "routeToID": "0211"
+            },
+            "second": {
+                "visual": "Miso",
+                "screenreader": "Miso soup. Your favourite starter. Check on Miso soup.",
+                "alt": "You would love to have some Miso soup aswell now.",
+                "routeToID": "0212"
+            },
+            "third": {
+                "visual": "Onigiri",
+                "screenreader": "You feel like you have seen Onigiri before today. Check on Onigiri",
+                "alt": "You realize you have never ate onigiri before.",
+                "routeToID": "0213"
             }
         }
     },
@@ -212,6 +332,40 @@
                 "visual": "",
                 "screenreader": "",
                 "alt": ""
+            }
+        }
+    },
+    "0x": {
+        "path": "Blank to copy!",
+        "text": {
+            "visual": {
+                "size12": [],
+                "size16": [],
+                "size20": [],
+                "size16DM": [],
+                "JP": []
+            },
+            "screenreader": "",
+            "alt": ""
+        },
+        "choices": {
+            "first": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            },
+            "second": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
+            },
+            "third": {
+                "visual": "ㅤ",
+                "screenreader": "",
+                "alt": "",
+                "routeToID": ""
             }
         }
     }

@@ -5,23 +5,26 @@
       class="game-left"
       :class="{ 'show-gradient': showGradient }"
       ref="storyArea"
+      tabindex="-1"
       @scroll="checkScroll"
       :title="currentPathData.text.alt"
     >
-      <p
-        id="visual-text"
+      <div
+        class="text-wrap"
         :aria-label="currentPathData.text.screenreader"
-        :style="{ fontSize: settings.currentSize + 'px' }"
-        v-for="(line, index) in dynamicText"
-        :key="index"
         tabindex="0"
       >
-        {{ line }}
-      </p>
-
-      <p id="screenreader-text">
-        Current Font size is: {{ settings.currentSize }}
-      </p>
+        <p
+          id="visual-text"
+          :aria-label="currentPathData.text.screenreader"
+          :style="{ fontSize: settings.currentSize + 'px' }"
+          v-for="(line, index) in dynamicText"
+          :key="index"
+          tabindex="-1"
+        >
+          {{ line }}
+        </p>
+      </div>
     </div>
     <div id="interactive-area" class="game-right">
       <div id="desicions">
