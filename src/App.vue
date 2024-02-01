@@ -36,18 +36,28 @@
     <router-view />
   </main>
   <footer>
-    <span class="message">伶(Rei)</span>
+    <span class="message">
+      {{
+        settings.isJapanese
+          ? "This device is hacked by 'Bakeneko Rei'"
+          : "このデバイスは「化け猫 伶」にハックされました"
+      }}</span
+    >
     <div class="line deko"></div>
-    <span class="current-path">{{}}</span>
+    <span class="current-path" v-if="currentPathID"
+      >Your current Path: {{ currentPathID }}</span
+    >
   </footer>
 </template>
 
 <script lang="ts" setup>
-import { onMounted, onUnmounted, ref } from "vue"; // ref, watch, computed,
+import { onMounted, onUnmounted, ref, watch } from "vue"; // ref, watch, computed,
 import { useSettings } from "@/stores/useSettings";
+import { useRoute } from "vue-router";
 import LogoHeadlines from "@/components/LogoHeadlines.vue";
-const darkModeStore = useSettings();
-
+const settings = useSettings();
+const route = useRoute();
+const currentPathID = ref(route.params.path as string);
 const currentTime = ref("");
 
 const updateTime = () => {
@@ -58,11 +68,16 @@ const updateTime = () => {
   currentTime.value = `${hours}:${minutes}:${seconds}`;
 };
 
+watch(
+  () => route.params.path as string,
+  (newPathID) => {
+    currentPathID.value = newPathID;
+    console.log("New Path: " + newPathID);
+  }
+);
+
 onMounted(() => {
-  document.documentElement.classList.toggle(
-    "dark-theme",
-    darkModeStore.isDarkMode
-  );
+  document.documentElement.classList.toggle("dark-theme", settings.isDarkMode);
   updateTime(); // Initialize with current time
   const interval = setInterval(updateTime, 1000);
   onUnmounted(() => {
@@ -82,7 +97,24 @@ body {
   padding: 0;
   margin: 0;
 }
+footer {
+  box-sizing: border-box;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 12px;
 
+  justify-content: center;
+  align-items: center;
+}
+.deko {
+  &.line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: var(--off-text-64);
+  }
+}
 #app {
   font-family: $font-primary, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -191,7 +223,6 @@ header a.router-link-active {
 
 footer {
   height: 42px;
-  background-color: var(--off-text-8);
   margin: 6px;
 }
 
