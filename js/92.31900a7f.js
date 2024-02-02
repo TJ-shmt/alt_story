@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkalt_story"]=self["webpackChunkalt_story"]||[]).push([[92],{8092:function(e,s,t){e.exports=t.p+"img/Bakeneko.28e5d364.png"}}]);
