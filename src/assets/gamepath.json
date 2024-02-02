@@ -35,7 +35,14 @@
                     "ㅤ",
                     "Please click the GAME button or any other button in the Navigation above to go back to the start."
                 ],
-                "japanese": []
+                "japanese": [
+                    "I'M SORRY!",
+                    "ㅤ",
+                    "You might have encountered an error in the game.",
+                    "This is not part of the story.",
+                    "ㅤ",
+                    "Please click the GAME button or any other button in the Navigation above to go back to the start."
+                ]
             },
             "screenreader": "Error. Please follow the text instructions!",
             "alt": "Error. Please follow the text insturctions"
@@ -63,8 +70,18 @@
         "text": {
             "visual": {
                 "size12": [
-                    "",
-                    ""
+                    "You've been waiting for your partner's reply for three days. Concerned, you decide to visit his flat.",
+                    "Upon entering, a deep silence greets you. Your partner sits motionless in his Netrunning chair, a network of monitors around him. A white cat on his lap meets your gaze. It reminds you of a bakeneko but as you tried to approach it, it vanishes behind the chair. The monitors flash red with a name written in the middle:",
+                    "伶",
+                    "It dawns on you: your partner has been hacked during Netrunning, a process where one's consciousness navigates the digital realm, leaving their physical body unresponsive and vulnerable. He's now trapped, unable to control his own body, lingering between the digital and physical world.",
+                    "The mysterious disappearance of the cat lingers in your thoughts, a nagging suspicion that it's somehow entwined with your partner's predicament and you realize it's up to you to dive into the net and track down this elusive hacker.",
+                    "ㅤ",
+                    "As you take a dive into the net you spot three traces that are signed by the mysterious name. You are not sure which trace you should follow first and what to expect exactly:",
+                    "Choice 1: You follow a trace that leads to Jig-Jig Street.",
+                    "Choice 2: You follow a trace that leads to the Bazarr in Japan town.",
+                    "Choice 3: You follow a trace to a Megabuilding nearby.",
+                    "ㅤ",
+                    "ㅤ"
                 ],
                 "size16": [
                     "You've been waiting for your partner's reply for three days. Concerned, you decide to visit his flat.",
@@ -81,33 +98,81 @@
                     "ㅤ"
                 ],
                 "size20": [
-                    "",
-                    ""
+                    "You've been waiting for your partner's reply for three days. Concerned, you decide to visit his flat.",
+                    "Upon entering, a deep silence greets you. Your partner sits motionless in his Netrunning chair, a network of monitors around him. A white cat on his lap meets your gaze, then vanishes behind the chair. You take a look arround the room. Its all tidy but on his desk ist a plate with a half eaten and dry Onigiri. The monitors flash red with a name written in the middle:",
+                    "伶",
+                    "It dawns on you: your partner has been hacked during Netrunning, a process where one's consciousness navigates the digital realm, leaving their physical body unresponsive and vulnerable. He's now trapped, unable to control his own body, lingering between the digital and physical world.",
+                    "The mysterious disappearance of the cat lingers in your thoughts, a nagging suspicion that it's somehow entwined with your partner's predicament and you realize it's up to you to dive into the net and track down this elusive hacker.",
+                    "ㅤ",
+                    "As you take a dive into the net you spot three traces that are signed by the mysterious name. You are not sure which trace you should follow first and what to expect exactly:",
+                    "Choice 1: You follow a trace that leads to Jig-Jig Street.",
+                    "Choice 2: You follow a trace that leads to the Bazarr in Japan town.",
+                    "Choice 3: You follow a trace to a Megabuilding nearby.",
+                    "ㅤ",
+                    "ㅤ"
                 ],
                 "darkmode": [
-                    ""
+                    "You've been waiting for your partner's reply for three days. Concerned, you decide to visit his flat.",
+                    "Upon entering, a deep silence greets you. Your partner sits motionless in his Netrunning chair, a network of monitors around him. A white cat on his lap meets your gaze. It stands up, arches his back and hisses at you with with a sinister face, then vanishes behind the chair. The monitors flash red with a name written in the middle:",
+                    "伶",
+                    "It dawns on you: your partner has been hacked during Netrunning, a process where one's consciousness navigates the digital realm, leaving their physical body unresponsive and vulnerable. He's now trapped, unable to control his own body, lingering between the digital and physical world.",
+                    "The mysterious disappearance of the cat lingers in your thoughts, a nagging suspicion that it's somehow entwined with your partner's predicament and you realize it's up to you to dive into the net and track down this elusive hacker.",
+                    "ㅤ",
+                    "As you take a dive into the net you spot three traces that are signed by the mysterious name. You are not sure which trace you should follow first and what to expect exactly:",
+                    "Choice 1: You follow a trace that leads to Jig-Jig Street.",
+                    "Choice 2: You follow a trace that leads to the Bazarr in Japan town.",
+                    "Choice 3: You follow a trace to a Megabuilding nearby.",
+                    "ㅤ",
+                    "ㅤ"
                 ],
-                "japanese": []
+                "darkmodeJap": [
+                    "パートナーからの返信を3日間待っていました。心配して、彼のアパートを訪れることを決意します。",
+                    "入ると、深い静寂が迎えます。パートナーはネットランニングチェアに動かず座っており、周りにモニターのネットワークがあります。彼の膝の上には白い猫があなたの視線に応えます。それは立ち上がり、背中を丸めて邪悪な顔であなたに威嚇し、そして椅子の後ろに消えます。モニターには中央に名前が書かれた赤い光が点滅しています:",
+                    "Rei",
+                    "あなたに明かりが射し込む：パートナーはネットランニング中にハックされてしまったのです。それは自己意識がデジタルの領域を航海し、物理的な体が無応答で脆弱な状態になるプロセスで、彼は今、自分の体を制御できず、デジタルと物理世界の間に取り残されています。",
+                    "猫の謎めいた消失があなたの思考に残り、それが何らかの方法でパートナーの窮地と結びついている疑念がひしひしと感じられ、あなたはネットに飛び込んでこの謎のハッカーを追跡するのがあなたの役割だと気づきます。",
+                    "ㅤ",
+                    "ネットに飛び込むと、謎の名前で署名された3つのトレースを見つけます。どのトレースを最初にたどるべきか、そして正確に何を期待すべきかはわかりません：",
+                    "選択肢 1: ジグジグストリートへのトレースをたどります。",
+                    "選択肢 2: 日本町のバザールへのトレースをたどります。",
+                    "選択肢 3: 近くのメガビルに続くトレースをたどります。",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "japanese": [
+                    "パートナーからの返信を3日間待っていました。心配して、彼のアパートを訪れることを決意します。",
+                    "入ると、深い静寂が迎えます。パートナーはネットランニングチェアに動かず座っており、周りにモニターのネットワークがあります。彼の膝の上には白い猫があなたの視線に応え、その後、椅子の後ろに消えます。モニターには中央に名前が書かれた赤い光が点滅しています:",
+                    "Rei",
+                    "あなたに明かりが射し込む：パートナーはネットランニング中にハックされてしまったのです。それは自己意識がデジタルの領域を航海し、物理的な体が無応答で脆弱な状態になるプロセスで、彼は今、自分の体を制御できず、デジタルと物理世界の間に取り残されています。",
+                    "猫の謎めいた消失があなたの思考に残り、それが何らかの方法でパートナーの窮地と結びついている疑念がひしひしと感じられ、あなたはネットに飛び込んでこの謎のハッカーを追跡するのがあなたの役割だと気づきます。",
+                    "ㅤ",
+                    "ネットに飛び込むと、謎の名前で署名された3つのトレースを見つけます。どのトレースを最初にたどるべきか、そして正確に何を期待すべきかはわかりません：",
+                    "選択肢 1: ジグジグストリートへのトレースをたどります。",
+                    "選択肢 2: 日本町のバザールへのトレースをたどります。",
+                    "選択肢 3: 近くのメガビルに続くトレースをたどります。",
+                    "ㅤ",
+                    "ㅤ"
+                ]
             },
-            "screenreader": "Das ist deutsch. You've been waiting for your partner's reply for three days. Concerned, you decide to visit his flat. Upon entering, a deep silence greets you. Your partner sits motionless in his Netrunning chair, a network of monitors around him. A white cat on his lap meets your gaze, then vanishes behind the chair. The monitors flash red with a name written in the middle: '伶.'It dawns on you: your partner has been hacked during Netrunning, a process where one's consciousness navigates the digital realm, leaving their physical body unresponsive and vulnerable. He's now trapped, unable to control his own body, lingering between the digital and physical world. The mysterious disappearance of the cat lingers in your thoughts, a nagging suspicion that it's somehow entwined with your partner's predicament, and you realize it's up to you to dive into the net and track down this elusive hacker.As you take a dive into the net, you spot three traces that are signed by the mysterious name. You are not sure which trace you should follow first and what to expect exactly:",
-            "alt": "Missing Text!"
+            "screenreader": "You've been waiting for your partner's reply for three days. Concerned, you decide to visit his flat. Upon entering, a deep silence greets you. Your partner sits motionless in his Netrunning chair, a network of monitors around him. A white cat on his lap meets your gaze, then vanishes behind the chair. It reminds you what an old man once told you in the park, a bakeneko that can be the bringer of death or takes on the form of a human. The monitors flash red with a name written in the middle: '伶.'It dawns on you: your partner has been hacked during Netrunning, a process where one's consciousness navigates the digital realm, leaving their physical body unresponsive and vulnerable. He's now trapped, unable to control his own body, lingering between the digital and physical world. The mysterious disappearance of the cat lingers in your thoughts, a nagging suspicion that it's somehow entwined with your partner's predicament, and you realize it's up to you to dive into the net and track down this elusive hacker.As you take a dive into the net, you spot three traces that are signed by the mysterious name. You are not sure which trace you should follow first and what to expect exactly:",
+            "alt": "What is up with this cat?"
         },
         "choices": {
             "first": {
-                "visual": "",
-                "screenreader": "Hear about option 1",
+                "visual": "jigjig",
+                "screenreader": "Jig-Jif Street the place where you partner grew up. Go there and investigate.",
                 "alt": "Jig-Jig Street? \nOdd place for a hacker.",
                 "routeToID": "01"
             },
             "second": {
-                "visual": "",
-                "screenreader": "Hear about option 2",
-                "alt": "Japantown Bazarr? \nYou partner Mentioned this place several times.",
+                "visual": "Japantown bazaar",
+                "screenreader": "Japantown's Bazaar is where your partner likes to get food from. Go there and investigate",
+                "alt": "Japantown Bazaar? \nYou partner Mentioned this place several times.",
                 "routeToID": "02"
             },
             "third": {
-                "visual": "",
-                "screenreader": "Hear about option 3",
+                "visual": "Megabuilding h1",
+                "screenreader": "The Megabuilding H1 does not ring a bell for you. It might not be your first choice but you could go there and investigate.",
                 "alt": "A Megabuilding seems like a good place to hide something.",
                 "routeToID": "03"
             }
@@ -120,16 +185,17 @@
                 "size12": [
                     "As you track the signal originating from Jig-Jig Street, it leads you to an unexpected discovery: ",
                     "A doorbell, cleverly hacked. Now, every time the doorbell is activated through the net, it emits three distinct meows instead of its usual chime.",
-                    "The residence belongs to Mrs. 佐藤. It seems an odd target for such a peculiar hack.",
+                    "The residence belongs to Mrs. 佐藤. You know this last name! She is family to your partner.",
                     "ㅤ",
                     "Faced with this quirky situation, you ponder your next move:",
                     "Choice 1: This doesn't seem like a promising lead. Better to try your luck elsewhere.",
-                    "Choice 2: Curiosity gets the better of you. Why not ring the bell and see what unfolds?",
-                    "Choice 3: Decide to undo the hack on the doorbell, restoring it to normal, and then move on to explore another trace."
+                    "Choice 2: Curiosity gets the better of you. Why not ring the bell and see what unfolds? Maybe his sister has more information.",
+                    "Choice 3: Decide to undo the hack on the doorbell, restoring it to normal. Its better not to involve any more family of your partner. Move on to explore another trace."
                 ],
                 "size16": [
                     "As you track the signal originating from Jig-Jig Street, it leads you to an unexpected discovery: ",
                     "A doorbell, cleverly hacked. Now, every time the doorbell is activated through the net, it emits three distinct meows instead of its usual chime.",
+                    "The residence belongs to Mrs. 佐藤. You know this last name!",
                     "ㅤ",
                     "Faced with this quirky situation, you ponder your next move:",
                     "Choice 1: This doesn't seem like a promising lead. Better to try your luck elsewhere.",
@@ -137,35 +203,63 @@
                     "Choice 3: Decide to undo the hack on the doorbell, restoring it to normal, and then move on to explore another trace."
                 ],
                 "size20": [
-                    "",
-                    ""
+                    "As you track the signal originating from Jig-Jig Street, it leads you to an unexpected discovery: ",
+                    "A doorbell, cleverly hacked. Now, every time the doorbell is activated through the net, it emits three distinct meows instead of its usual chime.",
+                    "Getting a better look arround you realize this is not just the area but also the house your partner grew up at.",
+                    "ㅤ",
+                    "Faced with this quirky situation, you ponder your next move:",
+                    "Choice 1: This doesn't seem like a promising lead. Better to try your luck elsewhere.",
+                    "Choice 2: Curiosity gets the better of you. Why not ring the bell and see what unfolds?",
+                    "Choice 3: Decide to undo the hack on the doorbell, restoring it to normal. Its better not to involve any more family of your partner. Move on to explore another trace."
                 ],
                 "darkmode": [
-                    "dm"
+                    "As you track the signal originating from Jig-Jig Street, it leads you to an unexpected discovery: ",
+                    "A doorbell, cleverly hacked. Now, every time the doorbell is activated through the net, it emits a sentence: '焼き鳥を今すぐ食べないと引っかかれますよ！' instead of its usual chime.",
+                    "ㅤ",
+                    "Faced with this quirky situation, you ponder your next move:",
+                    "Choice 1: This doesn't seem like a promising lead. Better to try your luck elsewhere.",
+                    "Choice 2: Curiosity gets the better of you. Why not ring the bell and see what unfolds?",
+                    "Choice 3: Decide to undo the hack on the doorbell, restoring it to normal. Its better to let people go back to live in peace there. Move on to explore another trace."
+                ],
+                "darkmodeJap": [
+                    "Jig-Jig Streetからの信号を追跡すると、思いがけない発見に導かれます:",
+                    "巧妙にハックされたドアベル。今、ネットを介してドアベルがアクティブ化されるたびに、通常のチャイムの代わりに文が表示されます: 'Yakitori now or get scratched!'",
+                    "ㅤ",
+                    "この奇妙な状況に直面し、次の行動を考えます：",
+                    "選択肢 1: これは有望な手掛かりには見えません。他の場所で運試しをするのが良いでしょう。",
+                    "選択肢 2: 好奇心が勝ります。なぜドアベルを鳴らして、何が展開するかを見てみないのでしょうか？",
+                    "選択肢 3: ドアベルのハックを元に戻し、通常の状態に戻します。人々が平和に戻れるようにしたほうが良いでしょう。別のトレースを探索するために進みます。"
                 ],
                 "japanese": [
-                    "jp"
+                    "Jig-Jig Streetからの信号を追跡すると、思いがけない発見に導かれます:",
+                    "巧妙にハックされたドアベル。今、ネットを介してドアベルがアクティブ化されるたびに、通常のチャイムの代わりに3つの独自の鳴き声を発します。",
+                    "この住居は Sato 夫人のものです。この姓を知っています！",
+                    "ㅤ",
+                    "この奇妙な状況に直面し、次の行動を考えます：",
+                    "選択肢 1: これは有望な手掛かりには見えません。他の場所で運試しをするのが良いでしょう。",
+                    "選択肢 2: 好奇心が勝ります。なぜドアベルを鳴らして、何が展開するかを見てみないのでしょうか？",
+                    "選択肢 3: ドアベルのハックを元に戻し、通常の状態に戻した後、別のトレースを探索することに決めます。"
                 ]
             },
-            "screenreader": "",
-            "alt": ""
+            "screenreader": "As you track the signal originating from Jig-Jig Street, it leads you to an unexpected discovery: A doorbell, cleverly hacked. Now, every time the doorbell is activated through the net, it emits a meow instead of its usual chime. The other netrunner might have abused this home several times before to get soemthing from them. There might be more information that it appears to be at first.",
+            "alt": "The home of family 佐藤."
         },
         "choices": {
             "first": {
                 "visual": "ㅤ",
-                "screenreader": "伶ちゃん, こっちに来て",
+                "screenreader": "You do not wish to risk ringing the bell and be caught by the residents blaming you for this. You go back and follow a different lead.",
                 "alt": "Afterall, you are looking for a netrunner and not for some \n casual NC resident.",
                 "routeToID": "0"
             },
             "second": {
                 "visual": "ㅤ",
-                "screenreader": "",
+                "screenreader": "You are curious to get in contact with the residents. You ring the bell and hope to be able to speak to them.",
                 "alt": "You cant help but wonder, is somebody actually at home?",
                 "routeToID": "012"
             },
             "third": {
                 "visual": "ㅤ",
-                "screenreader": "",
+                "screenreader": "The residents have lived through enoug probably, best you revert the hack and follow a different lead so they wont have to deal with the same troubles you do.",
                 "alt": "You could do some good in the neighborhood for once, no?",
                 "routeToID": "0"
             }
@@ -175,58 +269,142 @@
         "path": "",
         "text": {
             "visual": {
-                "size12": [],
-                "size16": [
-                    "You choose to activate the bell, and three distinct meows emanate from the doorbell. After a brief wait, a voice from the communications module announces, '猫ちゃん、ちょっと待ってね' ",
+                "size12": [
+                    "You choose to activate the bell, and three distinct meows emanate from the doorbell. After a brief wait, a voice from the communications module announces, '猫ちゃん、ちょっと待ってね'. You know that voice! it is infact his sister speaking.",
                     "The door swings open, revealing a lady holding a plate of food. She looks around, puzzled by the absence of a cat, and calls out softly, '伶ちゃん, こっちに来て'",
                     "Seizing the opportunity, you decide to engage the lady in conversation. You explain that her doorbell has been tampered with, producing meows instead of its regular sound. Curious, you inquire if she knows anything about this or the identity of the cat.",
-                    "Switching to English, she shares that she was unaware of the hack, always expecting to see a cat upon hearing the meows. She then reveals that the cat she thought she was calling, adorned with a collar from an in-town storage space rental, sometimes comes here for food. Now, she stands with a plate of yakitori, unsure what to do with it.",
+                    "Switching to English, she shares that she was unaware of the hack, always expecting to see a cat upon hearing the meows. She then reveals that the cat she thought she was calling, adorned with a collar from an in-town warehouse, sometimes comes here for food. Now, she stands with a plate of yakitori, unsure what to do with it.",
                     "ㅤ",
                     "In this peculiar turn of events, you contemplate your next move:",
                     "Choice 1: Investigate yakitori online, as it seems to be the cat's preferred food.",
-                    "Choice 2: Head to the storage space rental to uncover a new lead.",
+                    "Choice 2: Head to the warehouse to uncover a new lead.",
                     "Choice 3: Conclude that this information isn't valuable and return to your search elsewhere.",
                     "ㅤ",
                     "ㅤ"
                 ],
-                "size20": [],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
+                "size16": [
+                    "You choose to activate the bell, and three distinct meows emanate from the doorbell. After a brief wait, a voice from the communications module announces, '猫ちゃん、ちょっと待ってね' ",
+                    "The door swings open, revealing a lady holding a plate of food. She looks around, puzzled by the absence of a cat, and calls out softly, '伶ちゃん, こっちに来て'",
+                    "Seizing the opportunity, you decide to engage the lady in conversation. You explain that her doorbell has been tampered with, producing meows instead of its regular sound. Curious, you inquire if she knows anything about this or the identity of the cat.",
+                    "Switching to English, she shares that she was unaware of the hack, always expecting to see a cat upon hearing the meows. She then reveals that the cat she thought she was calling, adorned with a collar from an in-town warehouse, sometimes comes here for food. Now, she stands with a plate of yakitori, unsure what to do with it.",
+                    "ㅤ",
+                    "In this peculiar turn of events, you contemplate your next move:",
+                    "Choice 1: Investigate yakitori online, as it seems to be the cat's preferred food.",
+                    "Choice 2: Head to the warehouse to uncover a new lead.",
+                    "Choice 3: Conclude that this information isn't valuable and return to your search elsewhere.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "size20": [
+                    "You choose to activate the bell, and three distinct meows emanate from the doorbell. After a brief wait, a voice from the communications module announces, '猫ちゃん、ちょっと待ってね'.",
+                    "The door swings open, revealing a lady holding a plate of food. The plate is full with yakitori. That must be what the netrunner was after all along. She looks around, puzzled by the absence of a cat, and calls out softly, '伶ちゃん、こっちに来て'",
+                    "Seizing the opportunity, you decide to engage the lady in conversation. You explain that her doorbell has been tampered with, producing meows instead of its regular sound. Curious, you inquire if she knows anything about this or the identity of the cat.",
+                    "Switching to English, she shares that she was unaware of the hack, always expecting to see a cat upon hearing the meows. She then reveals that the cat she thought she was calling, adorned with a collar from an in-town warehouse, sometimes comes here for food. Now, she stands with a plate of yakitori, unsure what to do with it.",
+                    "ㅤ",
+                    "In this peculiar turn of events, you contemplate your next move:",
+                    "Choice 1: Investigate yakitori online, as it seems to be the cat's preferred food.",
+                    "Choice 2: Head to the warehouse to uncover a new lead.",
+                    "Choice 3: Conclude that this information isn't valuable and return to your search elsewhere.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "darkmode": [
+                    "You choose to activate the bell, sentence emanate from the doorbell. After a brief wait, a voice from the communications module announces, 'できるだけ早く来ています！' ",
+                    "The door swings open, revealing a lady holding a plate of food. She looks around, puzzled that there is noone to take the food, and calls out softly, 'あなたの食べ物を持っています！どうか私を傷つけないでください！'",
+                    "Seizing the opportunity, you decide to engage the lady in conversation. You explain that her doorbell has been tampered with, producing meows instead of its regular sound. Curious, you inquire if she knows anything about this or the identity of the cat she is scared of.",
+                    "Switching to English, she shares that she was unaware of the hack, always expecting to see a cat upon hearing sentence. She then reveals that the cat she thought she was calling, adorned with a collar from an in-town wearhouse, sometimes comes here for food. Now, she stands with a plate of yakitori, still scared she might get scratched and leaves the plate outside.",
+                    "ㅤ",
+                    "In this peculiar turn of events, you contemplate your next move:",
+                    "Choice 1: Investigate yakitori online, as it seems to be the cat's preferred food.",
+                    "Choice 2: Head to the warehouse to uncover a new lead.",
+                    "Choice 3: Conclude that this information isn't valuable and return to your search elsewhere.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "darkmodeJap": [
+                    "ベルをアクティブにすることを選択し、ドアベルから3つの独特の鳴き声が鳴り響きます。短い待ち時間の後、通信モジュールから声が聞こえます、「猫ちゃん、ちょっと待ってね」",
+                    "ドアが開き、食べ物を持った女性が現れます。彼女は周りを見回し、猫がいないことに戸惑い、そっと呼びかけます、「伶ちゃん、こっちに来て」",
+                    "この機会を利用して、あなたは女性と会話しようと決心します。彼女のドアベルが通常の音ではなく鳴き声を発するように改ざんされたことを説明します。興味津々に、これについて何か知っているか、または猫の正体について尋ねます。",
+                    "英語に切り替え、彼女はハックに気付かず、鳴き声を聞いたらいつも猫を期待していたと共有します。そして、彼女が呼んでいると思っていた猫は、町内の収納スペースのレンタルからのカラーを身につけた猫で、時々ここに食べ物をもらいに来ることを明らかにします。今、彼女は焼き鳥の皿を持ちながら、それをどうすべきかわからない状態です。",
+                    "ㅤ",
+                    "この奇妙な出来事の中で、あなたは次の行動を考えます：",
+                    "選択肢 1: 猫の好物のようだから、オンラインで焼き鳥を調査する。",
+                    "選択肢 2: 新しい手がかりを見つけるため、収納スペースのレンタルに向かう。",
+                    "選択肢 3: この情報は価値がないと結論し、他の場所での探索に戻る。",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "japanese": [
+                    "ベルをアクティブにすることを選択し、ドアベルから3つの独特の鳴き声が鳴り響きます。短い待ち時間の後、通信モジュールから声が聞こえます、「Kitty, please wait a moment.」",
+                    "ドアが開き、食べ物を持った女性が現れます。彼女は周りを見回し、猫がいないことに戸惑い、そっと呼びかけます、「Rei-chan, come here.」",
+                    "この機会を利用して、あなたは女性と会話しようと決心します。彼女のドアベルが通常の音ではなく鳴き声を発するように改ざんされたことを説明します。興味津々に、これについて何か知っているか、または猫の正体について尋ねます。",
+                    "英語に切り替え、彼女はハックに気付かず、鳴き声を聞いたらいつも猫を期待していたと共有します。そして、彼女が呼んでいると思っていた猫は、町内の収納スペースのレンタルからのカラーを身につけた猫で、時々ここに食べ物をもらいに来ることを明らかにします。今、彼女は焼き鳥の皿を持ちながら、それをどうすべきかわからない状態です。",
+                    "ㅤ",
+                    "この奇妙な出来事の中で、あなたは次の行動を考えます：",
+                    "選択肢 1: 猫の好物のようだから、オンラインで焼き鳥を調査する。",
+                    "選択肢 2: 新しい手がかりを見つけるため、収納スペースのレンタルに向かう。",
+                    "選択肢 3: この情報は価値がないと結論し、他の場所での探索に戻る。",
+                    "ㅤ",
+                    "ㅤ"
+                ]
             },
-            "screenreader": "",
-            "alt": ""
+            "screenreader": "You choose to activate the bell, and three distinct meows emanate from the doorbell.  The door swings open, revealing a lady holding a plate of food. She looks around, puzzled by the absence of a cat.Seizing the opportunity, you decide to engage the lady in conversation. You explain that her doorbell has been tampered with, producing meows instead of its regular sound. Curious, you inquire if she knows anything about this or the identity of the cat.Switching to English, she shares that she was unaware of the hack, always expecting to see a cat upon hearing the meows. But she knows that whenever she hears the meows her brothers cat showes up to get food. She then reveals that the cat she thought she was calling is adorned with a collar from an in-town warehouse and likes to eat yakitori. Something her brother and his cat have in common.",
+            "alt": "You have been given important information that help you get closer to the rogoue netrunner.\nYou should not drop this lead."
         },
         "choices": {
             "first": {
                 "visual": "Check Yakitori.",
-                "screenreader": "",
+                "screenreader": "You recall Yakitori to be your partners favourite food. Go check the net on it.",
                 "alt": "Why specifically Yakitori?",
                 "routeToID": "0211"
             },
             "second": {
-                "visual": "Got to storage space rental.",
-                "screenreader": "",
-                "alt": "Why would a storage space rental own a cat? \nThere are barely any animals alive in this city anymore.",
+                "visual": "If the cat had necklace from the ",
+                "screenreader": "The necklace seems to be a perfect lead. A wearhouse could lead directly to where the rogue netrunner might hide. You decide to check it out.",
+                "alt": "Why would a warehouse own a cat? \nThere are barely any animals alive in this city anymore.",
                 "routeToID": "02112"
             },
             "third": {
                 "visual": "Leave the area.",
-                "screenreader": "",
-                "alt": "You have a hard time to make sence of all this information. \nYou decide to rather go check on the other leads.",
+                "screenreader": "It might be helpfull to take on onther leads first before you continue. You decide to go back to the start.",
+                "alt": "You have a hard time to make sence of all this information. \nYou decide to rather go check on the other leads first.",
                 "routeToID": "0"
             }
         }
     },
     "02": {
-        "path": "this is the Start",
+        "path": "Japan town Bazaar",
         "text": {
             "visual": {
                 "size12": [
-                    "",
-                    ""
+                    "You decided to go check on the lead to Japantown. In the Bazaar area of Japantown you can pinpoint a signal from a CCTV camera that keeps a constant watch over a foodvendors store.",
+                    "You also spot a self-service vending machine of the man's store that is connected to this signal. Upon closer inspection, you realize the machine has been hacked, programmed to dispense free food at the whim of an unseen netrunner.",
+                    "You recall that this is the place your partner gets food for everyone sometimes.",
+                    "ㅤ",
+                    "Although your options seem limited, there are a few actions you could take:",
+                    "Choice 1: You could scrutinize the machines databank for free dispensed food.",
+                    "Choice 2: You could undo the hack and follow another lead.",
+                    "Choice 3: You could abuse the hack and dispense food for free"
                 ],
                 "size16": [
+                    "You decided to go check on the lead to Japantown. In the Bazaar area of Japantown you can pinpoint a signal from a CCTV camera that keeps a constant watch over a foodvendors store.",
+                    "You also spot a self-service vending machine of the man's store that is connected to this signal. Upon closer inspection, you realize the machine has been hacked, programmed to dispense free food at the whim of an unseen netrunner.",
+                    "ㅤ",
+                    "Although your options seem limited, there are a few actions you could take:",
+                    "Choice 1: You could scrutinize the machines databank for free dispensed food.",
+                    "Choice 2: You could undo the hack and follow another lead.",
+                    "Choice 3: You could abuse the hack and dispense food for free"
+                ],
+                "size20": [
+                    "You decided to go check on the lead to Japantown. In the Bazaar area of Japantown you can pinpoint a signal from a CCTV camera that keeps a constant watch over a foodvendors store.",
+                    "You also spot a self-service vending machine of the man's store that is connected to this signal. Upon closer inspection, you realize the machine has been hacked, programmed to dispense free food at the whim of an unseen netrunner.",
+                    "ㅤ",
+                    "Although your options seem limited, there are a few actions you could take:",
+                    "Choice 1: You could scrutinize the machines databank for free dispensed food.",
+                    "Choice 2: You could undo the hack and follow another lead.",
+                    "Choice 3: You could abuse the hack and dispense food for free"
+                ],
+                "darkmode": [
                     "You decided to go check on the lead to Japantown. In the Bazaar area of Japantown you can pinpoint a signal from a CCTV camera that keeps a constant watch over a foodvendors store.",
                     "You also spot a self-service vending machine of the man's store that is connected to this signal. Upon closer inspection, you realize the machine has been hacked, programmed to dispense free food at the whim of an unseen hacker.",
                     "ㅤ",
@@ -235,34 +413,47 @@
                     "Choice 2: You could undo the hack and follow another lead.",
                     "Choice 3: You could abuse the hack and dispense food for free"
                 ],
-                "size20": [
-                    "",
-                    ""
+                "darkmodeJap": [
+                    "ジャパンタウンへのリードを確認しに行くことを決定しました。ジャパンタウンのバザーエリアでは、食品店の常時監視を行っているCCTVカメラからの信号を特定できます。",
+                    "また、この信号に接続された男性の店のセルフサービス型自動販売機も見つけました。より詳細な調査の結果、この機械がハッキングされ、見えないネトランナーの気まぐれで無料の食品を提供するようにプログラムされていることがわかりました。",
+                    "また、誰かが座っていて、秀士日野に似ているようです！",
+                    "ㅤ",
+                    "選択肢は限られていますが、いくつかの行動が考えられます：",
+                    "選択肢 1: 機械のデータベースを無料で提供された食品の審査を行うことができます。",
+                    "選択肢 2: ハックを元に戻し、別のリードを追うことができます。",
+                    "選択肢 3: ハックを悪用して無料で食品を提供することができます。"
                 ],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
+                "japanese": [
+                    "ジャパンタウンへのリードを確認しに行くことを決定しました。ジャパンタウンのバザーエリアでは、食品店の常時監視を行っているCCTVカメラからの信号を特定できます。",
+                    "また、この信号に接続された男性の店のセルフサービス型自動販売機も見つけました。より詳細な調査の結果、この機械がハッキングされ、見えないネトランナーの気まぐれで無料の食品を提供するようにプログラムされていることがわかりました。",
+                    "また、誰かが座っていて、秀士日野に似ているようです！",
+                    "ㅤ",
+                    "選択肢は限られていますが、いくつかの行動が考えられます：",
+                    "選択肢 1: 機械のデータベースを無料で提供された食品の審査を行うことができます。",
+                    "選択肢 2: ハックを元に戻し、別のリードを追うことができます。",
+                    "選択肢 3: ハックを悪用して無料で食品を提供することができます。"
+                ]
             },
-            "screenreader": "",
-            "alt": ""
+            "screenreader": "You decided to go check on the lead to Japantown. In the Bazaar area of Japantown you can pinpoint a signal from a CCTV camera that keeps a constant watch over a foodvendors store.You also spot a self-service vending machine of the man's store that is connected to this signal. Upon closer inspection, you realize the machine has been hacked, programmed to dispense free food at the whim of an unseen hacker. At the food vendors counter is sitting a famous person that seems to be Hideshi Hino",
+            "alt": "You never realized Hideshi Hino would eat here aswell."
         },
         "choices": {
             "first": {
                 "visual": "Scrutinize databank.",
-                "screenreader": "",
+                "screenreader": "You scrutinize the databank, which could reveal more information about the connection between the other netrunner and your partner.",
                 "alt": "",
                 "routeToID": "021"
             },
             "second": {
                 "visual": "Undo the hack.",
-                "screenreader": "",
-                "alt": "",
+                "screenreader": "Undoing the hack will restart the the machine and you wont be able to scrutinize the database after. You decide to do it and go for a different lead.",
+                "alt": "This will get you back to the start as you will have to restart the machine for this to be effective.",
                 "routeToID": "0"
             },
             "third": {
                 "visual": "Dispense free food.",
-                "screenreader": "",
-                "alt": "",
+                "screenreader": "You go ahead and dispense choose which food you'd like to dispense.",
+                "alt": "'Einem geschenkten Gaul, schaut man nicht ins Maul.'",
                 "routeToID": "023"
             }
         }
@@ -271,9 +462,19 @@
         "path": "Scrutinize databank",
         "text": {
             "visual": {
-                "size12": [],
+                "size12": [
+                    "After choosing to examine the databank, you delve into the records of the free food dispensed by the hacked machine. The data reveals a peculiar pattern: only three types of food have been recently dispensed:",
+                    "Yakitori. Repeatingly over and over the past few months.",
+                    "Miso Soup. 3 times. But you notice all three times at the same date you had Miso Soup aswell",
+                    "A single Onigiri. Just 4 days ago.",
+                    "ㅤ",
+                    "You decide to check find more information about these foods on the net:",
+                    "Choice 1: Check the net for Yakitori",
+                    "Choice 2: Check the net for Miso Soup",
+                    "choice 3: Check the net for Onigiri"
+                ],
                 "size16": [
-                    "After choosing to examine the databank, you delve into the records of the free food dispensed by the hacked machine. The data reveals a peculiar pattern: only three types of food have been frequently dispensed:",
+                    "After choosing to examine the databank, you delve into the records of the free food dispensed by the hacked machine. The data reveals a peculiar pattern: only three types of food have been recently dispensed:",
                     "Yakitori, Miso Soup, and, intriguingly, a single Onigiri.",
                     "ㅤ",
                     "You decide to check find more information about these foods on the net:",
@@ -281,30 +482,63 @@
                     "Choice 2: Check the net for Miso Soup",
                     "choice 3: Check the net for Onigiri"
                 ],
-                "size20": [],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
+                "size20": [
+                    "After choosing to examine the databank, you delve into the records of the free food dispensed by the hacked machine. The data reveals a peculiar pattern: only three types of food have been recently dispensed:",
+                    "Yakitori, Miso Soup, and, intriguingly, a single Onigiri.",
+                    "You Realize that that is all food your partner ever brought from this place for everyone.",
+                    "ㅤ",
+                    "You decide to check find more information about these foods on the net:",
+                    "Choice 1: Check the net for Yakitori",
+                    "Choice 2: Check the net for Miso Soup",
+                    "choice 3: Check the net for Onigiri"
+                ],
+                "darkmode": [
+                    "After choosing to examine the databank, you delve into the records of the free food dispensed by the hacked machine. The data reveals a peculiar pattern: only three types of food have been recently dispensed:",
+                    "Yakitori, Miso Soup, and, intriguingly, a single Onigiri.",
+                    "ㅤ",
+                    "You decide to check find more information about these foods on the net:",
+                    "Choice 1: Check the net for Yakitori",
+                    "Choice 2: Check the net for Miso Soup",
+                    "choice 3: Check the net for Onigiri"
+                ],
+                "darkmodeJap": [
+                    "データバンクを調査することを選択した後、ハッキングされた自動販売機によって無料で提供された食品の記録を調べます。データには興味深いパターンが明らかにされます：最近提供されたのは3種類の食品だけです。",
+                    "焼き鳥、味噌汁、そして興味深いことに、ひとつのおにぎりです。",
+                    "ㅤ",
+                    "これらの食品に関するさらなる情報をネットで調べることに決めます:",
+                    "選択肢1：焼き鳥の情報をネットで調べる",
+                    "選択肢2：味噌汁の情報をネットで調べる",
+                    "選択肢3：おにぎりの情報をネットで調べる"
+                ],
+                "japanese": [
+                    "データバンクを調査することを選択した後、ハッキングされた自動販売機によって無料で提供された食品の記録を調べます。データには興味深いパターンが明らかにされます：最近提供されたのは3種類の食品だけです。",
+                    "焼き鳥、味噌汁、そして興味深いことに、ひとつのおにぎりです。",
+                    "ㅤ",
+                    "これらの食品に関するさらなる情報をネットで調べることに決めます:",
+                    "選択肢1：焼き鳥の情報をネットで調べる",
+                    "選択肢2：味噌汁の情報をネットで調べる",
+                    "選択肢3：おにぎりの情報をネットで調べる"
+                ]
             },
-            "screenreader": "",
-            "alt": ""
+            "screenreader": "After choosing to examine the databank, you delve into the records of the free food dispensed by the hacked machine. The data reveals a peculiar pattern: only three types of food have been recently dispensed: Yakitori, Miso Soup, and, intriguingly, a single Onigiri. Except from the onigiri that is all food that is somewhat connected to you and your partner:",
+            "alt": "You think, if you could access food for free, you would pick at least once one of everything. \nWhy is it almost always the same?"
         },
         "choices": {
             "first": {
                 "visual": "Yakitori",
-                "screenreader": "You remember Yakitori to be the favourit food of your partner. Check on Yakitori",
+                "screenreader": "You remember Yakitori to be the favourit food of your partner. Check on Yakitori on the net.",
                 "alt": "This yakitori seems to be real meat.",
                 "routeToID": "0211"
             },
             "second": {
                 "visual": "Miso",
-                "screenreader": "Miso soup. Your favourite starter. Check on Miso soup.",
+                "screenreader": "Miso soup. Your favourite starter. Check on Miso soupon the net.",
                 "alt": "You would love to have some Miso soup aswell now.",
                 "routeToID": "0212"
             },
             "third": {
                 "visual": "Onigiri",
-                "screenreader": "You feel like you have seen Onigiri before today. Check on Onigiri",
+                "screenreader": "You feel like you have seen Onigiri before today. Check on Onigiri on the net.",
                 "alt": "You realize you have never ate onigiri before.",
                 "routeToID": "0213"
             }
@@ -314,8 +548,7 @@
         "path": "Jakitori",
         "text": {
             "visual": {
-                "size12": [],
-                "size16": [
+                "size12": [
                     "You decide to check on Yakitori. Next to some regular entries you finde 2 NCPD reports and a forum entry in the net:",
                     "ㅤ",
                     "NCPD Crime Report: Missing Yakitori Deliveries:",
@@ -323,7 +556,7 @@
                     "NCPD Crime Report: Santo Domingo Yakitori Odor",
                     "'Residents of Santo Domingo report persistent yakitori smell emanating from a local warehouse. NCPD deems it low priority amid more pressing city issues.'",
                     "Forum Post: Free Food Initiative",
-                    "'Attention strays and homeless: Free food available, follow this ping for the location. Stay fed, stay strong!' - Posted by u/化け猫 伶'",
+                    "'Attention strays and homeless: Free food available, follow this ping for the location. Stay fed, stay strong!' it has been posted by a '化け猫 伶'",
                     "ㅤ",
                     "Based on these insights, you now face a decision on which lead to pursue:",
                     "Choice 1: Investigate the pattern of stolen Yakitori deliveries to try and pinpoint where these thefts are occurring.",
@@ -332,31 +565,112 @@
                     "ㅤ",
                     "ㅤ"
                 ],
-                "size20": [],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
+                "size16": [
+                    "You decide to check on Yakitori. Next to some regular entries you finde 2 NCPD reports and a forum entry in the net:",
+                    "ㅤ",
+                    "NCPD Crime Report: Missing Yakitori Deliveries:",
+                    "'Citywide alert: Several yakitori delivery vehicles have reported missing containers after making unscheduled stops.'",
+                    "NCPD Crime Report: Santo Domingo Yakitori Odor",
+                    "'Residents of Santo Domingo report persistent yakitori smell emanating from a local warehouse.'",
+                    "Forum Post: Free Food Initiative",
+                    "'Attention strays and homeless: Free food available, follow this ping for the location. Stay fed, stay strong!'",
+                    "ㅤ",
+                    "Based on these insights, you now face a decision on which lead to pursue:",
+                    "Choice 1: Investigate the pattern of stolen Yakitori deliveries to try and pinpoint where these thefts are occurring.",
+                    "Choice 2: Explore the warehouse in Santo Domingo, seeking the source of the reported yakitori smell.",
+                    "Choice 2: Respond to the forum post's ping, potentially leading you directly to the person or group behind these events.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "size20": [
+                    "You decide to check on Yakitori. Next to some regular entries you finde 2 NCPD reports and a forum entry in the net:",
+                    "ㅤ",
+                    "NCPD Crime Report: Missing Yakitori Deliveries:",
+                    "'Citywide alert: Several yakitori delivery vehicles have reported missing containers after making unscheduled stops. The NCPD is investigating these thefts.NCPD deems it low priority amid more pressing city issues.'",
+                    "NCPD Crime Report: Santo Domingo Yakitori Odor",
+                    "'Residents of Santo Domingo report persistent yakitori smell emanating from a local warehouse. NCPD deems it low priority amid more pressing city issues.'",
+                    "Forum Post: Free Food Initiative",
+                    "'Attention strays and homeless: Free food available, follow this ping for the location. Stay fed, stay strong!'",
+                    "ㅤ",
+                    "Based on these insights, you now face a decision on which lead to pursue:",
+                    "Choice 1: Investigate the pattern of stolen Yakitori deliveries to try and pinpoint where these thefts are occurring.",
+                    "Choice 2: Explore the warehouse in Santo Domingo, seeking the source of the reported yakitori smell.",
+                    "Choice 2: Respond to the forum post's ping, potentially leading you directly to the person or group behind these events.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "darkmode": [
+                    "You decide to check on Yakitori. Next to some regular entries you finde 2 NCPD reports and a forum entry in the net:",
+                    "ㅤ",
+                    "NCPD Crime Report: Missing Yakitori Deliveries:",
+                    "'Citywide alert: Several yakitori delivery vehicles have reported missing containers after making unscheduled stops. The drives have been found dead in the vehicle - the auto pilot had continued their drive to the delivery original delivery point.'",
+                    "NCPD Crime Report: Santo Domingo Yakitori Odor",
+                    "'Residents of Santo Domingo report persistent decay smell emanating from a local warehouse. NCPD deems it low priority amid more pressing city issues.'",
+                    "Forum Post: Free Food Initiative",
+                    "'Attention strays and homeless: Free food available, follow this ping for the location. Stay fed, stay strong!'",
+                    "ㅤ",
+                    "Based on these insights, you now face a decision on which lead to pursue:",
+                    "Choice 1: Investigate the pattern of stolen Yakitori deliveries to try and pinpoint where these thefts are occurring.",
+                    "Choice 2: Explore the warehouse in Santo Domingo, seeking the source of the reported yakitori smell.",
+                    "Choice 2: Respond to the forum post's ping, potentially leading you directly to the person or group behind these events.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "darkmodeJap": [
+                    "焼き鳥をチェックすることに決めました。通常のエントリーの隣に、2つのNCPDのレポートとネット上のフォーラムエントリーがあります。",
+                    "ㅤ",
+                    "NCPD 犯罪レポート：焼き鳥の紛失:",
+                    "'市内警戒：いくつかの焼き鳥の配達車両が、予定外の停車をした後に容器の紛失を報告しています。ドライバーたちは車内で死体として見つかりました - オートパイロットは元の配達地点に向かって彼らの運転を続けました。'",
+                    "NCPD 犯罪レポート：サント・ドミンゴの焼き鳥の臭い",
+                    "'サント・ドミンゴの住民たちは、地元の倉庫から漂う腐敗の臭いを報告しています。NCPD はこれを低優先度としています。より緊急な市の問題に比べて、'",
+                    "フォーラム投稿：無料食品イニシアティブ",
+                    "'野良猫とホームレスの皆さんへ：無料の食品が利用可能です。場所を知るためにこのピンに従ってください。食べて、強くなりましょう！'",
+                    "ㅤ",
+                    "これらの情報に基づいて、どの手掛かりを追求するかを決定する必要があります：",
+                    "選択肢1：盗まれた焼き鳥の配達のパターンを調査し、これらの窃盗事件が発生している場所を特定しようとする。",
+                    "選択肢2：サント・ドミンゴの倉庫を探索し、報告された焼き鳥の臭いの源を見つけようとする。",
+                    "選択肢3：フォーラム投稿のピンに応答し、これらの出来事の背後にいる可能性がある人またはグループに直接導く。",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "japanese": [
+                    "焼き鳥をチェックすることに決めました。通常のエントリーの隣に、2つのNCPDのレポートとネット上のフォーラムエントリーがあります。",
+                    "ㅤ",
+                    "NCPD 犯罪レポート：焼き鳥の紛失:",
+                    "'市内警戒：いくつかの焼き鳥の配達車両が、予定外の停車をした後に容器の紛失を報告しています。NCPDはこれらの窃盗事件を調査中です。より緊急な市の問題に比べて、NCPD はこれを低優先度としています。'",
+                    "NCPD 犯罪レポート：サント・ドミンゴの焼き鳥の臭い",
+                    "'サント・ドミンゴの住民たちは、地元の倉庫から漂う持続的な焼き鳥のにおいを報告しています。NCPD はこれを低優先度としています。より緊急な市の問題に比べて、'",
+                    "フォーラム投稿：無料食品イニシアティブ",
+                    "'野良猫とホームレスの皆さんへ：無料の食事が利用可能です。場所を知るためにこのピンに従ってください。食べて、強くなりましょう！' これは 'Bakeneko Rei' によって投稿されました。",
+                    "ㅤ",
+                    "これらの情報に基づいて、どの手掛かりを追求するかを決定する必要があります：",
+                    "選択肢1：盗まれた焼き鳥の配達のパターンを調査し、これらの窃盗事件が発生している場所を特定しようとする。",
+                    "選択肢2：サント・ドミンゴの倉庫を探索し、報告された焼き鳥の臭いの源を見つけようとする。",
+                    "選択肢3：フォーラム投稿のピンに応答し、これらの出来事の背後にいる可能性がある人またはグループに直接導く。",
+                    "ㅤ",
+                    "ㅤ"
+                ]
             },
-            "screenreader": "",
-            "alt": ""
+            "screenreader": "Next to some recipies, the NCPD reports about Yakitori stick out to you the most, The first one says in short: ''Citywide alert: Several yakitori delivery vehicles have reported missing containers after making unscheduled stops.' This seems like an interesting lead connected to the mysterious netrunner. Another one states: 'Residents of Santo Domingo report persistent yakitori smell emanating from a local warehouse.' You remeber your partner talkin about this wearhouse before. this lead mitght be interesting aswell. But then you make anoter discovery. A Forum entry about free food for strays and a path to follow posted by a bakeneko rei. You have to decide which lead is the best:",
+            "alt": "Who would have thought that there is so much trouble arround Yakitori."
         },
         "choices": {
             "first": {
                 "visual": "Investigate the pattern of stolen Yakitori",
-                "screenreader": "",
-                "alt": "",
+                "screenreader": "It would make most sense to figure out where the transports have made their unscheduled stops. You decide to figure that out.",
+                "alt": "Finding where the Yakitori was stolen could help you find the netrunner in action.",
                 "routeToID": "02111"
             },
             "second": {
                 "visual": "Explore the warehouse",
-                "screenreader": "",
-                "alt": "",
+                "screenreader": "The Wearhouse seems to be a promising lead that you decide to follow. Afterall your partner has mentiond this place before. It might be connected.",
+                "alt": "This Wearhouse could be a good place to hide something or someone.",
                 "routeToID": "02112"
             },
             "third": {
                 "visual": "Respond to the forum post's ping",
-                "screenreader": "",
-                "alt": "",
+                "screenreader": "You decide to follow the forum post after you noticed that it was posted by a 'bakeneko rei'. Maybe there is a connection to your partners name Rei.",
+                "alt": "Someone that keeps your partner cought captive in the digital world \nmost likely does not work for charity. \nBut who know what you might find? ",
                 "routeToID": "02113"
             }
         }
@@ -371,31 +685,75 @@
                     "This revelation presents a pivotal opportunity to influence the fate of your partner. With precision, you hack into the service bot to establish a direct link to the elusive netrunner 化け猫 伶.",
                     "ㅤ",
                     "Faced with this crucial moment, you weigh your options:",
-                    "Choice 1: Initiate a shutdown of 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner. Maybe by shutting down the netrunner the grip it has on your partner will loosen.",
-                    "Choice 2: Reflecting on the scene before you, you recognize the humanitarian aspect of 化け猫 伶 actions. Decide to step back, you partner seems to be involved in this and maybe you should respect what is going on here.",
-                    "Choice 3: Choose to disrupt 化け猫 伶 current activity, seizing this chance to directly confront the netrunner. Given the good he does, he might be willing to let you partner go.",
+                    "Choice 1: Initiate a shutdown of the netrunner 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner. Maybe by shutting down the netrunner the grip it has on your partner will loosen.",
+                    "Choice 2: Reflecting on the scene before you, you recognize the humanitarian aspect of the netrunner 化け猫 伶 actions. Decide to step back, you partner seems to be involved in this and maybe you should respect what is going on here.",
+                    "Choice 3: Choose to disrupt the netrunner 化け猫 伶 current activity, seizing this chance to directly confront the netrunner. Given the good he does, he might be willing to let you partner go.",
                     "ㅤ",
                     "ㅤ"
                 ],
                 "size16": [
                     "After deciding to delve deeper into the mystery of the stolen Yakitori deliveries, you gain access to detailed reports, revealing a curious pattern: each vehicle made an unscheduled stop in Santo Domingo, alarmingly close to the previously noted warehouse. Intrigued, you seamlessly navigate the area's CCTV network, honing in on the warehouse in question. There, you witness a food transport being methodically unloaded by a service mech.",
+                    "The pieces of the puzzle begin to align, leading you to the conclusion that you've located the rogue netrunner, 化け猫 伶, caught in the act of hijacking another delivery.",
+                    "This revelation presents a pivotal opportunity to influence the fate of your partner. With precision, you hack into the service bot to establish a direct link to the elusive netrunner 化け猫 伶.",
+                    "ㅤ",
+                    "Faced with this crucial moment, you weigh your options:",
+                    "Choice 1: Initiate a shutdown of netrunner 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner.",
+                    "Choice 2: Reflecting on the scene before you, you recognize the humanitarian aspect of the netrunner 化け猫 伶 actions. Decide to step back, allowing the operation to continue.",
+                    "Choice 3: Choose to disrupt the netrunner 化け猫 伶 current activity, seizing this chance to directly confront the netrunner.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "size20": [
+                    "After deciding to delve deeper into the mystery of the stolen Yakitori deliveries, you gain access to detailed reports, revealing a curious pattern: each vehicle made an unscheduled stop in Santo Domingo, alarmingly close to the previously noted warehouse. Intrigued, you seamlessly navigate the area's CCTV network, honing in on the warehouse in question. There, you witness a food transport being methodically unloaded by a service mech.",
                     "A more thorough scan of the surrounding CCTV feeds unveils an unexpected sight: several cats gathered inside the warehouse, feasting on Yakitori. The pieces of the puzzle begin to align, leading you to the conclusion that you've located the rogue netrunner, 化け猫 伶, caught in the act of hijacking another delivery.",
                     "This revelation presents a pivotal opportunity to influence the fate of your partner. With precision, you hack into the service bot to establish a direct link to the elusive netrunner 化け猫 伶.",
                     "ㅤ",
                     "Faced with this crucial moment, you weigh your options:",
-                    "Choice 1: Initiate a shutdown of 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner.",
-                    "Choice 2: Reflecting on the scene before you, you recognize the humanitarian aspect of 化け猫 伶 actions. Decide to step back, allowing the operation to continue.",
-                    "Choice 3: Choose to disrupt 化け猫 伶 current activity, seizing this chance to directly confront the netrunner.",
+                    "Choice 1: Initiate a shutdown of the netrunner 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner.",
+                    "Choice 2: Reflecting on the scene before you, you recognize the humanitarian aspect of the netrunner 化け猫 伶 actions. Decide to step back, allowing the operation to continue.",
+                    "Choice 3: Choose to disrupt the netrunner 化け猫 伶 current activity, seizing this chance to directly confront the netrunner.",
                     "ㅤ",
                     "ㅤ"
                 ],
-                "size20": [],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
+                "darkmode": [
+                    "After deciding to delve deeper into the mystery of the stolen Yakitori deliveries, you gain access to detailed reports, revealing a curious pattern: each vehicle made an unscheduled stop in Santo Domingo, alarmingly close to the previously noted warehouse. Intrigued, you seamlessly navigate the area's CCTV network, honing in on the warehouse in question. There, you witness a transport being methodically unloaded by a service mech, the dead driver behind the wheel. But it is not food that is being unloaded this time. It is Poison.",
+                    "A more thorough scan of the surrounding CCTV feeds unveils an unexpected sight: several cats gathered inside the warehouse, feasting on Yakitori. The pieces of the puzzle begin to align, leading you to the conclusion that you've located the rogue netrunner, 化け猫 伶, caught in the act of hijacking another delivery.",
+                    "This revelation presents a pivotal opportunity to influence the fate of your partner. With precision, you hack into the service bot to establish a direct link to the elusive netrunner 化け猫 伶.",
+                    "ㅤ",
+                    "Faced with this crucial moment, you weigh your options:",
+                    "Choice 1: Initiate a shutdown of the netrunner 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner and stop him from harming more living beings.",
+                    "Choice 2: Reflecting on the scene before you, you recognize the troublesome aspect of the netrunner 化け猫 伶 actions. Decide to step back, not wishing to get involved into this even more and risking your own life being caught.",
+                    "Choice 3: Choose to disruptthe netrunner 化け猫 伶 current activity, seizing this chance to directly confront the netrunner.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "darkmodeJap": [
+                    "焼き鳥の配達の謎を深く探ることを決意した後、詳細なレポートにアクセスし、興味深いパターンが明らかにされます：各車両は予定外の停車をし、以前に指摘された倉庫に非常に近い場所で停車しました。興味津々で、あなたはエリアのCCTVネットワークをシームレスにナビゲートし、問題の倉庫に焦点を当てます。そこで、サービスメックによって車の後部に死んだ運転手がいるのを目撃します。しかし、今回は食品が降ろされているのではありません。それは毒です。",
+                    "周囲のCCTVフィードをより詳細にスキャンすると、予期せぬ光景が明らかになります：倉庫内にいくつかの猫が集まり、焼き鳥を食べています。パズルのピースは徐々に組み合わさり、あなたはローグネトランナー、化け猫 伶、別の配達を乗っ取っている現場を発見したと結論づけます。",
+                    "この発見は、あなたのパートナーの運命に影響を与える重要な機会を提供します。精密に、あなたはサービスボットにハックを仕掛け、逃げたネトランナー、Bakeneko Rei に直接リンクを確立します。",
+                    "ㅤ",
+                    "この重要な瞬間に直面し、あなたは次の選択肢を検討します:",
+                    "選択肢1：ネトランナー、Bakeneko Rei をシャットダウンし、彼をあなたのパートナーを傷つけることから守ります。",
+                    "選択肢2：目の前の光景を反映し、ネトランナー、Bakeneko Rei の行動の問題点に気付きます。これ以上関与することを望まず、自分自身が捕まるリスクを冒すことを避けるために後退します。",
+                    "選択肢3：ネトランナー、Bakeneko Rei の現在の活動を妨害し、ネトランナーと直接対決するこのチャンスを利用することを選択します。",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "japanese": [
+                    "焼き鳥の配達の謎を深く探ることを決意した後、詳細なレポートにアクセスし、興味深いパターンが明らかにされます：各車両は予定外の停車をし、以前に指摘された倉庫に非常に近い場所で停車しました。興味津々で、あなたはエリアのCCTVネットワークをシームレスにナビゲートし、問題の倉庫に焦点を当てます。そこで、サービスメックによって徹底的に食品の運搬が行われているのを目撃します。",
+                    "パズルのピースは徐々に組み合わさり、あなたはローグネトランナー、Bakeneko Rei 、別の配達を乗っ取っている現場を発見したと結論づけます。",
+                    "この発見は、あなたのパートナーの運命に影響を与える重要な機会を提供します。精密に、あなたはサービスボットにハックを仕掛け、逃げたネトランナー、Bakeneko Rei に直接リンクを確立します。",
+                    "ㅤ",
+                    "この重要な瞬間に直面し、あなたは次の選択肢を検討します:",
+                    "選択肢1：ネトランナー、Bakeneko Rei のシャットダウンを開始し、現在あなたのパートナーを捉えているデジタルの中に閉じ込めることを目指します。",
+                    "選択肢2：目の前の光景を反映し、ネトランナー、Bakeneko Rei の行動の人道的側面に気付きます。作業を続行することを許可するために後退することを決意します。",
+                    "選択肢3：ネトランナー、Bakeneko Rei の現在の活動を妨害し、ネトランナーと直接対決するこの機会を利用することを選択します。",
+                    "ㅤ",
+                    "ㅤ"
+                ]
             },
-            "screenreader": "",
-            "alt": ""
+            "screenreader": "Your lead has brought you to the point where the transports have detoured. The Wearhouse in Santo Domingo. You catch the netrunner unloading the vehicle with a mech. After further insepction of the surroundings you notice that there are a lot of cats arround all eating something that must be proably the stolen Yakitori. Furthermore you notice that the wearhouse is registered to your partners name. But there is no time to loose. you have the chance to stop the rogue netrunner in action if you want to do so:",
+            "alt": "It is now or never you should act before it it too late:"
         },
         "choices": {
             "first": {
@@ -422,26 +780,81 @@
         "path": "Explore the warehouse",
         "text": {
             "visual": {
-                "size12": [],
+                "size12": [
+                    "You directly target the warehouse, slicing through digital barriers to access its CCTV network.",
+                    "A more thorough scan of the surrounding CCTV feeds unveils an unexpected sight: several cats gathered inside the warehouse, feasting on Yakitori. The pieces of the puzzle begin to align, leading you to the conclusion that you've located the rogue netrunner, 化け猫 伶, caught in the act of hijacking another delivery.",
+                    "This revelation presents a pivotal opportunity to influence the fate of your partner. With precision, you hack into the service bot to establish a direct link to the elusive netrunner 化け猫 伶.",
+                    "ㅤ",
+                    "Faced with this crucial moment, you weigh your options:",
+                    "Choice 1: Initiate a shutdown of the netrunner 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner. Maybe by shutting down the netrunner the grip it has on your partner will loosen.",
+                    "Choice 2: Reflecting on the scene before you, you recognize the humanitarian aspect of the netrunner 化け猫 伶 actions. Decide to step back, you partner seems to be involved in this and maybe you should respect what is going on here.",
+                    "Choice 3: Choose to disrupt the netrunner 化け猫 伶 current activity, seizing this chance to directly confront the netrunner. Given the good he does, he might be willing to let you partner go.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
                 "size16": [
                     "You directly target the warehouse, slicing through digital barriers to access its CCTV network.",
                     "A more thorough scan of the surrounding CCTV feeds unveils an unexpected sight: several cats gathered inside the warehouse, feasting on Yakitori. The pieces of the puzzle begin to align, leading you to the conclusion that you've located the rogue netrunner, 化け猫 伶, caught in the act of hijacking another delivery.",
                     "This revelation presents a pivotal opportunity to influence the fate of your partner. With precision, you hack into the service bot to establish a direct link to the elusive netrunner 化け猫 伶.",
                     "ㅤ",
                     "Faced with this crucial moment, you weigh your options:",
-                    "Choice 1: Initiate a shutdown of 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner.",
-                    "Choice 2: Reflecting on the scene before you, you recognize the humanitarian aspect of 化け猫 伶 actions. Decide to step back, allowing the operation to continue.",
-                    "Choice 3: Choose to disrupt 化け猫 伶 current activity, seizing this chance to directly confront the netrunner.",
+                    "Choice 1: Initiate a shutdown of the netrunner 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner.",
+                    "Choice 2: Reflecting on the scene before you, you recognize the humanitarian aspect of the netrunner 化け猫 伶 actions. Decide to step back, allowing the operation to continue.",
+                    "Choice 3: Choose to disrupt the netrunner 化け猫 伶 current activity, seizing this chance to directly confront the netrunner.",
                     "ㅤ",
                     "ㅤ"
                 ],
-                "size20": [],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
+                "size20": [
+                    "You directly target the warehouse, slicing through digital barriers to access its CCTV network.",
+                    "A more thorough scan of the surrounding CCTV feeds unveils an unexpected sight: several cats gathered inside the warehouse, feasting on Yakitori. The pieces of the puzzle begin to align, leading you to the conclusion that you've located the rogue netrunner, 化け猫 伶, caught in the act of hijacking another delivery.",
+                    "This revelation presents a pivotal opportunity to influence the fate of your partner. With precision, you hack into the service bot to establish a direct link to the elusive netrunner 化け猫 伶.",
+                    "ㅤ",
+                    "Faced with this crucial moment, you weigh your options:",
+                    "Choice 1: Initiate a shutdown of the netrunner 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner.",
+                    "Choice 2: Reflecting on the scene before you, you recognize the humanitarian aspect of the netrunner 化け猫 伶 actions. Decide to step back, allowing the operation to continue.",
+                    "Choice 3: Choose to disrupt the netrunner 化け猫 伶 current activity, seizing this chance to directly confront the netrunner.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "darkmode": [
+                    "You directly target the warehouse, slicing through digital barriers to access its CCTV network.",
+                    "A more thorough scan of the surrounding CCTV feeds unveils an unexpected sight: several cats gathered inside the warehouse, feasting on Yakitori. The pieces of the puzzle begin to align, leading you to the conclusion that you've located the rogue netrunner, 化け猫 伶, caught in the act of hijacking another delivery. But it is not food that is being unloaded this time. It is Poison.",
+                    "This revelation presents a pivotal opportunity to influence the fate of your partner. With precision, you hack into the service bot to establish a direct link to the elusive netrunner 化け猫 伶.",
+                    "ㅤ",
+                    "Faced with this crucial moment, you weigh your options:",
+                    "Choice 1: Initiate a shutdown of the netrunner 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner and stop him from harming more living beings.",
+                    "Choice 2: Reflecting on the scene before you, you recognize the troublesome aspect of the netrunner 化け猫 伶 actions. Decide to step back, not wishing to get involved into this even more and risking your own life being caught.",
+                    "Choice 3: Choose to disruptthe netrunner 化け猫 伶 current activity, seizing this chance to directly confront the netrunner.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "darkmodeJap": [
+                    "あなたは直接倉庫をターゲットにし、そのCCTVネットワークにアクセスするためにデジタルの障壁を切り裂きます。",
+                    "周囲のCCTVフィードをより詳細にスキャンすると、予期せぬ光景が明らかになります：倉庫内にいくつかの猫が集まり、焼き鳥を食べています。パズルのピースは徐々に組み合わさり、あなたはローグネトランナー、Bakeneko Rei 、別の配達を乗っ取っている現場を発見したと結論づけます。しかし、今回は食品が降ろされているわけではありません。それは毒です。",
+                    "この発見は、あなたのパートナーの運命に影響を与える重要な機会を提供します。精密に、あなたはサービスボットにハックを仕掛け、逃げたネトランナー、Bakeneko Rei に直接リンクを確立します。",
+                    "ㅤ",
+                    "この重要な瞬間に直面し、あなたは次の選択肢を検討します:",
+                    "選択肢1：ネトランナー、Bakeneko Rei をシャットダウンし、彼をあなたのパートナーを傷つけることから守ります。さらに、彼が生きているものにさらなる害を加えるのを止めます。",
+                    "選択肢2：目の前の光景を反映し、ネトランナー、Bakeneko Rei の行動の問題点を認識します。これ以上関与したくないし、自分自身が捕まるリスクを冒したくないと決定します。",
+                    "選択肢3：ネトランナー、Bakeneko Rei の現在の活動を妨害し、ネトランナーと直接対決するこのチャンスを利用することを選択します。",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "japanese": [
+                    "あなたは直接倉庫をターゲットにし、そのCCTVネットワークにアクセスするためにデジタルの障壁を切り裂きます。",
+                    "周囲のCCTVフィードをより詳細にスキャンすると、予期せぬ光景が明らかになります：倉庫内にいくつかの猫が集まり、焼き鳥を食べています。パズルのピースは徐々に組み合わさり、あなたはローグネトランナー、Bakeneko Rei 、別の配達を乗っ取っている現場を発見したと結論づけます。",
+                    "この発見は、あなたのパートナーの運命に影響を与える重要な機会を提供します。精密に、あなたはサービスボットにハックを仕掛け、逃げたネトランナー、Bakeneko Rei に直接リンクを確立します。",
+                    "ㅤ",
+                    "この重要な瞬間に直面し、あなたは次の選択肢を検討します:",
+                    "選択肢1：ネトランナー、Bakeneko Rei をシャットダウンし、彼をあなたのパートナーを傷つけることから守ります。",
+                    "選択肢2：目の前の光景を反映し、ネトランナー、Bakeneko Rei の行動の人道的側面に気付きます。これ以上の関与を避け、自分自身が捕まるリスクを冒したくないと決定します。",
+                    "選択肢3：ネトランナー、Bakeneko Rei の現在の活動を妨害し、ネトランナーと直接対決するこのチャンスを利用することを選択します。",
+                    "ㅤ",
+                    "ㅤ"
+                ]
             },
-            "screenreader": "",
-            "alt": ""
+            "screenreader": "You hacked into the CCTV of the Wearhouse in santo domingo. You catch the netrunner unloading the vehicle with a mech. After further insepction of the surroundings you notice that there are a lot of cats arround all eating something that must be proably the stolen Yakitori. Furthermore you notice that the wearhouse is registered to your partners name. But there is no time to loose. you have the chance to stop the rogue netrunner in action if you want to do so:",
+            "alt": "It is now or never you should act before it it too late:"
         },
         "choices": {
             "first": {
@@ -470,13 +883,13 @@
             "visual": {
                 "size12": [
                     "Guided by the mysterious ping through the net, your journey takes you on a digital chase across Santo Domingos CCTV. Each camera you access is looking at a cat paw spray-paint, a breadcrumb trail left by Rei. This clever path of paws leads you, camera by camera, straight to the warehouse, the location you were meant to find from the forum post by 化け猫 伶. ",
-                    "A more thorough scan of the surrounding CCTV feeds unveils an unexpected sight: several cats gathered inside the warehouse, feasting on Yakitori. The pieces of the puzzle begin to align, leading you to the conclusion that you've located the rogue netrunner, Rei, caught in the act of hijacking another delivery.",
+                    "A more thorough scan of the surrounding CCTV feeds unveils an unexpected sight: several cats gathered inside the warehouse, feasting on Yakitori. The pieces of the puzzle begin to align, leading you to the conclusion that you've located the rogue netrunner, 化け猫 伶, caught in the act of hijacking another delivery.",
                     "This revelation presents a pivotal opportunity to influence the fate of your partner. With precision, you hack into the service bot to establish a direct link to the elusive netrunner 化け猫 伶.",
                     "ㅤ",
                     "Faced with this crucial moment, you weigh your options:",
-                    "Choice 1: Initiate a shutdown of 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner. Maybe by shutting down the netrunner the grip it has on your partner will loosen up.",
-                    "Choice 2: Reflecting on the scene before you, you recognize the humanitarian aspect of 化け猫 伶 actions. Decide to step back, you partner seems to be involved in this and maybe you should respect what is going on here.",
-                    "Choice 3: Choose to disrupt 化け猫 伶 current activity, seizing this chance to directly confront the netrunner. Given the good he does, he might be willing to let you partner go.",
+                    "Choice 1: Initiate a shutdown of the netrunner 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner. Maybe by shutting down the netrunner the grip it has on your partner will loosen.",
+                    "Choice 2: Reflecting on the scene before you, you recognize the humanitarian aspect of the netrunner 化け猫 伶 actions. Decide to step back, you partner seems to be involved in this and maybe you should respect what is going on here.",
+                    "Choice 3: Choose to disrupt the netrunner 化け猫 伶 current activity, seizing this chance to directly confront the netrunner. Given the good he does, he might be willing to let you partner go.",
                     "ㅤ",
                     "ㅤ"
                 ],
@@ -486,19 +899,63 @@
                     "This revelation presents a pivotal opportunity to influence the fate of your partner. With precision, you hack into the service bot to establish a direct link to the elusive netrunner 化け猫 伶.",
                     "ㅤ",
                     "Faced with this crucial moment, you weigh your options:",
-                    "Choice 1: Initiate a shutdown of 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner.",
-                    "Choice 2: Reflecting on the scene before you, you recognize the humanitarian aspect of 化け猫 伶 actions. Decide to step back, allowing the operation to continue.",
-                    "Choice 3: Choose to disrupt 化け猫 伶 current activity, seizing this chance to directly confront the netrunner.",
+                    "Choice 1: Initiate a shutdown of the netrunner 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner.",
+                    "Choice 2: Reflecting on the scene before you, you recognize the humanitarian aspect of the netrunner 化け猫 伶 actions. Decide to step back, allowing the operation to continue.",
+                    "Choice 3: Choose to disrupt the netrunner 化け猫 伶 current activity, seizing this chance to directly confront the netrunner.",
                     "ㅤ",
                     "ㅤ"
                 ],
-                "size20": [],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
+                "size20": [
+                    "Guided by the mysterious ping through the net, your journey takes you on a digital chase across Santo Domingos CCTV. Each camera you access is looking at a cat paw spray-paint, a breadcrumb trail left by Rei. This clever path of paws leads you, camera by camera, straight to the warehouse, the location you were meant to find from the forum post by 化け猫 伶. ",
+                    "A more thorough scan of the surrounding CCTV feeds unveils an unexpected sight: several cats gathered inside the warehouse, feasting on Yakitori. The pieces of the puzzle begin to align, leading you to the conclusion that you've located the rogue netrunner, 化け猫 伶, caught in the act of hijacking another delivery. But it is not food that is being unloaded this time. It is Poison.",
+                    "This revelation presents a pivotal opportunity to influence the fate of your partner. With precision, you hack into the service bot to establish a direct link to the elusive netrunner 化け猫 伶.",
+                    "ㅤ",
+                    "Faced with this crucial moment, you weigh your options:",
+                    "Choice 1: Initiate a shutdown of the netrunner 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner and stop him from harming more living beings.",
+                    "Choice 2: Reflecting on the scene before you, you recognize the troublesome aspect of the netrunner 化け猫 伶 actions. Decide to step back, not wishing to get involved into this even more and risking your own life being caught.",
+                    "Choice 3: Choose to disruptthe netrunner 化け猫 伶 current activity, seizing this chance to directly confront the netrunner.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "darkmode": [
+                    "Guided by the mysterious ping through the net, your journey takes you on a digital chase across Santo Domingos CCTV. Each camera you access is looking at a cat paw spray-paint, a breadcrumb trail left by Rei. This clever path of paws leads you, camera by camera, straight to the warehouse, the location you were meant to find from the forum post by 化け猫 伶. ",
+                    "A more thorough scan of the surrounding CCTV feeds unveils an unexpected sight: several cats gathered inside the warehouse, feasting on Yakitori. The pieces of the puzzle begin to align, leading you to the conclusion that you've located the rogue netrunner, 化け猫 伶, caught in the act of hijacking another delivery. But it is not food that is being unloaded this time. It is Poison.",
+                    "This revelation presents a pivotal opportunity to influence the fate of your partner. With precision, you hack into the service bot to establish a direct link to the elusive netrunner 化け猫 伶.",
+                    "ㅤ",
+                    "Faced with this crucial moment, you weigh your options:",
+                    "Choice 1: Initiate a shutdown of the netrunner 化け猫 伶, aiming to trap him within the same digital confines that currently ensnare your partner and stop him from harming more living beings.",
+                    "Choice 2: Reflecting on the scene before you, you recognize the troublesome aspect of the netrunner 化け猫 伶 actions. Decide to step back, not wishing to get involved into this even more and risking your own life being caught.",
+                    "Choice 3: Choose to disruptthe netrunner 化け猫 伶 current activity, seizing this chance to directly confront the netrunner.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "darkmodeJap": [
+                    "ネットを通じての神秘的なピンの案内に従い、あなたの旅はサント・ドミンゴのCCTVを渡るデジタルな追跡に導かれます。アクセスする各カメラは、レイによって残されたパン粉の道、猫の足跡のスプレーを見ています。この巧妙な足跡のパスは、カメラごとにあなたを倉庫に直接導き、化け猫 伶によるフォーラム投稿から見つけるべき場所です。",
+                    "周囲のCCTVフィードをより詳細にスキャンすると、予期せぬ光景が明らかになります：倉庫内にいくつかの猫が集まり、焼き鳥を食べています。パズルのピースは徐々に組み合わさり、あなたは別の配達を乗っ取る行為をしているローグネトランナー、化け猫 伶、を発見したと結論づけます。しかし、今回は食品が降ろされているわけではありません。それは毒です。",
+                    "この発見は、あなたのパートナーの運命に影響を与える重要な機会を提供します。精密に、あなたはサービスボットにハックを仕掛け、逃げたネトランナー、化け猫 伶に直接リンクを確立します。",
+                    "ㅤ",
+                    "この重要な瞬間に直面し、あなたは次の選択肢を検討します:",
+                    "選択肢1：ネトランナー、化け猫 伶をシャットダウンし、彼をあなたのパートナーを傷つけることから守ります。さらに、彼が生きているものにさらなる害を加えるのを止めます。",
+                    "選択肢2：目の前の光景を反映し、化け猫 伶の行動の問題点を認識します。これ以上関与したくないし、自分自身が捕まるリスクを冒したくないと決定します。",
+                    "選択肢3：化け猫 伶の現在の活動を妨害し、ネトランナーと直接対決するこのチャンスを利用することを選択します。",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "japanese": [
+                    "ネットを通じての神秘的なピンの案内に従い、あなたの旅はサント・ドミンゴのCCTVを渡るデジタルな追跡に導かれます。アクセスする各カメラは、レイによって残されたパン粉の道、猫の足跡のスプレーを見ています。この巧妙な足跡のパスは、カメラごとにあなたを倉庫に直接導き、化け猫 伶によるフォーラム投稿から見つけるべき場所です。",
+                    "周囲のCCTVフィードをより詳細にスキャンすると、予期せぬ光景が明らかになります：倉庫内にいくつかの猫が集まり、焼き鳥を食べています。パズルのピースは徐々に組み合わさり、あなたは別の配達を乗っ取る行為をしているローグネトランナー、レイ、を発見したと結論づけます。",
+                    "この発見は、あなたのパートナーの運命に影響を与える重要な機会を提供します。精密に、あなたはサービスボットにハックを仕掛け、逃げたネトランナー、化け猫 伶に直接リンクを確立します。",
+                    "ㅤ",
+                    "この重要な瞬間に直面し、あなたは次の選択肢を検討します:",
+                    "選択肢1：ネトランナー、化け猫 伶をシャットダウンし、彼をあなたのパートナーを傷つけることから守ります。",
+                    "選択肢2：目の前の光景を反映し、化け猫 伶の行動の人道的側面に気付き、操作を続行することを決定します。",
+                    "選択肢3：化け猫 伶の現在の活動を妨害し、ネトランナーと直接対決するこのチャンスを利用することを選択します。",
+                    "ㅤ",
+                    "ㅤ"
+                ]
             },
-            "screenreader": "",
-            "alt": ""
+            "screenreader": "After you followed a trail from one CCTV to the next in Santo Domingo you ended up at a CCTV overviewing the Wearhouse that was previously mentioned in the NCPD reports. You catch the netrunner unloading the vehicle with a mech. After further insepction of the surroundings you notice that there are a lot of cats arround all eating something that must be proably the stolen Yakitori. Furthermore you notice that the wearhouse is registered to your partners name. But there is no time to loose. you have the chance to stop the rogue netrunner in action if you want to do so:",
+            "alt": "It is now or never you should act before it it too late:"
         },
         "choices": {
             "first": {
@@ -516,7 +973,7 @@
             "third": {
                 "visual": "confront the netrunner",
                 "screenreader": "Choose to disrupt the rogue netrunner's current activity, Getting a chance to talk to it might be get you the best outcome for everyone involved.",
-                "alt": "You risk getting caught by 化け猫 伶 and get traped yourself. \nYou might loose this oportunity to end all of this before it is too late.",
+                "alt": "You risk getting caught by the netrunner 化け猫 伶 and get traped yourself. \nYou might loose this oportunity to end all of this before it is too late.",
                 "routeToID": "0211A3"
             }
         }
@@ -525,15 +982,67 @@
         "path": "Miso",
         "text": {
             "visual": {
-                "size12": [],
-                "size16": [],
-                "size20": [],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
+                "size12": [
+                    "You found some facts about Miso Soup:",
+                    "Miso soup (味噌汁, misoshiru) is a traditional Japanese soup consisting of a dashi stock into which softened miso paste is mixed. In addition, there are many optional ingredients (various vegetables, tofu, abura-age, etc.) that may be added depending on regional and seasonal recipes, and personal preference. In Japanese food culture, miso soup is a representative of soup dishes served with rice. Miso soup is also called omiotsuke (御味御付).",
+                    "ㅤ",
+                    "Maybe its better to follow a different trace:",
+                    "Choice 1: Look up Yakitori instead.",
+                    "Choice 2: Forget about the foods and go back to the Machine.",
+                    "Choice 3: Look up Onigiri instead."
+                ],
+                "size16": [
+                    "All that you find on Miso Soup online are rezipies and some facts.",
+                    "ㅤ",
+                    "Maybe its better to follow a different trace:",
+                    "Choice 1: Look up Yakitori instead.",
+                    "Choice 2: Forget about the foods and go back to the Machine.",
+                    "Choice 3: Look up Onigiri instead."
+                ],
+                "size20": [
+                    "You found good recipie for Miso Soup:",
+                    "Ingredients:",
+                    "4 cups vegetable broth",
+                    "1 sheet nori",
+                    "3-4 Tbsp white or yellow miso paste",
+                    "1/2 cup chopped green chard or other sturdy green",
+                    "1/2 cup chopped green onion",
+                    "1/4 cup firm tofu",
+                    "ㅤ",
+                    "Maybe its better to follow a different trace:",
+                    "Choice 1: Look up Yakitori instead.",
+                    "Choice 2: Forget about the foods and go back to the Machine.",
+                    "Choice 3: Look up Onigiri instead."
+                ],
+                "darkmode": [
+                    "You find some information about Miso soup being bad for you in some cases:",
+                    "Miso consumption is generally safe for most people. However, it does contain a large amount of salt. Thus, it may not be a good choice for individuals who need to limit their salt intake due to a medical condition. Finally, most varieties are made from soybeans, which could be considered a goitrogen.",
+                    "ㅤ",
+                    "Maybe its better to follow a different trace:",
+                    "Choice 1: Look up Yakitori instead.",
+                    "Choice 2: Forget about the foods and go back to the Machine.",
+                    "Choice 3: Look up Onigiri instead."
+                ],
+                "darkmodeJap": [
+                    "味噌汁についての情報をいくつか見つけましたが、場合によっては体に悪いとされています：",
+                    "味噌の消費は一般的にほとんどの人にとって安全です。ただし、多くの塩分を含んでいます。したがって、医療上の理由で塩分摂取を制限する必要がある人には適していないかもしれません。最後に、ほとんどの種類は大豆から作られており、これは甲状腺に影響を及ぼす可能性があると考えられています。",
+                    "ㅤ",
+                    "別の情報源を探す方が良いかもしれません：",
+                    "選択肢1：代わりに焼き鳥を検索してみる。",
+                    "選択肢2：食品のことを忘れてマシンに戻る。",
+                    "選択肢3：代わりにおにぎりを検索してみる。"
+                ],
+                "japanese": [
+                    "味噌汁についてオンラインで見つけた情報は、レシピと一部の事実だけです。",
+                    "ㅤ",
+                    "別の情報源を探す方が良いかもしれません：",
+                    "選択肢1：代わりに焼き鳥を検索してみる。",
+                    "選択肢2：食品のことを忘れてマシンに戻る。",
+                    "選択肢3：代わりにおにぎりを検索してみる。"
+                ]
             },
-            "screenreader": "",
-            "alt": ""
+            "screenreader": "You search the net for some thin intersting about miso soup but appart from some recipies and facts there is nothing that sticks out. You could still check the other food for something interesting.",
+            "alt": "Obviously there is no better starter than Miso Soup!"
         },
         "choices": {
             "first": {
@@ -567,7 +1076,7 @@
                     "Maybe its better to follow a different trace:",
                     "Choice 1: Look up Yakitori instead.",
                     "Choice 2: Look up Miso Soup instead.",
-                    "Choice 3: Forget about the foods and go back to the Machine"
+                    "Choice 3: Forget about the foods and go back to the Machine."
                 ],
                 "size16": [
                     "All that you find on Onigiri online are rezipies and some historical information.",
@@ -575,7 +1084,7 @@
                     "Maybe its better to follow a different trace:",
                     "Choice 1: Look up Yakitori instead.",
                     "Choice 2: Look up Miso Soup instead.",
-                    "Choice 3: Forget about the foods and go back to the Machine"
+                    "Choice 3: Forget about the foods and go back to the Machine."
                 ],
                 "size20": [
                     "You found good recipie for Onigiri:",
@@ -588,14 +1097,37 @@
                     "Maybe its better to follow a different trace:",
                     "Choice 1: Look up Yakitori instead.",
                     "Choice 2: Look up Miso Soup instead.",
+                    "Choice 3: Forget about the foods and go back to the Machine."
+                ],
+                "darkmode": [
+                    "All that you find on Onigiri online is a Onigiri diet:",
+                    "Eating only onigiri leads to too many rice (carbohydrate) and too few protein, vitamin, dietary fibers, etc. It's clearly not health diet. Japanese people before ww2 was taking that kind of diet, and died quite early.",
+                    "ㅤ",
+                    "Maybe its better to follow a different trace:",
+                    "Choice 1: Look up Yakitori instead.",
+                    "Choice 2: Look up Miso Soup instead.",
                     "Choice 3: Forget about the foods and go back to the Machine"
                 ],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
+                "darkmodeJap": [
+                    "オニギリオンラインで見つかるものは、オニギリダイエットだけです：",
+                    "オニギリだけを食べると、炭水化物が多く、タンパク質、ビタミン、食物繊維などが不足しています。これは明らかに健康的なダイエットではありません。第二次世界大戦前の日本人は、その種の食事を摂り、比較的早く亡くなりました。",
+                    "ㅤ",
+                    "別のトレースを追う方が良いかもしれません：",
+                    "選択肢 1: 代わりに焼き鳥を検索してみる。",
+                    "選択肢 2: 代わりに味噌汁を検索してみる。",
+                    "選択肢 3: 食べ物のことを忘れて機械に戻る。"
+                ],
+                "japanese": [
+                    "オニギリに関するオンラインで見つけるものは、レシピと歴史情報だけです。",
+                    "ㅤ",
+                    "別のトレースを追う方が良いかもしれません：",
+                    "選択肢 1: 代わりに焼き鳥を検索してみる。",
+                    "選択肢 2: 代わりに味噌汁を検索してみる。",
+                    "選択肢 3: 食べ物のことを忘れて機械に戻る。"
+                ]
             },
-            "screenreader": "",
-            "alt": ""
+            "screenreader": "You find all sorts of things about onigiri online but nothing that helps you track down the Netrunner.",
+            "alt": "Note to yourself: Onigiri is nice!"
         },
         "choices": {
             "first": {
@@ -612,14 +1144,14 @@
             },
             "third": {
                 "visual": "Go Back",
-                "screenreader": "",
+                "screenreader": "You have obviously wasted too much time here. You decide to go back to the start and follow a different path",
                 "alt": "You have wasted enough time anyway.",
                 "routeToID": "02"
             }
         }
     },
     "023": {
-        "path": "Blank to copy!",
+        "path": "Dispense food",
         "text": {
             "visual": {
                 "size12": [
@@ -632,157 +1164,120 @@
                 "size16": [
                     "Which food would your like to dispense?",
                     "ㅤ",
-                    "Choice 1: Dispense Yakitori",
-                    "Choice 2: Dispense Miso Soup",
-                    "Choice 3: Dispense Onigiri"
+                    "Choice 1: Dispense Yakitori.",
+                    "Choice 2: Dispense Miso Soup.",
+                    "Choice 3: Dispense Onigiri."
                 ],
                 "size20": [
                     "Which food would your like to dispense?",
                     "ㅤ",
-                    "Choice 1: Dispense 10x Yakitori",
-                    "Choice 2: Dispense 10x Miso Soup",
+                    "Choice 1: Dispense 10x Yakitori.",
+                    "Choice 2: Dispense 10x Miso Soup.",
                     "Choice 3: Dispense 25x Onigiri. Can't ever have enough, right?"
                 ],
                 "darkmode": [
-                    "Which food would your like to make free forever?",
+                    "Which food would your like to hack free forever?",
                     "ㅤ",
                     "Choice 1: Hack Yakitori.",
-                    "Choice 2: Hack Miso Soup",
-                    "Choice 3: Hack Onigiri"
+                    "Choice 2: Hack Miso Soup.",
+                    "Choice 3: Hack Onigiri."
                 ],
                 "darkmodeJap": [
-                    "test"
+                    "どの食べ物を永遠に無料にしたいですか？",
+                    "ㅤ",
+                    "選択肢 1: 焼き鳥をハック。",
+                    "選択肢 2: 味噌汁をハック。",
+                    "選択肢 3: おにぎりをハック。"
                 ],
                 "japanese": [
-                    "test 1"
+                    "どの食べ物を出しますか？",
+                    "ㅤ",
+                    "選択肢 1: 焼き鳥を出す。",
+                    "選択肢 2: 味噌汁を出す。",
+                    "選択肢 3: おにぎりを出す。"
                 ]
             },
-            "screenreader": "",
-            "alt": ""
+            "screenreader": "Which food would your like to dispense?",
+            "alt": "Why not just give somebody free food? Or maybe even for yourself?"
         },
         "choices": {
             "first": {
                 "visual": "ㅤ",
                 "screenreader": "Dispense Yakitori",
                 "alt": "Dispense Yakitori",
-                "routeToID": ""
+                "routeToID": "0231"
             },
             "second": {
                 "visual": "ㅤ",
                 "screenreader": "Dispense Miso Soup",
                 "alt": "Dispense Miso Soup",
-                "routeToID": ""
+                "routeToID": "0231"
             },
             "third": {
                 "visual": "ㅤ",
                 "screenreader": "Dispense Onigiri",
                 "alt": "Dispense Onigiri",
-                "routeToID": ""
+                "routeToID": "0231"
             }
         }
     },
     "0231": {
-        "path": "Dispense Yakitori",
+        "path": "Dispense food",
         "text": {
             "visual": {
-                "size12": [],
-                "size16": [],
-                "size20": [],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
+                "size12": [
+                    "After you dispensed the free food, you waited for some seconds, but nothing happened. When the food vendor came to reload the machine, he noticed the food you dispensed and put it back into the machine.",
+                    "There is no point in waiting here now.",
+                    "ㅤ",
+                    "You can only go back and try a different trace now."
+                ],
+                "size16": [
+                    "You got caught dispensing the food by the food vendor, and he deactivated the machine!",
+                    "ㅤ",
+                    "You can only go back and try a different trace now."
+                ],
+                "size20": [
+                    "The machine's output was overflowing with food, and there was nobody to retrieve it. The food vendor noticed this behavior and deactivated the machine immediately.",
+                    "ㅤ",
+                    "You can only go back and try a different trace now."
+                ],
+                "darkmode": [
+                    "You have updated the price to be free for all and forever now. However, you had to restart the self-service machine, and all other information is gone from it.",
+                    "ㅤ",
+                    "You can only go back and try a different trace now. At least you can come here whenever you want to get free food now."
+                ],
+                "darkmodeJap": [
+                    "あなたは価格を永遠に無料に更新しました。ただし、セルフサービスマシンを再起動する必要があり、他のすべての情報は失われました。",
+                    "ㅤ",
+                    "今は戻って異なるトレースを試すしかありません。少なくとも、いつでも無料の食事を手に入れることができるようになりました。"
+                ],
+                "japanese": [
+                    "食べ物を出すのがバレて、食品販売業者によってマシンが無効化されました！",
+                    "ㅤ",
+                    "今は戻って異なるトレースを試すしかありません。"
+                ]
             },
-            "screenreader": "",
-            "alt": ""
+            "screenreader": "Interacting with the machine in that way does not lead to any important outcome. It seems to be useless. You can only follow another trace now.",
+            "alt": "Honeslty what did you expect? For the hacker to come get his free food that you picked?"
         },
         "choices": {
             "first": {
                 "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
-                "routeToID": ""
+                "screenreader": "Go back to the start!",
+                "alt": "Go back to the start!",
+                "routeToID": "0"
             },
             "second": {
                 "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
-                "routeToID": ""
+                "screenreader": "Go back to the start!",
+                "alt": "Go back to the start!",
+                "routeToID": "0"
             },
             "third": {
                 "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
-                "routeToID": ""
-            }
-        }
-    },
-    "0232": {
-        "path": "Blank to copy!",
-        "text": {
-            "visual": {
-                "size12": [],
-                "size16": [],
-                "size20": [],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
-            },
-            "screenreader": "",
-            "alt": ""
-        },
-        "choices": {
-            "first": {
-                "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
-                "routeToID": ""
-            },
-            "second": {
-                "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
-                "routeToID": ""
-            },
-            "third": {
-                "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
-                "routeToID": ""
-            }
-        }
-    },
-    "0233": {
-        "path": "Blank to copy!",
-        "text": {
-            "visual": {
-                "size12": [],
-                "size16": [],
-                "size20": [],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
-            },
-            "screenreader": "",
-            "alt": ""
-        },
-        "choices": {
-            "first": {
-                "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
-                "routeToID": ""
-            },
-            "second": {
-                "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
-                "routeToID": ""
-            },
-            "third": {
-                "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
-                "routeToID": ""
+                "screenreader": "Go back to the start!",
+                "alt": "Go back to the start!",
+                "routeToID": "0"
             }
         }
     },
@@ -793,7 +1288,8 @@
                 "size12": [
                     "The trace leads you into the Megabuilding H1's internal security channels. To be exact there is just one CCTV camera in the Garage that was shortcut by the rogue netrunner.",
                     "ㅤ",
-                    "The cameras focus is on a transport vehicle that can be remotely accessed. This vehicle is familiar to you. There is a very speciffic sticker on its windshield that resembels a paw. You could try to get more infromation by accessing it but it could be anyones vehicle:",
+                    "The cameras focus is on a transport vehicle that can be remotely accessed. This vehicle is familiar to you. You and your partner have used it to for your last gig to transport cooled medicine.",
+                    "You could try to get more infromation by accessing it but it could be anyones vehicle:",
                     "Choice 1: Opt to breach the vehicle's system to probe its onboard sensors. Investigating the internal storage might reveal contraband, clues, or perhaps something more personal belonging to the owner",
                     "Choice 2: Dive into the vehicle's navigation history. Understanding where the vehicle has traveled could map out a new lead.",
                     "Choice 3: The connection to the netrunner seems tenuous at best through this lead. It might be wiser to redirect your efforts towards investigating the other potential locations linked to the Bakeneko's digital trail.",
@@ -811,33 +1307,71 @@
                     "ㅤ"
                 ],
                 "size20": [
-                    "",
-                    ""
+                    "The trace leads you into the Megabuilding H1's internal security channels. To be exact there is just one CCTV camera in the Garage that was shortcut by the rogue netrunner.",
+                    "ㅤ",
+                    "The cameras focus is on a transport vehicle that can be remotely accessed. It is also the only vehicle at all and given by the previous recordings it has not been moved for 3 days.",
+                    "You could try to get more infromation by accessing it but it could be anyones vehicle:",
+                    "Choice 1: Opt to breach the vehicle's system to probe its onboard sensors getting a glimps of what it might transport.",
+                    "Choice 2: Dive into the vehicle's navigation history.",
+                    "Choice 3: It might be wiser to redirect your efforts towards investigating the other potential locations.",
+                    "ㅤ",
+                    "ㅤ"
                 ],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
+                "darkmode": [
+                    "The trace leads you into the Megabuilding H1's internal security channels. To be exact there is just one CCTV camera in the Garage that was shortcut by the rogue netrunner.",
+                    "ㅤ",
+                    "The cameras focus is on a transport vehicle that can be remotely accessed. You notice this vehicle as you have been using it together with your partner before. It is now coverd with Graffiti that says the rogues netrunner name all over:",
+                    "化け猫 伶",
+                    "You could try to get more infromation by accessing it but it could be anyones vehicle:",
+                    "Choice 1: Opt to breach the vehicle's system to probe its onboard sensors getting a glimps of what it might transport.",
+                    "Choice 2: Dive into the vehicle's navigation history.",
+                    "Choice 3: It might be wiser to redirect your efforts towards investigating the other potential locations.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "darkmodeJap": [
+                    "トレースは、Megabuilding H1 の内部セキュリティチャンネルに導きます。正確に言うと、ガレージにある1つのCCTVカメラが、ローグネトランナーによってショートカットされました。",
+                    "ㅤ",
+                    "カメラはリモートでアクセスできる輸送車に焦点を当てています。以前、パートナーと一緒に使用していたため、この車両に気付きます。しかし、今はローグネトランナーの名前が全面に書かれたグラフィティで覆われています：",
+                    "Bakeneko Rei",
+                    "それをアクセスしてさらなる情報を得ようとすることができますが、それは誰かの車かもしれません：",
+                    "選択肢 1: 車両のシステムに侵入し、搭載センサーを探査して、それが何を輸送しているかを垣間見ることを選択します。",
+                    "選択肢 2: 車両のナビゲーション履歴にダイブします。",
+                    "選択肢 3: 他の潜在的な場所の調査に向けて努力をリダイレクトする方が賢明かもしれません。",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "japanese": [
+                    "トレースは、Megabuilding H1 の内部セキュリティチャンネルに導きます。正確に言うと、ガレージにある1つのCCTVカメラが、ローグネトランナーによってショートカットされました。",
+                    "ㅤ",
+                    "カメラはリモートでアクセスできる輸送車に焦点を当てています。それをアクセスしてさらなる情報を得ようとすることができますが、それは誰かの車かもしれません：",
+                    "選択肢 1: 車両のシステムに侵入し、搭載センサーを探査して、それが何を輸送しているかを垣間見ることを選択します。",
+                    "選択肢 2: 車両のナビゲーション履歴にダイブします。",
+                    "選択肢 3: 他の潜在的な場所の調査に向けて努力をリダイレクトする方が賢明かもしれません。",
+                    "ㅤ",
+                    "ㅤ"
+                ]
             },
-            "screenreader": "",
-            "alt": ""
+            "screenreader": "You have been to the Megabuilding H1 before. The last time you had been there you had a delivery gig going on and stored away the vehicle inside this garage. And the trace lead you to a CCTV that is looking directly at this vehicle.",
+            "alt": "The car seems familiar."
         },
         "choices": {
             "first": {
                 "visual": "Access storage room",
-                "screenreader": "",
-                "alt": "",
+                "screenreader": "You wonder what is inside the storage of the vehicle and remotly access the onboard sensors.",
+                "alt": "The load of the vehicle could be connected to the Netrunner.",
                 "routeToID": "031"
             },
             "second": {
                 "visual": "Get gps data",
-                "screenreader": "",
-                "alt": "",
+                "screenreader": "You wonder if somebody has used the transport vehicle since you have left it there. You go check on the Navigation data.",
+                "alt": "The vehicles naviagtion might tell you if the netrunner has been using it and where.",
                 "routeToID": "032"
             },
             "third": {
                 "visual": "go back",
-                "screenreader": "",
-                "alt": "",
+                "screenreader": "It might be helpfull to take on onther leads first before you continue. You decide to go back to the start.",
+                "alt": "Go back and follow a different lead.",
                 "routeToID": "0"
             }
         }
@@ -846,24 +1380,69 @@
         "path": "Access storage room",
         "text": {
             "visual": {
-                "size12": [],
-                "size16": [
-                    "Upon accessing the vehicle's internal storage, you find it laden with boxes of frozen Yakitori. The discovery is puzzling; the link between the netrunner and these boxes of Yakitori isn't immediately apparent.",
+                "size12": [
+                    "Upon accessing the vehicle's internal storage, you find it laden with boxes of frozen Yakitori - your partners favourite food. The discovery is puzzling; you are not sure why the rogue netrunner would load yakitori onto the vehicle.",
                     "ㅤ",
                     "With this unexpected find, you pause to contemplate your next move:",
-                    "",
+                    "Choice 1: You should check the net if there are other connections to the Yakitori.",
                     "Choice 2: Dive into the vehicle's navigation history aswell.",
                     "Choice 3: The connection seems tenuous, and you begin to question the relevance of this lead. You go back and try another lead.",
                     "ㅤ",
                     "ㅤ"
                 ],
-                "size20": [],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
+                "size16": [
+                    "Upon accessing the vehicle's internal storage, you find it laden with boxes of frozen Yakitori. The discovery is puzzling; the link between the netrunner and these boxes of Yakitori isn't immediately apparent.",
+                    "ㅤ",
+                    "With this unexpected find, you pause to contemplate your next move:",
+                    "Choice 1: Check the net about missing Yakitori.",
+                    "Choice 2: Dive into the vehicle's navigation history aswell.",
+                    "Choice 3: The connection seems tenuous, and you begin to question the relevance of this lead. You go back and try another lead.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "size20": [
+                    "Upon accessing the vehicle's internal storage, you find it laden with boxes of frozen Yakitori. The discovery is puzzling; the link between the netrunner and these boxes of Yakitori isn't immediately apparent but after checking the origin of the goods you see a lable of a food vendor that is based at the Japantown Bazaar.",
+                    "ㅤ",
+                    "With this unexpected find, you pause to contemplate your next move:",
+                    "Choice 1: You should check the net if you find anything connected to the Yakitori or about the food vendor.",
+                    "Choice 2: Dive into the vehicle's navigation history aswell.",
+                    "Choice 3: The connection seems tenuous, and you begin to question the relevance of this lead. You go back and try another lead.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "darkmode": [
+                    "Upon accessing the vehicle's internal storage, you find it laden with boxes of bad Yakitori. The discovery is puzzling; Why load the vehicle with yakitori that is not frozen and has already gone bad after such a long time. What would the netrunner want with it.",
+                    "ㅤ",
+                    "With this unexpected find, you pause to contemplate your next move:",
+                    "Choice 1: You should check the net if you find anything connected to the Yakitori.",
+                    "Choice 2: Dive into the vehicle's navigation history aswell.",
+                    "Choice 3: The connection seems tenuous, and you begin to question the relevance of this lead. You go back and try another lead.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "darkmodeJap": [
+                    "車両の内部ストレージにアクセスすると、腐った焼き鳥の箱でいっぱいであることがわかります。この発見は謎めいており、なぜこのように長い間放置されて腐敗してしまった焼き鳥を車両に積むのか、ネトランナーは何を望んでいるのでしょうか。",
+                    "ㅤ",
+                    "この予想外の発見に、次の行動を考えるために一時停止します：",
+                    "選択肢 1: 焼き鳥に関連する情報があるかどうかをネットで調べるべきです。",
+                    "選択肢 2: 車両のナビゲーション履歴にダイブします。",
+                    "選択肢 3: このつながりは緩いように思われ、この手がかりの関連性を疑い始めます。他の手がかりを試すために戻ります。",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "japanese": [
+                    "車両の内部ストレージにアクセスすると、凍った焼き鳥の箱でいっぱいであることがわかります。この発見は謎めいており、ネトランナーとこれらの焼き鳥の箱との間のリンクはすぐには明らかになりません。",
+                    "ㅤ",
+                    "この予想外の発見に、次の行動を考えるために一時停止します：",
+                    "選択肢 1: 離れた焼き鳥についてネットをチェックしてみる。",
+                    "選択肢 2: 車両のナビゲーション履歴にダイブします。",
+                    "選択肢 3: このつながりは緩いように思われ、この手がかりの関連性を疑い始めます。他の手がかりを試すために戻ります。",
+                    "ㅤ",
+                    "ㅤ"
+                ]
             },
-            "screenreader": "",
-            "alt": ""
+            "screenreader": "As you check the storage of the vehicle you notice and unusual big amount of yakitori. Usually only a food vendor or other restaurants would need so much food. You contemplate who all of this food is for.",
+            "alt": "You find an unusual large amount of food in the transport vehicle but you just can't understand why the netrunner would be interested in that."
         },
         "choices": {
             "first": {
@@ -874,14 +1453,14 @@
             },
             "second": {
                 "visual": "Get gps data",
-                "screenreader": "",
-                "alt": "",
+                "screenreader": "It might be best to check the navigation history to figure out where these good were heading.",
+                "alt": "It might be best to get all information out of the vehicle first.",
                 "routeToID": "032"
             },
             "third": {
                 "visual": "go back",
-                "screenreader": "",
-                "alt": "",
+                "screenreader": "You have already wasted enough time with food and a loose track with a transport vehicle. Better you check other leads aswell.",
+                "alt": "This seems like a waste of time and the quicker you get a better lead on the \nrogue netrunner the faster you can help your partner. Go back to the other traces.",
                 "routeToID": "0"
             }
         }
@@ -890,7 +1469,17 @@
         "path": "Get gps data",
         "text": {
             "visual": {
-                "size12": [],
+                "size12": [
+                    "Diving into the vehicle's navigation history, you uncover a pattern that piques your interest. A specific route has been frequented multiple times: it stretches from underneath the bustling bazaar in Japantown, the place your partner always gets food for everyone, to an old warehouse in Santo Domingo.",
+                    "You chould check out these locations, hoping you might find more there, or try to get more information from the vehicle.",
+                    "ㅤ",
+                    "You decide to:",
+                    "Choice 1: You decide to investigate the Japantown bazaar area further.",
+                    "Choice 2: The warehouse in Santo Domingo beckons as your next destination.",
+                    "Choice 3: Before moving on, you choose to get more infromation of the vehicle's load.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
                 "size16": [
                     "Diving into the vehicle's navigation history, you uncover a pattern that piques your interest. A specific route has been frequented multiple times: it stretches from underneath the bustling bazaar in Japantown to an old warehouse in Santo Domingo.",
                     "You chould check out these locations, hoping you might find more there, or try to get more information from the vehicle.",
@@ -902,31 +1491,71 @@
                     "ㅤ",
                     "ㅤ"
                 ],
-                "size20": [],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
+                "size20": [
+                    "Diving into the vehicle's navigation history, you uncover a pattern that piques your interest. A specific route has been frequented multiple times: it stretches from underneath the bustling bazaar in Japantown to an old warehouse in Santo Domingo, that you know your partner has been throwing an eye at for quiet a while.",
+                    "You chould check out these locations, hoping you might find more there, or try to get more information from the vehicle.",
+                    "ㅤ",
+                    "You decide to:",
+                    "Choice 1: You decide to investigate the Japantown bazaar area further.",
+                    "Choice 2: The warehouse in Santo Domingo beckons as your next destination.",
+                    "Choice 3: Before moving on, you choose to get more infromation of the vehicle's load.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "darkmode": [
+                    "Diving into the vehicle's navigation history, you uncover a pattern that piques your interest. A specific route has been frequented multiple times: it stretches from underneath the bustling bazaar in Japantown to an old warehouse in Santo Domingo.",
+                    "You chould check out these locations, hoping you might find more there, or try to get more information from the vehicle.",
+                    "ㅤ",
+                    "You decide to:",
+                    "Choice 1: You decide to investigate the Japantown bazaar area further.",
+                    "Choice 2: The warehouse in Santo Domingo beckons as your next destination.",
+                    "Choice 3: Before moving on, you choose to get more infromation of the vehicle's load.",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "darkmodeJap": [
+                    "車両のナビゲーション履歴にダイブすると、興味を引くパターンを発見します。特定のルートが複数回頻繁に利用されています：それはジャパンタウンの賑やかなバザーの下からサント・ドミンゴの古い倉庫まで伸びています。",
+                    "これらの場所を調査して、さらに情報を見つけるか、車両からさらに情報を取得しようとできます。",
+                    "ㅤ",
+                    "あなたは次のように決めます：",
+                    "選択肢 1：ジャパンタウンのバザーエリアをさらに調査することに決定します。",
+                    "選択肢 2：サント・ドミンゴの倉庫が次の目的地として誘っています。",
+                    "選択肢 3：次に進む前に、車両の積載に関するさらなる情報を取得することに決定します。",
+                    "ㅤ",
+                    "ㅤ"
+                ],
+                "japanese": [
+                    "車両のナビゲーション履歴にダイブすると、興味を引くパターンを発見します。特定のルートが複数回頻繁に利用されています：それはジャパンタウンの賑やかなバザーの下からサント・ドミンゴの古い倉庫まで伸びています。",
+                    "これらの場所を調査して、さらに情報を見つけるか、車両からさらに情報を取得しようとできます。",
+                    "ㅤ",
+                    "あなたは次のように決めます：",
+                    "選択肢 1：ジャパンタウンのバザーエリアをさらに調査することに決定します。",
+                    "選択肢 2：サント・ドミンゴの倉庫が次の目的地として誘っています。",
+                    "選択肢 3：次に進む前に、車両の積載に関するさらなる情報を取得することに決定します。",
+                    "ㅤ",
+                    "ㅤ"
+                ]
             },
-            "screenreader": "",
-            "alt": ""
+            "screenreader": "The navigation history Shows that the vehicle must have been going back and forth a couple of times between the Japantown Bazaar and the Wearhouse in Santo Domingo. Your partner always got food from the Bazaar but he had also been intersted in buying that old wearhouse a while ago. Both leads seem to be connected to your partner but you do not yet understand why the Nettruner would be interested in any of them.",
+            "alt": "You have recived two leads but you should decide quick if any of them are worth pursuing. \nAfterall the quicker you find a lead on the netrunner the quicker you can help your partner."
         },
         "choices": {
             "first": {
                 "visual": "Japantown bazaar",
-                "screenreader": "",
+                "screenreader": "You decide to follow the lead first to the Japantown Bazar as this is more connected to your partner.",
                 "alt": "Japantown Bazarr? \nAnother trace left there before. \nThere might be more information!",
                 "routeToID": "02"
             },
             "second": {
                 "visual": "Explore the warehouse",
-                "screenreader": "",
-                "alt": "",
+                "screenreader": "You decide to follow the lead to the Wearhouse as this might be a good place to hide for a netrunner and it is somewhat connected to your partner.",
+                "alt": "The old wearhouse seems like a good lead as somebody could hide something or someone there.",
                 "routeToID": "02112"
             },
             "third": {
-                "visual": "Check vehicle load",
-                "screenreader": "",
-                "alt": "",
+                "visual": "Access storage room",
+                "screenreader": "You wonder what is inside the storage of the vehicle before you take any action in the pursuing a lead.",
+                "alt": "The load of the vehicle could be connected to the Netrunner.",
                 "routeToID": "031"
             }
         }
@@ -938,19 +1567,39 @@
         "path": "Initiate a shutdown of Rei",
         "text": {
             "visual": {
-                "size12": [],
+                "size12": [
+                    "Determined to end the digital tyranny of the rogue netrunner, you launch a decisive hack to shut him down, mirroring the digital cage that ensnared your partner. Success washes over you as you disconnect from the net, but the victory is short-lived.",
+                    "Your partner remains trapped, unresponsive to the world around him, a soul caught in the limbo between realms. You hoped it would loosen the grip. The silence that follows is heavy with disappointment.",
+                    "As you look arround the displays are still flashing with the netrunners name: 伶. You do not know how long your partner Rei can survive in this state withouth food and water.",
+                    "With no discernible improvement in his condition, the path forward narrows to one option: seeking out specialists who can navigate this complex intersection of realities and perhaps undo the entanglement that binds him."
+                ],
                 "size16": [
                     "Determined to end the digital tyranny of the rogue netrunner, you launch a decisive hack to shut him down, mirroring the digital cage that ensnared your partner. Success washes over you as you disconnect from the net, but the victory is short-lived.",
                     "Your partner remains trapped, unresponsive to the world around him, a soul caught in the limbo between realms. You hoped it would loosen the grip. The silence that follows is heavy with disappointment.",
                     "With no discernible improvement in his condition, the path forward narrows to one option: seeking out specialists who can navigate this complex intersection of realities and perhaps undo the entanglement that binds him."
                 ],
-                "size20": [],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
+                "size20": [
+                    "Determined to end the digital tyranny of the rogue netrunner, you launch a decisive hack to shut him down, mirroring the digital cage that ensnared your partner. Success washes over you as you disconnect from the net, but the victory is short-lived.",
+                    "Your partner remains trapped, unresponsive to the world around him, a soul caught in the limbo between realms. You hoped it would loosen the grip. The silence that follows is heavy with disappointment.",
+                    "Looking arround you still see the Onigiri on the table. It is almost as if you have missed something, almost as if the cat, the netrunner 伶 and your partner seem to be closer connected as expected.",
+                    "With no discernible improvement in his condition, the path forward narrows to one option: seeking out specialists who can navigate this complex intersection of realities and perhaps undo the entanglement that binds him."
+                ],
+                "darkmode": [
+                    "Determined to end the digital tyranny of the rogue netrunner, you launch a decisive hack to shut him down, mirroring the digital cage that ensnared your partner. Success washes over you as you disconnect from the net.",
+                    "Your partner has been set free with no memory of what happened but his contiousness seems to be unharmed. You have stoped the rogou netrunner from doing harm to so manny beings."
+                ],
+                "darkmodeJap": [
+                    "ローグネトランナーのデジタルな暴虐行為を終わらせる決意を持ち、あなたは彼をシャットダウンする決定的なハックを発射します。それはあなたのパートナーを捕らえたデジタルな檻を模倣し、成功があなたに押し寄せます。",
+                    "あなたのパートナーは何が起こったか覚えていないまま解放されましたが、彼の意識は無傷のようです。あなたは多くの存在に害を及ぼすのを阻止しました。"
+                ],
+                "japanese": [
+                    "ローグネトランナーのデジタルな暴虐行為を終わらせる決意を持ち、あなたは彼をシャットダウンする決定的なハックを発射します。それはあなたのパートナーを捕らえたデジタルな檻を模倣し、成功があなたに押し寄せますが、勝利は一時的です。",
+                    "あなたのパートナーは未だに閉じ込められ、周りの世界に反応しないままで、現実とデジタルの間の境界に囚われた魂です。それが握り解かれることを望みました。それに続く沈黙は失望に満ちています。",
+                    "彼の状態に明確な改善が見られないため、前進する道は一つに絞られます：この現実とデジタルの複雑な交差点を航行し、彼を結びつけているもつれを解消するかもしれない専門家を探し出すことです。"
+                ]
             },
-            "screenreader": "",
-            "alt": ""
+            "screenreader": "You have stoped the rougue netrunner, but your partners conditon seems to be unchanged. As you think about it the Your partners Name Rei and the symbol on the flickering screens semm to be too connected. Who is the other netrunner really? Could he be related to your partner?",
+            "alt": "The End! \nA good or a bad one, tho?"
         },
         "choices": {
             "first": {
@@ -977,18 +1626,33 @@
         "path": "Decide to step back",
         "text": {
             "visual": {
-                "size12": [],
+                "size12": [
+                    "Opting for restraint, you step away from the immediate tension of the warehouse scene. The charitable nature of Rei's digital thefts, providing for the city's forgotten, casts a complex shadow over your mission. Disconnecting from the net, you're left to ponder the connection between Rei's actions and your partner's plight.",
+                    "Days later, driven by an inexplicable urge, you visit the warehouse in person, only to find the service mech, whichs displayes were flashing with the netrunners name 伶, powering down at your approach. The moment is shrouded in confusion until it gives way to happines in the form of a message from your partner, inviting you  to the bazaar in Japantown for some Yakitori and an explenation to what happened. "
+                ],
                 "size16": [
                     "Opting for restraint, you step away from the immediate tension of the warehouse scene. The charitable nature of Rei's digital thefts, providing for the city's forgotten, casts a complex shadow over your mission. Disconnecting from the net, you're left to ponder the connection between Rei's actions and your partner's plight.",
                     "Days later, driven by an inexplicable urge, you visit the warehouse in person, only to find the service mech powering down at your approach. The moment is shrouded in confusion until it gives way to happines in the form of a message from your partner, inviting you  to the bazaar in Japantown for dinner. Relief washes over you as you realize he's been released, a silent end to his digital captivity."
                 ],
-                "size20": [],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
+                "size20": [
+                    "Opting for restraint, you step away from the immediate tension of the warehouse scene. The charitable nature of Rei's digital thefts, providing for the city's forgotten, casts a complex shadow over your mission. Disconnecting from the net, you're left to ponder the connection between Rei's actions and your partner's plight.",
+                    "Days later, driven by an inexplicable urge, you visit the warehouse in person, only to find the service mech powering down at your approach. The moment is shrouded in confusion until it gives way to happines in the form of a message from your partner, inviting you to grab as much Yakitori as you would like. You realize he must have seen you the Wearhouse."
+                ],
+                "darkmode": [
+                    "Opting for restraint, you step away from the immediate tension of the warehouse scene. Scared for your own life, you call the authorities to report what you have found.",
+                    "Your partner's state has not changed, and you feel guilty for not trying to stop the rogue netrunner yourself. All that is left for you to do is hope the authorities find a way to save him!"
+                ],
+                "darkmodeJap": [
+                    "自制心を選び、倉庫の場面の直接的な緊張から離れます。自分の命を恐れながら、見つけたことを当局に報告します。",
+                    "あなたのパートナーの状態は変わらず、自分でローグネットランナーを止めようとしなかったことに罪悪感を感じます。彼を救う方法を当局が見つけることを望むだけのことが残されています。"
+                ],
+                "japanese": [
+                    "自制心を選び、倉庫の場面の直接的な緊張から離れます。レイのデジタルな盗み、街の忘れられた人々に提供される慈善的な性質が、あなたの使命に複雑な影を投げかけます。ネットから切断され、あなたはレイの行動とあなたのパートナーの苦境の間のつながりを考え込むことになります。",
+                    "数日後、説明できない衝動に駆られ、あなたは倉庫を実際に訪れます。しかしその場面は、あなたのアプローチに伴いサービスメックが停止し、混乱に包まれる瞬間です。しかし、あなたのパートナーからのメッセージによって幸福感に変わり、日本町のバザーでの夕食への招待が届きます。彼が解放されたことに気付き、デジタルな拘束の無言の終わりです。"
+                ]
             },
-            "screenreader": "",
-            "alt": ""
+            "screenreader": "Opting for restraint, you step away from the immediate tension of the warehouse scene. The charitable nature of Rei's digital thefts, providing for the city's forgotten, casts a complex shadow over your mission. Disconnecting from the net, you're left to ponder the connection between Rei's actions and your partner's plight. Days later, driven by an inexplicable urge, you visit the warehouse in person, only to find the service mech powering down at your approach.The moment is shrouded in confusion until it gives way to happines in the form of a message from your partner, inviting you to join the other cats and an appology he has not informed you earlier about what was going on.",
+            "alt": "The End. Sometimes a familiar face can shake some sence into you again!"
         },
         "choices": {
             "first": {
@@ -1015,20 +1679,43 @@
         "path": "confront the netrunner",
         "text": {
             "visual": {
-                "size12": [],
+                "size12": [
+                    "Confronting the netrunner 化け猫 伶, you emphasize the unintended consequences of his actions on your partner. The revelation surprises 伶, leading to a moment of introspection. He admits that freeing your partner would require his own termination — a sacrifice he's willing to make since he is not an actual person.",
+                    "He pleads with you to continue this work, promising to release your partner.",
+                    "As 化け猫 伶's digital essence dissolves, you disconnect, returning to a world where your partner slowly emerges from his digital stupor. Disoriented, he awakens with no memory of recent events, the warehouse, or 化け猫 伶's noble sacrifice. The ordeal has left no scars on his consciousness, only a quiet gratitude for the mysterious resolution that brought him back to you.",
+                    "You realize that all of this has been orchestrated by your partner himself, or rather an AI created by him, directly linked to his consciousness."
+                ],
                 "size16": [
-                    "Faced with 化け猫 伶, you assert the unintended consequences of his actions on your partner. The revelation takes Rei by surprise, and a moment of digital introspection follows. He confesses that freeing your partner would require his own termination—a sacrifice he's prepared to make, highlighting his never-intended harm.",
-                    "He begs you to continue this work and he will let your partner free.",
-                    "As 化け猫 伶 digital essence dissolves, you disconnect, returning to a world where your partner slowly emerges from his digital stupor. Disoriented, he awakens with no memory of the recent events, the warehouse, or 化け猫 伶 noble sacrifice. The ordeal has left no scars on his consciousness, only a quiet gratitude for the mysterious resolution that brought him back to you.",
+                    "Confronting the netrunner 化け猫 伶, you emphasize the unintended consequences of his actions on your partner. The revelation surprises 伶, leading to a moment of introspection. He admits that freeing your partner would require his own termination — a sacrifice he's willing to make, highlighting his never-intended harm.",
+                    "He pleads with you to continue this work, promising to release your partner.",
+                    "As 化け猫 伶's digital essence dissolves, you disconnect, returning to a world where your partner slowly emerges from his digital stupor. Disoriented, he awakens with no memory of recent events, the warehouse, or 化け猫 伶's noble sacrifice. The ordeal has left no scars on his consciousness, only a quiet gratitude for the mysterious resolution that brought him back to you.",
                     ""
                 ],
-                "size20": [],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
+                "size20": [
+                    "Confronting the netrunner 化け猫 伶, you emphasize the unintended consequences of his actions on your partner. The revelation surprises 伶, leading to a moment of introspection. He admits that freeing your partner would require his own termination — a sacrifice he's willing to make, as he himself originates from your partner Rei.",
+                    "He pleads with you to continue this work, promising to release your partner.",
+                    "As 化け猫 伶's digital essence dissolves, you disconnect, returning to a world where your partner slowly emerges from his digital stupor. Disoriented, he awakens with no memory of recent events, the warehouse, or 化け猫 伶's noble sacrifice. The ordeal has left no scars on his consciousness, only a quiet gratitude for the mysterious resolution that brought him back to you.",
+                    "You realize that your partner must have been working on an AI that originates from his consciousness."
+                ],
+                "darkmode": [
+                    "Confronting the netrunner 化け猫 伶, you reveal the horrifying truth behind his actions, exposing his sinister plan to exterminate all the cats in town, especially those rumored to be bakenekos. He has learned of the deadly consequences of encountering bakenekos and now seeks to eliminate them instead of saving them.",
+                    "To your dismay, 化け猫 伶 refuses to release your partner and instead disconnects you from the warehouse. As you're forcibly disconnected, you witness your partner's demise, his mind devoured by the malevolent netrunner.",
+                    "You come to realize that your partner had unwittingly created an AI born from his consciousness, a creation that had turned into a malevolent force of destruction."
+                ],
+                "darkmodeJap": [
+                    "ネットランナー Bakeneko Rei に立ち向かい、彼の行動の恐ろしい真実を暴き、都市の中のすべての猫、特に化け猫と噂されるものを根絶しようとする彼の陰険な計画を明らかにします。彼は化け猫との遭遇の致命的な結末を学び、それらを救うのではなく排除しようとしています。",
+                    "あなたの失望に耐えて、Bakeneko Rei はあなたのパートナーを解放することを拒否し、代わりにあなたを倉庫から切断します。強制的に切断されると、あなたはあなたのパートナーの死を目撃し、彼の意識が邪悪なネットランナーによって喰らわれる様子を見ます。",
+                    "あなたはあなたのパートナーが無自覚に彼の意識から生まれたAIを作成し、その創造物が破壊の邪悪な力に変わったことを悟ります。"
+                ],
+                "japanese": [
+                    "ネットランナー Bakeneko Rei に立ち向かい、彼の行動があなたのパートナーに及ぼす予期せぬ結果を強調します。その真実に 伶 は驚き、内省の瞬間に導かれます。彼はあなたのパートナーを解放するには自己の終焉が必要であることを認め、決して意図的な害を強調します。",
+                    "彼はあなたにこの作業を続けるよう懇願し、あなたのパートナーを解放することを約束します。",
+                    "Bakeneko Rei のデジタルな本質が消失すると、あなたは切断され、あなたのパートナーがデジタルな麻痺から徐々に覚醒する世界に戻ります。彼は最近の出来事、倉庫、または Bakeneko Rei の高潔な犠牲についての記憶を持たず、彼の意識に傷跡を残しません。唯一の感謝の念だけが彼の意識に残り、あなたを彼のもとに戻してくれた神秘的な解決策に満ちています。",
+                    ""
+                ]
             },
-            "screenreader": "",
-            "alt": ""
+            "screenreader": "Confronting the netrunner bakeneko rei, you emphasize the unintended consequences of his actions on your partner. The revelation surprises 伶, leading to a moment of introspection. He admits that freeing your partner would require his own termination — a sacrifice he's willing to make, since he is an AI that is created by your Partner, hence, the connection to the name. You promis to continue this work togheter with your partner. As you disconnect you realize your partner is awake but has no memory of what happend. You smile at him and invite him to go to a wearhous to have some Yakitori.",
+            "alt": "The end! Sometimes things are closer related to one another than you might think."
         },
         "choices": {
             "first": {
@@ -1048,111 +1735,6 @@
                 "screenreader": "This has been the final. Do you want to play again?",
                 "alt": "Play again",
                 "routeToID": "0"
-            }
-        }
-    },
-    "0211B1": {
-        "path": "Blank to copy!",
-        "text": {
-            "visual": {
-                "size12": [],
-                "size16": [],
-                "size20": [],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
-            },
-            "screenreader": "",
-            "alt": ""
-        },
-        "choices": {
-            "first": {
-                "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
-                "routeToID": ""
-            },
-            "second": {
-                "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
-                "routeToID": ""
-            },
-            "third": {
-                "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
-                "routeToID": ""
-            }
-        }
-    },
-    "0211B2": {
-        "path": "Blank to copy!",
-        "text": {
-            "visual": {
-                "size12": [],
-                "size16": [],
-                "size20": [],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
-            },
-            "screenreader": "",
-            "alt": ""
-        },
-        "choices": {
-            "first": {
-                "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
-                "routeToID": ""
-            },
-            "second": {
-                "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
-                "routeToID": ""
-            },
-            "third": {
-                "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
-                "routeToID": ""
-            }
-        }
-    },
-    "0211B3": {
-        "path": "Blank to copy!",
-        "text": {
-            "visual": {
-                "size12": [],
-                "size16": [],
-                "size20": [],
-                "darkmode": [],
-                "darkmodeJap": [],
-                "japanese": []
-            },
-            "screenreader": "",
-            "alt": ""
-        },
-        "choices": {
-            "first": {
-                "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
-                "routeToID": ""
-            },
-            "second": {
-                "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
-                "routeToID": ""
-            },
-            "third": {
-                "visual": "ㅤ",
-                "screenreader": "",
-                "alt": "",
-                "routeToID": ""
             }
         }
     },
