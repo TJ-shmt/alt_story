@@ -97,6 +97,8 @@
             <plus-icon class="size" /><plus-icon class="size" />
           </div>
         </div>
+        <h3>by Tim Jack Schmitt</h3>
+        <h4>Merz Akademie</h4>
       </section>
     </div>
   </div>
