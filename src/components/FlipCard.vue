@@ -62,7 +62,7 @@ $imgHeight: 1792px;
 .flip-card-back {
   transform: rotateY(180deg); /* Align backside correctly */
   background-color: $black-82;
-  color: var(--off-100);
+  color: var(--off-remain);
 
   backdrop-filter: brightness(100%) blur(3px);
 
@@ -70,9 +70,12 @@ $imgHeight: 1792px;
   -webkit-backface-visibility: hidden; // For Safari and older browsers
 }
 
-.flip-card-back h2,
+.flip-card-back h2 {
+  margin: 2rem;
+}
 .flip-card-back p {
-  margin: 10px; /* Spacing for text */
+  margin: 2rem;
+  text-align: justify;
 }
 
 img {

@@ -11,8 +11,11 @@
           :color="'red'"
           >ALT=(STORY)</logo-headlines
         >
-        <div></div>
-        <div></div>
+        <div><span>by Tim Jack Schmitt</span></div>
+        <div class="keep-scrolling">
+          <span>Intro</span>
+          <down-icon />
+        </div>
       </section>
       <section class="characters section-after">
         <logo-headlines
@@ -52,7 +55,26 @@
           </div>
         </div>
       </section>
-      <section class="more section-after"></section>
+      <section class="more section-after">
+        <logo-headlines
+          level="2"
+          :dimension="true"
+          tabindex="0"
+          :depth="'100px'"
+          >Prolog</logo-headlines
+        >
+        <div class="prologue-wrapper">
+          <div class="deko-line">
+            <plus-icon class="size" /><plus-icon class="size" />
+          </div>
+          <p id="prologue-text">
+            {{ getPrologue.text }}
+          </p>
+          <div class="deko-line">
+            <plus-icon class="size" /><plus-icon class="size" />
+          </div>
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -60,9 +82,11 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
 import LogoHeadlines from "@/components/LogoHeadlines.vue";
+import DownIcon from "@/components/vueIcons/DownIcon.vue";
 import FlipCard from "@/components/FlipCard.vue";
 import PlusIcon from "@/components/vueIcons/PlusIcon.vue";
 import charData from "@/charData.json";
+import getPrologue from "@/assets/prologue.json";
 
 // Declare reactive references at the top level
 const bakeneko = ref("");
@@ -89,23 +113,44 @@ onMounted(async () => {
     width: 24px;
   }
 }
+.prologue-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  background-image: linear-gradient(var(--off-text-16), var(--off-text-16));
+  $offset: 36px;
+  $offset-position: calc($offset / 2);
+  background-repeat: no-repeat;
+  background-size: calc(100% - $offset) calc(100% - $offset);
+  background-position: $offset-position $offset-position;
 
+  #prologue-text {
+    padding: 2rem 1rem;
+    text-align: justify;
+  }
+}
+.keep-scrolling {
+  height: 60px;
+  width: 100px;
+}
 section {
   min-height: calc(100vh - 84px);
 
   display: flex;
 
   &.section-after {
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
   }
   &.homescreen {
     flex-direction: column;
     justify-content: space-around;
-    align-content: center;
+    align-items: center;
   }
   &.characters {
-    flex-direction: column;
-    justify-content: center;
-    align-content: space-between;
   }
 }
 
