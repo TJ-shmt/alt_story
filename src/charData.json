@@ -1,17 +1,17 @@
 {
   "card1": {
     "image": "path/to/your/image1.jpg",
-    "title": "The Player",
-    "description": "This is the description for card 1. this has to be a very long description out of no reason but it needs to be very long so i can see what is happening "
+    "title": "You",
+    "description": "You are the central character and the protagonist of the story. As a resident of Night City, you work as a mercenary alongside your partner to take on various gigs. These gigs are your means of earning money for your team and yourself. Throughout the narrative, you will face critical decisions that shape the course of events. Armed with accessibility tools, you strive to gather as much information as possible to navigate the challenges that arise."
   },
   "card2": {
     "image": "path/to/your/image2.jpg",
-    "title": "Bakeneko Rei",
-    "description": "This is the description for card 2."
+    "title": "Rogue Netrunner",
+    "description": "The antagonist in the story is a rogue netrunner, a skilled hacker who manipulates digital systems and information via the net. This netrunner operates under the alias 化け猫 伶. His actions involve hacking multiple systems and altering accessibility tools to provide you with differing, additional, and diverging information, complicating your path. The true origin and motives behind this enigmatic character remain a mystery, adding a layer of intrigue to the narrative."
   },
   "card3": {
     "image": "path/to/your/image3.jpg",
-    "title": "The Netrunner",
-    "description": "This is the description for card 3."
+    "title": "Your Partner",
+    "description": "Rei Sato is your trusted partner in the world of hacking and netrunning. Like the rogue netrunner, he is also a skilled netrunner. Rei Sato has been an essential member of your team. However, his recent absence from your group has left you questioning the reasons behind it. As the story unfolds, Rei Sato's role becomes increasingly significant, with his actions and decisions playing a pivotal role in the narrative's development."
   }
 }
